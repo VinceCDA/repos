@@ -1,0 +1,16 @@
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.exe
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.deps.json
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.runtimeconfig.json
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.dll
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\ref\tri.dll
+C:\Users\CDA\source\repos\tri\bin\Debug\net5.0\tri.pdb
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.AssemblyInfo.cs
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.dll
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\ref\tri.dll
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.pdb
+C:\Users\CDA\source\repos\tri\obj\Debug\net5.0\tri.genruntimeconfig.cache

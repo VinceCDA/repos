@@ -1,0 +1,16 @@
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.exe
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.deps.json
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.runtimeconfig.json
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.dll
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\ref\Addition.dll
+C:\Users\CDA\source\repos\Addition\bin\Debug\net5.0\Addition.pdb
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.AssemblyInfo.cs
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.dll
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\ref\Addition.dll
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.pdb
+C:\Users\CDA\source\repos\Addition\obj\Debug\net5.0\Addition.genruntimeconfig.cache

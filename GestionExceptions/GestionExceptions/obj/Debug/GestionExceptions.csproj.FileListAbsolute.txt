@@ -1,0 +1,29 @@
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.Messages.resources
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.GenerateResource.Cache
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.Messages.resources
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+C:\Users\CDA\source\repos\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb

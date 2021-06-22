@@ -1,0 +1,12 @@
+C:\Users\CDA\source\repos\SalariesBOL\bin\Debug\net5.0\SalariesBOL.deps.json
+C:\Users\CDA\source\repos\SalariesBOL\bin\Debug\net5.0\SalariesBOL.dll
+C:\Users\CDA\source\repos\SalariesBOL\bin\Debug\net5.0\ref\SalariesBOL.dll
+C:\Users\CDA\source\repos\SalariesBOL\bin\Debug\net5.0\SalariesBOL.pdb
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.AssemblyInfo.cs
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.dll
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\ref\SalariesBOL.dll
+C:\Users\CDA\source\repos\SalariesBOL\obj\Debug\net5.0\SalariesBOL.pdb

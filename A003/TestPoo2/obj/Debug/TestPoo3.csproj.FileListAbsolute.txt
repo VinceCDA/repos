@@ -1,0 +1,42 @@
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe.config
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\bin\Debug\TestPoo2.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\bin\Debug\Poo3.dll
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\bin\Debug\Poo3.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\obj\Debug\TestPoo3.csprojResolveAssemblyReference.cache
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\obj\Debug\TestPoo2.exe
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A003\A003\TestPoo2\obj\Debug\TestPoo2.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\TestPoo2.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\Poo3.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\Poo3.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\Poo3.xml
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\obj\Debug\TestPoo3.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\obj\Debug\TestPoo2.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\obj\Debug\TestPoo2.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe.config
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\obj\Debug\TestPoo2.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A003\A003\TestPoo2\obj\Debug\TestPoo2.pdb
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\TestPoo2.exe
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\TestPoo2.pdb
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\Poo3.dll
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\Poo3.pdb
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\bin\Debug\Poo3.xml
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\obj\Debug\TestPoo3.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\obj\Debug\TestPoo3.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\obj\Debug\TestPoo2.exe
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\obj\Debug\TestPoo2.pdb
+C:\01 CDA\M1 - Dév Interface App Info\04 Programmation Objet P2\Ateliers\A001\A003\A003\TestPoo2\obj\Debug\TestPoo3.csprojAssemblyReference.cache
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\TestPoo2.exe.config
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\TestPoo2.exe
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\TestPoo2.pdb
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\Poo3.dll
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\Poo3.pdb
+C:\Users\CDA\source\repos\A003\TestPoo2\bin\Debug\Poo3.xml
+C:\Users\CDA\source\repos\A003\TestPoo2\obj\Debug\TestPoo3.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\A003\TestPoo2\obj\Debug\TestPoo3.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\A003\TestPoo2\obj\Debug\TestPoo3.csproj.CopyComplete
+C:\Users\CDA\source\repos\A003\TestPoo2\obj\Debug\TestPoo2.exe
+C:\Users\CDA\source\repos\A003\TestPoo2\obj\Debug\TestPoo2.pdb

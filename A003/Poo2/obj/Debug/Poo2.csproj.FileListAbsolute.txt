@@ -1,0 +1,5 @@
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A002\A002\Poo2\bin\Debug\Poo2.dll
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A002\A002\Poo2\bin\Debug\Poo2.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A002\A002\Poo2\obj\Debug\Poo2.dll
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A002\A002\Poo2\obj\Debug\Poo2.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A002\A002\Poo2\obj\Debug\Poo2.csprojResolveAssemblyReference.cache

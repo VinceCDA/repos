@@ -1,0 +1,16 @@
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.exe
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.deps.json
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.runtimeconfig.json
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.dll
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\ref\Atelier2-3.dll
+C:\Users\CDA\source\repos\Atelier2-3\bin\Debug\net5.0\Atelier2-3.pdb
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.AssemblyInfo.cs
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.dll
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\ref\Atelier2-3.dll
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.pdb
+C:\Users\CDA\source\repos\Atelier2-3\obj\Debug\net5.0\Atelier2-3.genruntimeconfig.cache

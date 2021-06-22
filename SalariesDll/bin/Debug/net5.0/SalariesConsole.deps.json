@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SalariesConsole/1.0.0": {
+        "dependencies": {
+          "SalariesBOL": "1.0.0"
+        },
+        "runtime": {
+          "SalariesConsole.dll": {}
+        }
+      },
+      "SalariesBOL/1.0.0": {
+        "runtime": {
+          "SalariesBOL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalariesConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SalariesBOL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
