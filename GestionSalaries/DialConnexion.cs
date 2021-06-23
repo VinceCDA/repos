@@ -26,10 +26,11 @@ namespace GestionSalaraies
         {
             utilisateurs = new Utilisateurs();
             roles = new Roles();
-            ISauvegarde serialiseurUser = MonApplication.DispositifSauvegarde;
-            ISauvegarde serialiseurRoles = MonApplication.DispositifSauvegarde;
-            utilisateurs.Load(serialiseurUser, Properties.Settings.Default.AppData);
-            roles.Load(serialiseurRoles, Properties.Settings.Default.AppData);
+            //ISauvegarde serialiseurUser = MonApplication.DispositifSauvegarde;
+            //ISauvegarde serialiseurRoles = MonApplication.DispositifSauvegarde;
+            ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
+            utilisateurs.Load(serialiseur, Properties.Settings.Default.AppData);
+            roles.Load(serialiseur, Properties.Settings.Default.AppData);
 
         }
         #region Gestionnaires Evenements Validation
