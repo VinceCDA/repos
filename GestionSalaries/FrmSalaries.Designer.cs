@@ -41,14 +41,11 @@ namespace GestionSalaraies
             this.txtPrénom = new System.Windows.Forms.TextBox();
             this.txtSalaireBrut = new System.Windows.Forms.TextBox();
             this.txtTauxCs = new System.Windows.Forms.TextBox();
-            this.txtDate = new System.Windows.Forms.TextBox();
             this.cbSalaries = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.nouveauSalarie = new System.Windows.Forms.Button();
             this.supprimerSalarie = new System.Windows.Forms.Button();
             this.modifierSalarie = new System.Windows.Forms.Button();
             this.valdierSalarie = new System.Windows.Forms.Button();
-            this.cbType = new System.Windows.Forms.ComboBox();
             this.chkCommercial = new System.Windows.Forms.CheckBox();
             this.gpCommercial = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -57,6 +54,12 @@ namespace GestionSalaraies
             this.txtChiffre = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.gbSalarie = new System.Windows.Forms.GroupBox();
+            this.txtDate = new System.Windows.Forms.MaskedTextBox();
+            this.cbSearch = new System.Windows.Forms.ComboBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.searchButton = new System.Windows.Forms.Button();
+            this.listSalarie = new System.Windows.Forms.ListBox();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.gpCommercial.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.gbSalarie.SuspendLayout();
@@ -157,45 +160,31 @@ namespace GestionSalaraies
             this.txtTauxCs.Size = new System.Drawing.Size(100, 20);
             this.txtTauxCs.TabIndex = 10;
             // 
-            // txtDate
-            // 
-            this.txtDate.Enabled = false;
-            this.txtDate.Location = new System.Drawing.Point(108, 158);
-            this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(100, 20);
-            this.txtDate.TabIndex = 11;
-            // 
             // cbSalaries
             // 
             this.cbSalaries.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSalaries.FormattingEnabled = true;
-            this.cbSalaries.Location = new System.Drawing.Point(224, 28);
+            this.cbSalaries.Location = new System.Drawing.Point(242, 37);
             this.cbSalaries.Name = "cbSalaries";
             this.cbSalaries.Size = new System.Drawing.Size(121, 21);
             this.cbSalaries.TabIndex = 12;
             this.cbSalaries.SelectedIndexChanged += new System.EventHandler(this.cbSalaries_SelectedIndexChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(409, 282);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 13;
-            // 
             // nouveauSalarie
             // 
-            this.nouveauSalarie.Location = new System.Drawing.Point(373, 25);
+            this.nouveauSalarie.Location = new System.Drawing.Point(369, 37);
             this.nouveauSalarie.Name = "nouveauSalarie";
-            this.nouveauSalarie.Size = new System.Drawing.Size(75, 23);
+            this.nouveauSalarie.Size = new System.Drawing.Size(61, 23);
             this.nouveauSalarie.TabIndex = 14;
             this.nouveauSalarie.Text = "Nouveau";
             this.nouveauSalarie.UseVisualStyleBackColor = true;
+            this.nouveauSalarie.Click += new System.EventHandler(this.nouveauSalarie_Click);
             // 
             // supprimerSalarie
             // 
-            this.supprimerSalarie.Location = new System.Drawing.Point(455, 24);
+            this.supprimerSalarie.Location = new System.Drawing.Point(436, 37);
             this.supprimerSalarie.Name = "supprimerSalarie";
-            this.supprimerSalarie.Size = new System.Drawing.Size(75, 23);
+            this.supprimerSalarie.Size = new System.Drawing.Size(62, 23);
             this.supprimerSalarie.TabIndex = 15;
             this.supprimerSalarie.Text = "Supprimer";
             this.supprimerSalarie.UseVisualStyleBackColor = true;
@@ -203,40 +192,35 @@ namespace GestionSalaraies
             // 
             // modifierSalarie
             // 
-            this.modifierSalarie.Location = new System.Drawing.Point(145, 385);
+            this.modifierSalarie.Location = new System.Drawing.Point(242, 404);
             this.modifierSalarie.Name = "modifierSalarie";
             this.modifierSalarie.Size = new System.Drawing.Size(75, 23);
             this.modifierSalarie.TabIndex = 16;
             this.modifierSalarie.Text = "Modifier";
             this.modifierSalarie.UseVisualStyleBackColor = true;
+            this.modifierSalarie.Click += new System.EventHandler(this.modifierSalarie_Click);
             // 
             // valdierSalarie
             // 
-            this.valdierSalarie.Location = new System.Drawing.Point(270, 385);
+            this.valdierSalarie.Location = new System.Drawing.Point(332, 404);
             this.valdierSalarie.Name = "valdierSalarie";
             this.valdierSalarie.Size = new System.Drawing.Size(75, 23);
             this.valdierSalarie.TabIndex = 17;
             this.valdierSalarie.Text = "Valider";
             this.valdierSalarie.UseVisualStyleBackColor = true;
-            // 
-            // cbType
-            // 
-            this.cbType.FormattingEnabled = true;
-            this.cbType.Location = new System.Drawing.Point(409, 308);
-            this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(121, 21);
-            this.cbType.TabIndex = 18;
+            this.valdierSalarie.Click += new System.EventHandler(this.valdierSalarie_Click);
             // 
             // chkCommercial
             // 
             this.chkCommercial.AutoSize = true;
             this.chkCommercial.Enabled = false;
-            this.chkCommercial.Location = new System.Drawing.Point(409, 243);
+            this.chkCommercial.Location = new System.Drawing.Point(242, 274);
             this.chkCommercial.Name = "chkCommercial";
             this.chkCommercial.Size = new System.Drawing.Size(80, 17);
             this.chkCommercial.TabIndex = 20;
             this.chkCommercial.Text = "Commercial";
             this.chkCommercial.UseVisualStyleBackColor = true;
+            this.chkCommercial.CheckedChanged += new System.EventHandler(this.chkCommercial_CheckedChanged);
             // 
             // gpCommercial
             // 
@@ -244,9 +228,9 @@ namespace GestionSalaraies
             this.gpCommercial.Controls.Add(this.label7);
             this.gpCommercial.Controls.Add(this.txtCommission);
             this.gpCommercial.Controls.Add(this.txtChiffre);
-            this.gpCommercial.Location = new System.Drawing.Point(145, 260);
+            this.gpCommercial.Location = new System.Drawing.Point(242, 298);
             this.gpCommercial.Name = "gpCommercial";
-            this.gpCommercial.Size = new System.Drawing.Size(217, 100);
+            this.gpCommercial.Size = new System.Drawing.Size(256, 100);
             this.gpCommercial.TabIndex = 21;
             this.gpCommercial.TabStop = false;
             this.gpCommercial.Text = "Commercial";
@@ -292,6 +276,7 @@ namespace GestionSalaraies
             // 
             // gbSalarie
             // 
+            this.gbSalarie.Controls.Add(this.txtDate);
             this.gbSalarie.Controls.Add(this.label1);
             this.gbSalarie.Controls.Add(this.label2);
             this.gbSalarie.Controls.Add(this.label3);
@@ -302,29 +287,87 @@ namespace GestionSalaraies
             this.gbSalarie.Controls.Add(this.txtNom);
             this.gbSalarie.Controls.Add(this.txtPrénom);
             this.gbSalarie.Controls.Add(this.txtSalaireBrut);
-            this.gbSalarie.Controls.Add(this.txtDate);
             this.gbSalarie.Controls.Add(this.txtTauxCs);
-            this.gbSalarie.Location = new System.Drawing.Point(145, 62);
+            this.gbSalarie.Location = new System.Drawing.Point(242, 76);
             this.gbSalarie.Name = "gbSalarie";
-            this.gbSalarie.Size = new System.Drawing.Size(217, 192);
+            this.gbSalarie.Size = new System.Drawing.Size(256, 192);
             this.gbSalarie.TabIndex = 22;
             this.gbSalarie.TabStop = false;
             this.gbSalarie.Text = "Salarié";
+            // 
+            // txtDate
+            // 
+            this.txtDate.Enabled = false;
+            this.txtDate.Location = new System.Drawing.Point(108, 161);
+            this.txtDate.Mask = "00/00/0000";
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(100, 20);
+            this.txtDate.TabIndex = 23;
+            this.txtDate.ValidatingType = typeof(System.DateTime);
+            // 
+            // cbSearch
+            // 
+            this.cbSearch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSearch.FormattingEnabled = true;
+            this.cbSearch.Location = new System.Drawing.Point(16, 62);
+            this.cbSearch.Name = "cbSearch";
+            this.cbSearch.Size = new System.Drawing.Size(121, 21);
+            this.cbSearch.TabIndex = 24;
+            this.cbSearch.SelectedIndexChanged += new System.EventHandler(this.cbSearch_SelectedIndexChanged);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(16, 36);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(100, 20);
+            this.txtSearch.TabIndex = 25;
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(123, 33);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.TabIndex = 26;
+            this.searchButton.Text = "Rechercher";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
+            // listSalarie
+            // 
+            this.listSalarie.FormattingEnabled = true;
+            this.listSalarie.Location = new System.Drawing.Point(16, 89);
+            this.listSalarie.Name = "listSalarie";
+            this.listSalarie.Size = new System.Drawing.Size(120, 95);
+            this.listSalarie.TabIndex = 27;
+            this.listSalarie.SelectedIndexChanged += new System.EventHandler(this.listSalarie_SelectedIndexChanged);
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.Location = new System.Drawing.Point(423, 404);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(75, 23);
+            this.cancelButton.TabIndex = 28;
+            this.cancelButton.Text = "Annuler";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // FrmSalaries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(616, 450);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.listSalarie);
+            this.Controls.Add(this.searchButton);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.cbSearch);
             this.Controls.Add(this.gbSalarie);
             this.Controls.Add(this.gpCommercial);
             this.Controls.Add(this.chkCommercial);
-            this.Controls.Add(this.cbType);
             this.Controls.Add(this.valdierSalarie);
             this.Controls.Add(this.modifierSalarie);
             this.Controls.Add(this.supprimerSalarie);
             this.Controls.Add(this.nouveauSalarie);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cbSalaries);
             this.Name = "FrmSalaries";
             this.Text = "Gestion Salaries";
@@ -353,14 +396,11 @@ namespace GestionSalaraies
         private System.Windows.Forms.TextBox txtPrénom;
         private System.Windows.Forms.TextBox txtSalaireBrut;
         private System.Windows.Forms.TextBox txtTauxCs;
-        private System.Windows.Forms.TextBox txtDate;
         private System.Windows.Forms.ComboBox cbSalaries;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button nouveauSalarie;
         private System.Windows.Forms.Button supprimerSalarie;
         private System.Windows.Forms.Button modifierSalarie;
         private System.Windows.Forms.Button valdierSalarie;
-        private System.Windows.Forms.ComboBox cbType;
         private System.Windows.Forms.CheckBox chkCommercial;
         private System.Windows.Forms.GroupBox gpCommercial;
         private System.Windows.Forms.Label label8;
@@ -369,5 +409,11 @@ namespace GestionSalaraies
         private System.Windows.Forms.TextBox txtChiffre;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.GroupBox gbSalarie;
+        private System.Windows.Forms.MaskedTextBox txtDate;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.ComboBox cbSearch;
+        private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.ListBox listSalarie;
+        private System.Windows.Forms.Button cancelButton;
     }
 }

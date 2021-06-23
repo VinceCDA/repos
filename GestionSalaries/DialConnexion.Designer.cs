@@ -47,11 +47,9 @@
             this.gbxParamIdentif.Controls.Add(this.lblNomUtil);
             this.gbxParamIdentif.Controls.Add(this.txtMDP);
             this.gbxParamIdentif.Controls.Add(this.txtIdentifiant);
-            this.gbxParamIdentif.Location = new System.Drawing.Point(17, 16);
-            this.gbxParamIdentif.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxParamIdentif.Location = new System.Drawing.Point(13, 13);
             this.gbxParamIdentif.Name = "gbxParamIdentif";
-            this.gbxParamIdentif.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.gbxParamIdentif.Size = new System.Drawing.Size(397, 155);
+            this.gbxParamIdentif.Size = new System.Drawing.Size(298, 126);
             this.gbxParamIdentif.TabIndex = 0;
             this.gbxParamIdentif.TabStop = false;
             this.gbxParamIdentif.Text = "Paramètres d\'identification";
@@ -59,64 +57,58 @@
             // lblMDP
             // 
             this.lblMDP.AutoSize = true;
-            this.lblMDP.Location = new System.Drawing.Point(8, 95);
-            this.lblMDP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMDP.Location = new System.Drawing.Point(6, 77);
             this.lblMDP.Name = "lblMDP";
-            this.lblMDP.Size = new System.Drawing.Size(93, 17);
+            this.lblMDP.Size = new System.Drawing.Size(71, 13);
             this.lblMDP.TabIndex = 3;
             this.lblMDP.Text = "Mot de passe";
             // 
             // lblNomUtil
             // 
             this.lblNomUtil.AutoSize = true;
-            this.lblNomUtil.Location = new System.Drawing.Point(8, 43);
-            this.lblNomUtil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNomUtil.Location = new System.Drawing.Point(6, 35);
             this.lblNomUtil.Name = "lblNomUtil";
-            this.lblNomUtil.Size = new System.Drawing.Size(73, 17);
+            this.lblNomUtil.Size = new System.Drawing.Size(56, 13);
             this.lblNomUtil.TabIndex = 2;
             this.lblNomUtil.Text = "Identifiant ";
             // 
             // txtMDP
             // 
-            this.txtMDP.Location = new System.Drawing.Point(121, 91);
-            this.txtMDP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMDP.Location = new System.Drawing.Point(91, 74);
             this.txtMDP.Name = "txtMDP";
             this.txtMDP.PasswordChar = '*';
-            this.txtMDP.Size = new System.Drawing.Size(180, 22);
+            this.txtMDP.Size = new System.Drawing.Size(136, 20);
             this.txtMDP.TabIndex = 1;
             this.txtMDP.Tag = "MDP";
             this.txtMDP.Validating += new System.ComponentModel.CancelEventHandler(this.txtMDP_Validating);
             // 
             // txtIdentifiant
             // 
-            this.txtIdentifiant.Location = new System.Drawing.Point(121, 39);
-            this.txtIdentifiant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdentifiant.Location = new System.Drawing.Point(91, 32);
             this.txtIdentifiant.Name = "txtIdentifiant";
-            this.txtIdentifiant.Size = new System.Drawing.Size(180, 22);
+            this.txtIdentifiant.Size = new System.Drawing.Size(136, 20);
             this.txtIdentifiant.TabIndex = 0;
             this.txtIdentifiant.Tag = "";
-
             this.txtIdentifiant.Validating += new System.ComponentModel.CancelEventHandler(this.txtIdentifiant_Validating);
             // 
             // btnConnexion
             // 
             this.btnConnexion.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnConnexion.Location = new System.Drawing.Point(17, 219);
-            this.btnConnexion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConnexion.Location = new System.Drawing.Point(13, 178);
             this.btnConnexion.Name = "btnConnexion";
-            this.btnConnexion.Size = new System.Drawing.Size(145, 28);
+            this.btnConnexion.Size = new System.Drawing.Size(109, 23);
             this.btnConnexion.TabIndex = 1;
             this.btnConnexion.Text = "&Connecter";
             this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
             // btnQuitter
             // 
             this.btnQuitter.CausesValidation = false;
             this.btnQuitter.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnQuitter.Location = new System.Drawing.Point(267, 218);
-            this.btnQuitter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQuitter.Location = new System.Drawing.Point(200, 177);
             this.btnQuitter.Name = "btnQuitter";
-            this.btnQuitter.Size = new System.Drawing.Size(148, 28);
+            this.btnQuitter.Size = new System.Drawing.Size(111, 23);
             this.btnQuitter.TabIndex = 2;
             this.btnQuitter.Text = "&Quitter";
             this.btnQuitter.UseVisualStyleBackColor = true;
@@ -126,24 +118,25 @@
             // 
             this.epUtilisateur.ContainerControl = this;
             // 
-            // FrmDialModal
+            // DialConnexion
             // 
             this.AcceptButton = this.btnConnexion;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnQuitter;
-            this.ClientSize = new System.Drawing.Size(431, 262);
+            this.ClientSize = new System.Drawing.Size(323, 213);
             this.ControlBox = false;
             this.Controls.Add(this.btnQuitter);
             this.Controls.Add(this.btnConnexion);
             this.Controls.Add(this.gbxParamIdentif);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmDialModal";
+            this.Name = "DialConnexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Identifiez-vous";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DialConnexion_FormClosing);
+            this.Load += new System.EventHandler(this.DialConnexion_Load);
             this.gbxParamIdentif.ResumeLayout(false);
             this.gbxParamIdentif.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epUtilisateur)).EndInit();

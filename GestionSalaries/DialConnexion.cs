@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SalariesDll;
+using Utilitaires;
 
 namespace GestionSalaraies 
 {
@@ -15,6 +17,20 @@ namespace GestionSalaraies
         public DialConnexion()
         {
             InitializeComponent();
+        }
+        Utilisateurs utilisateurs;
+        Utilisateur utilisateur;
+        Roles roles;
+        Role role;
+        private void DialConnexion_Load(object sender, EventArgs e)
+        {
+            utilisateurs = new Utilisateurs();
+            roles = new Roles();
+            ISauvegarde serialiseurUser = MonApplication.DispositifSauvegarde;
+            ISauvegarde serialiseurRoles = MonApplication.DispositifSauvegarde;
+            utilisateurs.Load(serialiseurUser, Properties.Settings.Default.AppData);
+            roles.Load(serialiseurRoles, Properties.Settings.Default.AppData);
+
         }
         #region Gestionnaires Evenements Validation
 
@@ -74,13 +90,17 @@ namespace GestionSalaraies
         private void btnQuitter_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
+            
         }
 
         private bool IsIdCorrect(string id)
         {
+            utilisateur = utilisateurs.UtilisateurByMatricule(txtIdentifiant.Text);
             if (String.IsNullOrEmpty(id)) return false;
             if (!char.IsLetter(id[0])) return false;
             if (id.Length < 3) return false;
+            if (utilisateur == null) return false;
+            if (utilisateur.Role.Description == null) return false;
             return true;
         }
 
@@ -88,10 +108,64 @@ namespace GestionSalaraies
         {
             if (String.IsNullOrEmpty(motPasse)) return false;
             if (motPasse.Length < 5) return false;
-            return (motPasse == id);
+            return true;
+            //return (motPasse == id);
         }
 
+        private void btnConnexion_Click(object sender, EventArgs e)
+        {
+            
+            if (!(utilisateur.NombreEchecsConsecutifs >= 3))
+            {
+                if (utilisateur.Identifiant == txtIdentifiant.Text && utilisateur.MotDePasse == txtMDP.Text)
+                {
+                    ConnectionResultat(ConnectionResult.Connecté);
 
+                }
+                if (utilisateur.MotDePasse != txtMDP.Text)
+                {
+                    ConnectionResultat(ConnectionResult.MotPasseInvalide);
+                }
+            }
+            else
+            {
+                utilisateur.CompteBloque = true;
+                ConnectionResultat(ConnectionResult.CompteBloqué);
+                
+            }
+               
+
+        }
+            
+            
+        
+        private void ConnectionResultat(ConnectionResult result)
+        {
+            DialogResult = DialogResult.None;
+            switch (result)
+            {
+                case ConnectionResult.Connecté:
+                    MessageBox.Show("Connecté", "Connecté", MessageBoxButtons.OK);
+                    utilisateur.NombreEchecsConsecutifs = 0;
+                    this.DialogResult = DialogResult.OK;
+                    break;
+                case ConnectionResult.MotPasseInvalide:
+                    utilisateur.NombreEchecsConsecutifs += 1;
+                    MessageBox.Show($"Essai restant :{3 - utilisateur.NombreEchecsConsecutifs}", "Echec",  MessageBoxButtons.OK);
+                    break;
+                case ConnectionResult.CompteBloqué:
+                    MessageBox.Show("Compte bloqué.", "Bloqué", MessageBoxButtons.OK);
+                    this.DialogResult = DialogResult.Cancel;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void DialConnexion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
     }
 }
 

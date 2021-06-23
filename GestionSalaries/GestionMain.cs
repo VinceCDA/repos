@@ -33,5 +33,38 @@ namespace GestionSalaraies
             formSalarie.MdiParent = this;
             formSalarie.Show();
         }
+
+        private void GestionMain_Shown(object sender, EventArgs e)
+        {
+            DialConnexion dialConnexion = new DialConnexion();
+            DialogResult cResult = dialConnexion.ShowDialog();
+            if (cResult == DialogResult.OK)
+            {
+                gestionSalariésToolStripMenuItem.Enabled = true;
+                gestionUtilistateurToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                gestionSalariésToolStripMenuItem.Enabled = false;
+                gestionUtilistateurToolStripMenuItem.Enabled = false;
+            }
+            
+        }
+
+        private void connexionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialConnexion dialConnexion = new DialConnexion();
+            DialogResult cResult = dialConnexion.ShowDialog();
+            if (cResult == DialogResult.OK)
+            {
+                gestionSalariésToolStripMenuItem.Enabled = true;
+                gestionUtilistateurToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                gestionSalariésToolStripMenuItem.Enabled = false;
+                gestionUtilistateurToolStripMenuItem.Enabled = false;
+            }
+        }
     }
 }

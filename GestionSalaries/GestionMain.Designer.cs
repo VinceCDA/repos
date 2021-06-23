@@ -32,12 +32,14 @@ namespace GestionSalaraies
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gestionUtilistateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionSalariésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.connexionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.connexionToolStripMenuItem,
             this.gestionUtilistateurToolStripMenuItem,
             this.gestionSalariésToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -60,6 +62,13 @@ namespace GestionSalaraies
             this.gestionSalariésToolStripMenuItem.Text = "Gestion Salariés";
             this.gestionSalariésToolStripMenuItem.Click += new System.EventHandler(this.gestionSalariésToolStripMenuItem_Click);
             // 
+            // connexionToolStripMenuItem
+            // 
+            this.connexionToolStripMenuItem.Name = "connexionToolStripMenuItem";
+            this.connexionToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.connexionToolStripMenuItem.Text = "Connexion";
+            this.connexionToolStripMenuItem.Click += new System.EventHandler(this.connexionToolStripMenuItem_Click);
+            // 
             // GestionMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -71,6 +80,7 @@ namespace GestionSalaraies
             this.Name = "GestionMain";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Shown += new System.EventHandler(this.GestionMain_Shown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -83,5 +93,6 @@ namespace GestionSalaraies
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem gestionUtilistateurToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionSalariésToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem connexionToolStripMenuItem;
     }
 }
