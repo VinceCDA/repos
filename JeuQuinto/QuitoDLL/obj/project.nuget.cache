@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "J6CT3OC4GbE3p/oQdanpvX3P8mbRk61Ep91MRnUxgqcBGUYnt4nuyujw55fic2vkligJPF8XReaqhoISBcYNhA==",
+  "dgSpecHash": "P3k97VP77Icv7sB8HNpRTZ/17JrPxtW+cvxc4TBd/O1P4CAYKRZpq/KvVgVRb/lSZJt0+r4QHBZgzfgdszbEfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
+  "projectFilePath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CDA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\CDA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Kuroneko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Kuroneko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

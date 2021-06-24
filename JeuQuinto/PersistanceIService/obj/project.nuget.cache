@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MDJIg7uYEcbjp9QKL6k+YE0U+U6VnDJ8MaQ+v3HyehlquTKXWY1Gguu3VKCU5Hte2K7/n/hjbTNVgquwU73LgA==",
+  "dgSpecHash": "ay0PO1dEtnUKlFJhc7i54GP6ViNcCcCjoQ7YJDj9JcYa9SZnFEt5paA0GFjP/0WAgYg76MAe18wOYrX5mTQatw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
+  "projectFilePath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CDA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\CDA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Kuroneko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Kuroneko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -24,3 +24,12 @@ C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\Dic
 C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.CoreCompileInputs.cache
 C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.dll
 C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.deps.json
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.AssemblyReference.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfoInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfo.cs
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.CoreCompileInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.pdb

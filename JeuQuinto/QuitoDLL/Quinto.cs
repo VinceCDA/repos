@@ -18,15 +18,19 @@ namespace QuintoDLL
 
         #region Public
         public MotDictionnaire WordSource { get => _wordSource; set => _wordSource = value; }
-        public MotDictionnaire WordToFind { get => _wordToFind; set => _wordToFind = new MotDictionnaire(); }
+        public MotDictionnaire WordToFind 
+        {
+            get => _wordToFind = WordList.ExtraireMot();
+            set => _wordToFind = value; 
+        }
         public int NbRound { get => _nbRound; set => _nbRound = value; }
         public int NbError { get => _nbError; set => _nbError = value; }
         public int NbTry { get => _nbTry; set => _nbTry = value; }
         public int Score { get => _score; set => _score = value; }
         public Dictionnaire WordList 
         { 
-            get => _wordList;
-            set => _wordList = new Dictionnaire();
+            get => _wordList = new Dictionnaire("C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\JeuWinForms\\AppData\\FR-fr.xml");
+            set => _wordList = value;
         }
         
 

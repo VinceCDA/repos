@@ -10,3 +10,15 @@ C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.
 C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CopyComplete
 C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.dll
 C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.deps.json
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.AssemblyReference.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.AssemblyInfoInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.AssemblyInfo.cs
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CoreCompileInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CopyComplete
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.pdb

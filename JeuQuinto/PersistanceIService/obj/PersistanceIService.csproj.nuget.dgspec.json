@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj": {}
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
         "projectName": "PersistanceIService",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceIService\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\PersistanceIService.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\PersistanceIService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

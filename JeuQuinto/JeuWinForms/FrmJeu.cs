@@ -19,8 +19,9 @@ namespace JeuWinForms
             Quinto gameSession = new Quinto();
             InitializeComponent();
             CreateKeyboard();
-            //maskedTextBox.Text = gameSession.WordToFind.Mot;
-            DictionnaireDLL.Dictionnaire dictionnaire = new DictionnaireDLL.Dictionnaire("C:\\Users\\CDA\\source\\repos\\JeuQuinto");
+            maskedTextBox.Text = gameSession.WordToFind.Mot;
+            //DictionnaireDLL.Dictionnaire dictionnaire = new DictionnaireDLL.Dictionnaire("C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\JeuWinForms\\AppData\\FR-fr.xml");
+            var t = gameSession.WordList.ExtraireMot();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
