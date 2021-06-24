@@ -1,0 +1,60 @@
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Data.Common.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Diagnostics.Tracing.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Globalization.Extensions.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.IO.Compression.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Net.Http.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Net.Sockets.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Security.SecureString.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Threading.Overlapped.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\JeuQuintoDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\DictionnaireDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\JeuQuintoDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\bin\Debug\DictionnaireDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmOptions.resources
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmPartie.resources
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.Properties.Resources.resources
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.exe
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmOptions.resources
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.Properties.Resources.resources
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.exe
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\bin\Debug\PersistanceIService.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\bin\Debug\PersistanceIService.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe.config
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.exe
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\JeuWinForms.pdb
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\PersistanceIService.dll
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\PersistanceIService.pdb
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmOptions.resources
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.Properties.Resources.resources
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CopyComplete
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.exe
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.pdb
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmJeu.resources
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\QuintoDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\QuintoDLL.pdb
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\DictionnaireDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\bin\Debug\DictionnaireDLL.pdb

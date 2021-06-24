@@ -1,0 +1,12 @@
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.AssemblyInfoInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.AssemblyInfo.cs
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\bin\Debug\netstandard2.0\PersistanceServiceJSON.deps.json
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\bin\Debug\netstandard2.0\PersistanceServiceJSON.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\bin\Debug\netstandard2.0\PersistanceServiceJSON.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\bin\Debug\netstandard2.0\PersistanceIService.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\bin\Debug\netstandard2.0\PersistanceIService.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceServiceJSON\obj\Debug\netstandard2.0\PersistanceServiceJSON.pdb

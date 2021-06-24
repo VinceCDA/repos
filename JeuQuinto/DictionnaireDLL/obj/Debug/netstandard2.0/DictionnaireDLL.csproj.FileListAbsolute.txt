@@ -1,0 +1,26 @@
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.deps.json
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfoInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfo.cs
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\QuintoV2\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.deps.json
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfoInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfo.cs
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.deps.json
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.AssemblyInfo.cs
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\DictionnaireDLL\obj\Debug\netstandard2.0\DictionnaireDLL.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ctd78JAIJ3deD5VIhSQN+yhBYa9rPwKkqq6GZbD39ZoxRmUhKWFjpS1n3IR0N1ywJQad8b1hyv8wL01YqnxR2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\PersistanceServiceXML\\PersistanceServiceXML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CDA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CDA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

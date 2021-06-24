@@ -1,0 +1,12 @@
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.deps.json
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\QuintoDLL.pdb
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\DictionnaireDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\DictionnaireDLL.pdb
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.AssemblyInfo.cs
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CopyComplete
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.dll
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.pdb

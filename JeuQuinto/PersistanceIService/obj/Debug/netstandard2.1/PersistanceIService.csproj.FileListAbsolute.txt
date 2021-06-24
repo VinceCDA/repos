@@ -1,0 +1,9 @@
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\bin\Debug\netstandard2.1\PersistanceIService.deps.json
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\bin\Debug\netstandard2.1\PersistanceIService.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\bin\Debug\netstandard2.1\PersistanceIService.pdb
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.AssemblyInfoInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.AssemblyInfo.cs
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.dll
+C:\01 CDA\M1 - Dév Interface App Info\05 UI Windows\Ateliers\Projet Synthèse 2021\Source du projet\JeuQuinto\PersistanceIService\obj\Debug\netstandard2.1\PersistanceIService.pdb
