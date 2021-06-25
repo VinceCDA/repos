@@ -17,24 +17,25 @@ namespace JeuWinForms
         public FrmJeu()
         {
             Quinto gameSession = new Quinto();
+            string dic = Properties.Settings.Default.RepertoireDictionnaires;
             InitializeComponent();
             CreateKeyboard();
-            maskedTextBox.Text = gameSession.WordToFind.Mot;
-            //DictionnaireDLL.Dictionnaire dictionnaire = new DictionnaireDLL.Dictionnaire("C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\JeuWinForms\\AppData\\FR-fr.xml");
-            var t = gameSession.WordList.ExtraireMot();
+            gameSession.WordControl(gameSession);
+            string ta = CharsToString(gameSession.WordToFind.Mot.ToCharArray());
+            richTextBox1.Text = gameSession.WordToFind.Definition;
+            maskedTextBox.Text = ta;
+            
+            
+            
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
+        #region Method
         private void CreateKeyboard()
         {
             int x = 10;
             int y = 20;
             for (char letter = 'A'; letter <= 'Z'; letter++)
             {
-                Button button  = new Button();
+                Button button = new Button();
                 button.Text = letter.ToString();
                 button.Size = new System.Drawing.Size(40, 40);
                 button.Text = $"{letter}";
@@ -49,11 +50,26 @@ namespace JeuWinForms
                     x = 10;
                     y += 40;
                 }
-                
-
 
             }
         }
+        private string CharsToString(char[] t)
+        {
+            string s = "";
+            foreach (char item in t)
+            {
+                s += item;
+            }
+            return s;
+            
+        }
+        #endregion
+        #region Event
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void btnPause_Click(object sender, EventArgs e)
         {
@@ -63,5 +79,6 @@ namespace JeuWinForms
         {
             btnPause.Text = (sender as Button).Text;
         }
+        #endregion
     }
 }

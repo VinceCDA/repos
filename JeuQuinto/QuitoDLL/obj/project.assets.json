@@ -195,23 +195,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kuroneko\\.nuget\\packages\\": {},
+    "C:\\Users\\CDA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
+      "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
       "projectName": "QuintoDLL",
-      "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
-      "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\QuitoDLL\\obj\\",
+      "projectPath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\QuitoDLL\\QuintoDLL.csproj",
+      "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\QuitoDLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -226,8 +226,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj": {
-              "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj"
+            "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj": {
+              "projectPath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj"
             }
           }
         }
