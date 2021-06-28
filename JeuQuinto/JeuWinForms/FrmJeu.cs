@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,20 +14,25 @@ namespace JeuWinForms
 {
     public partial class FrmJeu : Form
     {
+        Quinto gameSession = new Quinto();
         
+
         public FrmJeu()
         {
-            Quinto gameSession = new Quinto();
-            string dic = Properties.Settings.Default.RepertoireDictionnaires;
+            
+            gameSession.NbRoundMax = Properties.Settings.Default.NombreManches;
+            gameSession.NbErrorMax = Properties.Settings.Default.NombreErreurs;
+            gameSession.NbPointByError = Properties.Settings.Default.NombrePointsErreur;
+            gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
             InitializeComponent();
             CreateKeyboard();
-            gameSession.WordControl(gameSession);
-            string ta = CharsToString(gameSession.WordToFind.Mot.ToCharArray());
+            
+            //string ta = CharsToString(gameSession.WordToFind.Mot.ToCharArray());
+            maskedTextBox.Text = gameSession.WordToFind.Mot;
+            //textBox1.Text = CharsToString(HideChar(gameSession.WordToFindHidden));
             richTextBox1.Text = gameSession.WordToFind.Definition;
-            maskedTextBox.Text = ta;
-            
-            
-            
+            gameSession.WordToFindHidden = HideChar(gameSession.WordToFindArray);
+            textBox1.Text = CharsToString(gameSession.WordToFindHidden);
         }
         #region Method
         private void CreateKeyboard()
@@ -63,11 +69,34 @@ namespace JeuWinForms
             return s;
             
         }
+        private char[] HideChar(char[] vs ) 
+        {
+            char[] output = new char[vs.Length];
+            for (int i = 0; i < vs.Length; i++)
+            {
+                output[i] = '_';
+            }
+            return output;
+        }
+        private char[] CheckChar(char[] hidden, char[] result, char check)
+        {
+            for (int i = 0; i < hidden.Length; i++)
+            {
+                if (result[i] == check)
+                {
+                    hidden[i] = check;
+                }
+                
+            }
+            return hidden;
+        }
         #endregion
         #region Event
         private void timer1_Tick(object sender, EventArgs e)
         {
 
+            gameSession.Score += 1;
+            label6.Text = gameSession.Score.ToString();
         }
 
 
@@ -77,7 +106,9 @@ namespace JeuWinForms
         }
         private void clavier_Click(object sender, EventArgs e)
         {
-            btnPause.Text = (sender as Button).Text;
+            //CheckChar(gameSession.WordToFindHidden,gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]);
+            //textBox1.Text = CharsToString(HideCharA(gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
+            textBox1.Text = CharsToString(CheckChar(gameSession.WordToFindHidden, gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
         }
         #endregion
     }
