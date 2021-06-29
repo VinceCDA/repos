@@ -5,11 +5,13 @@ using System.Text;
 using System.Globalization;
 
 
+
 namespace QuintoDLL
 {
     public class Quinto
     {
         #region Private
+        
         private Dictionnaire _wordList;
         private MotDictionnaire _wordToFind;
         private char[] _wordToFindArray;
@@ -20,6 +22,7 @@ namespace QuintoDLL
         private int _nbErrorMax;
         private int _nbPointByError;
         private int _nbPointByTick;
+        private int _timer;
         private int _score;
         
         #endregion
@@ -76,36 +79,48 @@ namespace QuintoDLL
             get => _nbPointByTick; 
             set => _nbPointByTick = value; 
         }
+        public int Timer 
+        { 
+            get => _timer; 
+            set => _timer = value; 
+        }
         public int Score 
         { 
             get => _score; 
             set => _score = value; 
         }
         
+
         #endregion
         #region Constructeur
         public Quinto()
         {
-                //gameSession.NbRoundMax = Properties.Settings.Default.NombreManches;
-                //gameSession.NbErrorMax = Properties.Settings.Default.NombreErreurs;
-                //gameSession.NbPointByError = Properties.Settings.Default.NombrePointsErreur;
-                //gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
-                WordToFind = WordControl(WordToFind);
-                WordToFindArray = WordToFind.Mot.ToCharArray();
+            //gameSession.NbRoundMax = Properties.Settings.Default.NombreManches;
+            //gameSession.NbErrorMax = Properties.Settings.Default.NombreErreurs;
+            //gameSession.NbPointByError = Properties.Settings.Default.NombrePointsErreur;
+            //gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
+            WordToFind = WordControl(WordToFind);
+            WordToFindArray = WordToFind.Mot.ToCharArray();
+            WordToFindHidden = HideChar(WordToFindArray);
+            NbRound = 1;
+            NbError = 0;
+            Score = 0;
+            Timer = 0;
+            
         }
         #endregion
         #region Method
 
-        private int CalculScore(int pointBySecond, int nbOfTick, int pointByError, int nbError)
+        public int CalculScore()
         {
-            return (pointBySecond * nbOfTick) + (pointByError * nbError);
+            return (NbPointByTick * Timer) + (NbError * NbPointByError);
         }
 
-        public MotDictionnaire WordControl(MotDictionnaire word)
+        private MotDictionnaire WordControl(MotDictionnaire word)
         {
             word = WordList.ExtraireMot();
-            word.Mot = CleaningWord(word.Mot);
-            if ((word.Mot.Length) < 3 || (word.Mot.Length) > 25)
+            //word.Mot = CleaningWord(word.Mot);
+            if ((word.Mot.Length) < 5 || (word.Mot.Length) > 25 || word.Mot.Contains(" ") || word.Mot.Contains("."))
             {
                 word = WordList.ExtraireMot();
             }
@@ -130,17 +145,52 @@ namespace QuintoDLL
 
             return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
-        private string CleaningWord(string text)
+
+        private char[] HideChar(char[] vs)
         {
-            string traite = string.Empty;
-            foreach (char item in text)
+            char[] output = new char[vs.Length];
+            for (int i = 0; i < vs.Length; i++)
             {
-                if (!char.IsWhiteSpace(item) | !(item == '.'))
+                output[i] = '_';
+            }
+            return output;
+        }
+        public void NewWord()
+        {
+            WordToFind = WordControl(WordToFind);
+            WordToFindArray = WordToFind.Mot.ToCharArray();
+            WordToFindHidden = HideChar(WordToFindArray);
+        }
+        public char[] CheckChar(char[] hidden, char[] result, char check)
+        {
+
+            for (int i = 0; i < hidden.Length; i++)
+            {
+                if (result[i] == check)
                 {
-                    traite += item;
+                    hidden[i] = check;
+                }
+
+            }
+
+            return hidden;
+        }
+        public bool CheckWinCondtion(char[] hidden)
+        {
+            int check = 0;
+            for (int i = 0; i < hidden.Length; i++)
+            {
+                if (!(hidden[i] == '_'))
+                {
+                    check += 1;
                 }
             }
-            return traite;
+            if (check == hidden.Length)
+            {
+                return true;
+            }
+            return false;
+
         }
         #endregion
 

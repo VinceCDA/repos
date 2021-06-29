@@ -40,13 +40,14 @@ namespace JeuWinForms
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.gbClavier = new System.Windows.Forms.GroupBox();
             this.btnPause = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.txtWordHidden = new System.Windows.Forms.TextBox();
+            this.labelTimer = new System.Windows.Forms.Label();
+            this.labelRound = new System.Windows.Forms.Label();
+            this.labelError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
@@ -64,7 +65,7 @@ namespace JeuWinForms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(181, 13);
+            this.label2.Location = new System.Drawing.Point(166, 13);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 17);
             this.label2.TabIndex = 1;
@@ -74,7 +75,7 @@ namespace JeuWinForms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(340, 13);
+            this.label3.Location = new System.Drawing.Point(321, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 17);
             this.label3.TabIndex = 2;
@@ -102,7 +103,7 @@ namespace JeuWinForms
             // 
             // maskedTextBox
             // 
-            this.maskedTextBox.Location = new System.Drawing.Point(12, 112);
+            this.maskedTextBox.Location = new System.Drawing.Point(12, 165);
             this.maskedTextBox.Name = "maskedTextBox";
             this.maskedTextBox.Size = new System.Drawing.Size(137, 20);
             this.maskedTextBox.TabIndex = 5;
@@ -135,29 +136,52 @@ namespace JeuWinForms
             this.btnPause.UseVisualStyleBackColor = true;
             this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
             // 
-            // textBox1
+            // txtWordHidden
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 139);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 9;
+            this.txtWordHidden.Location = new System.Drawing.Point(12, 112);
+            this.txtWordHidden.Name = "txtWordHidden";
+            this.txtWordHidden.Size = new System.Drawing.Size(164, 20);
+            this.txtWordHidden.TabIndex = 9;
             // 
-            // label6
+            // labelTimer
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(76, 175);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "label6";
+            this.labelTimer.AutoSize = true;
+            this.labelTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTimer.Location = new System.Drawing.Point(290, 13);
+            this.labelTimer.Name = "labelTimer";
+            this.labelTimer.Size = new System.Drawing.Size(25, 17);
+            this.labelTimer.TabIndex = 10;
+            this.labelTimer.Text = "0s";
+            // 
+            // labelRound
+            // 
+            this.labelRound.AutoSize = true;
+            this.labelRound.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRound.Location = new System.Drawing.Point(401, 13);
+            this.labelRound.Name = "labelRound";
+            this.labelRound.Size = new System.Drawing.Size(17, 17);
+            this.labelRound.TabIndex = 11;
+            this.labelRound.Text = "0";
+            // 
+            // labelError
+            // 
+            this.labelError.AutoSize = true;
+            this.labelError.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelError.Location = new System.Drawing.Point(143, 13);
+            this.labelError.Name = "labelError";
+            this.labelError.Size = new System.Drawing.Size(17, 17);
+            this.labelError.TabIndex = 12;
+            this.labelError.Text = "0";
             // 
             // FrmJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 418);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.labelError);
+            this.Controls.Add(this.labelRound);
+            this.Controls.Add(this.labelTimer);
+            this.Controls.Add(this.txtWordHidden);
             this.Controls.Add(this.btnPause);
             this.Controls.Add(this.gbClavier);
             this.Controls.Add(this.richTextBox1);
@@ -168,6 +192,7 @@ namespace JeuWinForms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmJeu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quinto";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,7 +211,9 @@ namespace JeuWinForms
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.GroupBox gbClavier;
         private System.Windows.Forms.Button btnPause;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtWordHidden;
+        private System.Windows.Forms.Label labelTimer;
+        private System.Windows.Forms.Label labelRound;
+        private System.Windows.Forms.Label labelError;
     }
 }

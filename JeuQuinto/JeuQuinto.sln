@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistanceServiceXML", "Pe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistanceServiceJSON", "PersistanceServiceJSON\PersistanceServiceJSON.csproj", "{F1A289F3-26E6-41CE-A342-6F3FB1211917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuintoDLL", "QuitoDLL\QuintoDLL.csproj", "{C4E36729-BD0F-4717-961E-817C6182E2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuintoDLL", "QuitoDLL\QuintoDLL.csproj", "{C4E36729-BD0F-4717-961E-817C6182E2BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -26,13 +26,14 @@ namespace JeuWinForms
             gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
             InitializeComponent();
             CreateKeyboard();
+            WelcomeBox();
+            labelRound.Text = $"{gameSession.NbRound}/{gameSession.NbRoundMax}";
             
             //string ta = CharsToString(gameSession.WordToFind.Mot.ToCharArray());
             maskedTextBox.Text = gameSession.WordToFind.Mot;
             //textBox1.Text = CharsToString(HideChar(gameSession.WordToFindHidden));
-            richTextBox1.Text = gameSession.WordToFind.Definition;
-            gameSession.WordToFindHidden = HideChar(gameSession.WordToFindArray);
-            textBox1.Text = CharsToString(gameSession.WordToFindHidden);
+            
+            txtWordHidden.Text = CharsToString(gameSession.WordToFindHidden);
         }
         #region Method
         private void CreateKeyboard()
@@ -48,9 +49,9 @@ namespace JeuWinForms
                 button.Top = y;
                 button.Left = x;
                 x += 40;
-                //y += 30;
                 gbClavier.Controls.Add(button);
                 button.Click += new System.EventHandler(this.clavier_Click);
+                button.TabStop = false;
                 if (x > gbClavier.Width)
                 {
                     x = 10;
@@ -58,6 +59,15 @@ namespace JeuWinForms
                 }
 
             }
+            Button trait = new Button();
+            trait.Text = "-";
+            trait.Size = new System.Drawing.Size(40, 40);
+            trait.Text = $"-";
+            trait.Top = y;
+            trait.Left = x;
+            gbClavier.Controls.Add(trait);
+            trait.Click += new System.EventHandler(this.clavier_Click);
+            trait.TabStop = false;
         }
         private string CharsToString(char[] t)
         {
@@ -69,34 +79,62 @@ namespace JeuWinForms
             return s;
             
         }
-        private char[] HideChar(char[] vs ) 
+        
+
+
+        private void WelcomeBox()
         {
-            char[] output = new char[vs.Length];
-            for (int i = 0; i < vs.Length; i++)
+            var welcome = MessageBox.Show("Etes-vous pret à commencer?","Bienvenue",MessageBoxButtons.YesNo);
+            if (welcome == DialogResult.Yes)
             {
-                output[i] = '_';
+                timer1.Start();
             }
-            return output;
         }
-        private char[] CheckChar(char[] hidden, char[] result, char check)
+        private void Continue()
         {
-            for (int i = 0; i < hidden.Length; i++)
+
+            //
+            var welcome = MessageBox.Show("Voulez-vous continuer?", WinOrLose(), MessageBoxButtons.YesNo);
+            if (welcome == DialogResult.Yes)
             {
-                if (result[i] == check)
+                gameSession.Score += gameSession.CalculScore();
+                gameSession.NbRound += 1;
+                labelRound.Text = $"{gameSession.NbRound}/{gameSession.NbRoundMax}";
+                gameSession.NbError = 0;
+                gameSession.Timer = 0;
+                gameSession.NewWord();
+                maskedTextBox.Text = gameSession.WordToFind.Mot;
+                txtWordHidden.Text = CharsToString(gameSession.WordToFindHidden);
+
+                foreach (Control item in gbClavier.Controls)
                 {
-                    hidden[i] = check;
+                    item.Enabled = true;
                 }
-                
+                timer1.Start();
             }
-            return hidden;
+            if (welcome == DialogResult.No)
+            {
+                this.Close();
+            }
+        }
+        private string WinOrLose()
+        {
+            if (gameSession.CheckWinCondtion(gameSession.WordToFindHidden))
+            {
+                return "Gagné";
+            }
+            else
+            {
+                return "Perdu";
+            }
         }
         #endregion
         #region Event
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            gameSession.Score += 1;
-            label6.Text = gameSession.Score.ToString();
+            gameSession.Timer += 1;
+            labelTimer.Text = $"{gameSession.Timer}s";
         }
 
 
@@ -106,9 +144,39 @@ namespace JeuWinForms
         }
         private void clavier_Click(object sender, EventArgs e)
         {
-            //CheckChar(gameSession.WordToFindHidden,gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]);
-            //textBox1.Text = CharsToString(HideCharA(gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
-            textBox1.Text = CharsToString(CheckChar(gameSession.WordToFindHidden, gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
+            if (!gameSession.WordToFindArray.Contains((sender as Button).Text.ToCharArray()[0]))
+            {
+                gameSession.NbError += 1;
+            }
+            else
+            {
+                txtWordHidden.Text = CharsToString(gameSession.CheckChar(gameSession.WordToFindHidden, gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
+            }
+            labelError.Text = $"{gameSession.NbError.ToString()}/{gameSession.NbErrorMax}";
+            (sender as Button).Enabled = false;
+
+            if (gameSession.CheckWinCondtion(gameSession.WordToFindHidden) || gameSession.NbError == gameSession.NbErrorMax)
+            {
+                txtWordHidden.Text = CharsToString(gameSession.WordToFindArray);
+                richTextBox1.Text = gameSession.WordToFind.Definition;
+                if (gameSession.NbRound == gameSession.NbRoundMax)
+                {
+                    var scoreBox = MessageBox.Show($"Partie terminée score total :{gameSession.Score}", "bienvenu", MessageBoxButtons.OK);
+                    this.Close();
+                    
+                }
+                else
+                {
+                    timer1.Stop();
+                   
+                    Continue();
+                }
+                
+
+            }
+            
+
+
         }
         #endregion
     }
