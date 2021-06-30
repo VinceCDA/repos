@@ -44,6 +44,7 @@ namespace JeuWinForms
             this.labelTimer = new System.Windows.Forms.Label();
             this.labelRound = new System.Windows.Forms.Label();
             this.labelError = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -173,11 +174,21 @@ namespace JeuWinForms
             this.labelError.TabIndex = 12;
             this.labelError.Text = "0";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(92, 192);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "label6";
+            // 
             // FrmJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 418);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.labelError);
             this.Controls.Add(this.labelRound);
             this.Controls.Add(this.labelTimer);
@@ -215,5 +226,6 @@ namespace JeuWinForms
         private System.Windows.Forms.Label labelTimer;
         private System.Windows.Forms.Label labelRound;
         private System.Windows.Forms.Label labelError;
+        private System.Windows.Forms.Label label6;
     }
 }

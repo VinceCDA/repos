@@ -175,6 +175,11 @@ namespace QuintoDLL
 
             return hidden;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="hidden"></param>
+        /// <returns></returns>
         public bool CheckWinCondtion(char[] hidden)
         {
             int check = 0;

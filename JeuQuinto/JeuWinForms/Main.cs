@@ -16,10 +16,13 @@ namespace JeuWinForms
         
         public Main()
         {
+            
 
             InitializeComponent();
             
         }
+        public HighScore HighScore;
+        public List<HighScore> ListScore;
 
         private void nouvelleToolStripMenuItem_Click(object sender, EventArgs e)
         {

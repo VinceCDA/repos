@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmUserName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserName.Designer.cs">
+      <DependentUpon>FrmUserName.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmJeu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,7 @@
     <Compile Include="FrmOptions.Designer.cs">
       <DependentUpon>FrmOptions.cs</DependentUpon>
     </Compile>
+    <Compile Include="HighScore.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +81,9 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmUserName.resx">
+      <DependentUpon>FrmUserName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmJeu.resx">
       <DependentUpon>FrmJeu.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +121,10 @@
     <ProjectReference Include="..\PersistanceIService\PersistanceIService.csproj">
       <Project>{8e1f1e0f-3c48-46ad-a581-76f6b5100009}</Project>
       <Name>PersistanceIService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersistanceServiceXML\PersistanceServiceXML.csproj">
+      <Project>{59d076bf-dc8c-4d9f-8638-d4911a1e2f38}</Project>
+      <Name>PersistanceServiceXML</Name>
     </ProjectReference>
     <ProjectReference Include="..\QuitoDLL\QuintoDLL.csproj">
       <Project>{c4e36729-bd0f-4717-961e-817c6182e2bd}</Project>
