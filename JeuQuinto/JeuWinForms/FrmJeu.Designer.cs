@@ -37,14 +37,13 @@ namespace JeuWinForms
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.maskedTextBox = new System.Windows.Forms.MaskedTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTxtDef = new System.Windows.Forms.RichTextBox();
             this.gbClavier = new System.Windows.Forms.GroupBox();
             this.btnPause = new System.Windows.Forms.Button();
             this.txtWordHidden = new System.Windows.Forms.TextBox();
             this.labelTimer = new System.Windows.Forms.Label();
             this.labelRound = new System.Windows.Forms.Label();
             this.labelError = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -109,13 +108,13 @@ namespace JeuWinForms
             this.maskedTextBox.Size = new System.Drawing.Size(137, 20);
             this.maskedTextBox.TabIndex = 5;
             // 
-            // richTextBox1
+            // richTxtDef
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(212, 112);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(188, 96);
-            this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "";
+            this.richTxtDef.Location = new System.Drawing.Point(212, 112);
+            this.richTxtDef.Name = "richTxtDef";
+            this.richTxtDef.Size = new System.Drawing.Size(188, 96);
+            this.richTxtDef.TabIndex = 6;
+            this.richTxtDef.Text = "";
             // 
             // gbClavier
             // 
@@ -139,9 +138,11 @@ namespace JeuWinForms
             // 
             // txtWordHidden
             // 
+            this.txtWordHidden.Enabled = false;
+            this.txtWordHidden.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWordHidden.Location = new System.Drawing.Point(12, 112);
             this.txtWordHidden.Name = "txtWordHidden";
-            this.txtWordHidden.Size = new System.Drawing.Size(164, 20);
+            this.txtWordHidden.Size = new System.Drawing.Size(164, 23);
             this.txtWordHidden.TabIndex = 9;
             // 
             // labelTimer
@@ -174,28 +175,18 @@ namespace JeuWinForms
             this.labelError.TabIndex = 12;
             this.labelError.Text = "0";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(92, 192);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
-            // 
             // FrmJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 418);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.labelError);
             this.Controls.Add(this.labelRound);
             this.Controls.Add(this.labelTimer);
             this.Controls.Add(this.txtWordHidden);
             this.Controls.Add(this.btnPause);
             this.Controls.Add(this.gbClavier);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTxtDef);
             this.Controls.Add(this.maskedTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -219,13 +210,12 @@ namespace JeuWinForms
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MaskedTextBox maskedTextBox;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTxtDef;
         private System.Windows.Forms.GroupBox gbClavier;
         private System.Windows.Forms.Button btnPause;
         private System.Windows.Forms.TextBox txtWordHidden;
         private System.Windows.Forms.Label labelTimer;
         private System.Windows.Forms.Label labelRound;
         private System.Windows.Forms.Label labelError;
-        private System.Windows.Forms.Label label6;
     }
 }

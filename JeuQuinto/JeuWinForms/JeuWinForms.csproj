@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmHighScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHighScore.Designer.cs">
+      <DependentUpon>FrmHighScore.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUserName.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmHighScore.resx">
+      <DependentUpon>FrmHighScore.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUserName.resx">
       <DependentUpon>FrmUserName.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOptions.resx">
       <DependentUpon>FrmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

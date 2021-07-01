@@ -74,5 +74,11 @@ namespace JeuWinForms
         {
             Properties.Settings.Default.Save();
         }
+
+        private void highScoreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHighScore frmHighScore = new FrmHighScore();
+            frmHighScore.Show();
+        }
     }
 }

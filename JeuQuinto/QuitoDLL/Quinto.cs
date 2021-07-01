@@ -3,8 +3,7 @@ using DictionnaireDLL;
 using System.Configuration;
 using System.Text;
 using System.Globalization;
-
-
+using System.Linq;
 
 namespace QuintoDLL
 {
@@ -30,7 +29,7 @@ namespace QuintoDLL
         #region Public
         public Dictionnaire WordList
         {
-            get => _wordList = new Dictionnaire("C:\\Users\\CDA\\source\\repos\\JeuQuinto\\JeuWinForms\\AppData\\FR-fr.xml");
+            get => _wordList;
             set => _wordList = value;
         }
         public MotDictionnaire WordToFind
@@ -49,10 +48,14 @@ namespace QuintoDLL
             set => _wordToFindHidden = value; 
         }
 
-        public int NbRound 
-        { 
-            get => _nbRound; 
-            set => _nbRound = value; 
+        public int NbRound
+        {
+            get => _nbRound;
+            set {
+                _nbRound = value;
+                OnNbRound(EventArgs.Empty); 
+            }
+            
         }
         public int NbRoundMax 
         {
@@ -93,29 +96,46 @@ namespace QuintoDLL
 
         #endregion
         #region Constructeur
-        public Quinto()
+        public Quinto(string pathDict)
         {
-            //gameSession.NbRoundMax = Properties.Settings.Default.NombreManches;
-            //gameSession.NbErrorMax = Properties.Settings.Default.NombreErreurs;
-            //gameSession.NbPointByError = Properties.Settings.Default.NombrePointsErreur;
-            //gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
-            WordToFind = WordControl(WordToFind);
-            WordToFindArray = WordToFind.Mot.ToCharArray();
-            WordToFindHidden = HideChar(WordToFindArray);
+            WordList = new Dictionnaire(pathDict);
+            NewWord();
             NbRound = 1;
             NbError = 0;
             Score = 0;
             Timer = 0;
             
+            
         }
         #endregion
-        #region Method
+        private event EventHandler NewRound;
+        protected virtual void OnNbRound(EventArgs e)
+        {
+            if (NewRound != null)
+            {
+                NewRound(this, EventArgs.Empty);
+            }
+            
+        }
+        private void Meth(object sender, EventArgs e)
+        {
+            NewWord();
+        }
 
+        #region Method
+        /// <summary>
+        /// Calcul du score
+        /// </summary>
+        /// <returns></returns>
         public int CalculScore()
         {
             return (NbPointByTick * Timer) + (NbError * NbPointByError);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="word"></param>
+        /// <returns></returns>
         private MotDictionnaire WordControl(MotDictionnaire word)
         {
             word = WordList.ExtraireMot();
@@ -129,6 +149,11 @@ namespace QuintoDLL
             return word;
 
         }
+        /// <summary>
+        /// Normalisation du mot
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         private string Norma(string text)
         {
             var normalizedString = text.Normalize(NormalizationForm.FormD);
@@ -145,7 +170,11 @@ namespace QuintoDLL
 
             return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
-
+        /// <summary>
+        /// Cache le mot a trouver
+        /// </summary>
+        /// <param name="vs"></param>
+        /// <returns></returns>
         private char[] HideChar(char[] vs)
         {
             char[] output = new char[vs.Length];
@@ -155,12 +184,22 @@ namespace QuintoDLL
             }
             return output;
         }
+        /// <summary>
+        /// Genration d'un nouveau mot
+        /// </summary>
         public void NewWord()
         {
             WordToFind = WordControl(WordToFind);
             WordToFindArray = WordToFind.Mot.ToCharArray();
             WordToFindHidden = HideChar(WordToFindArray);
         }
+        /// <summary>
+        /// Verifie si le char est present.
+        /// </summary>
+        /// <param name="hidden"></param>
+        /// <param name="result"></param>
+        /// <param name="check"></param>
+        /// <returns></returns>
         public char[] CheckChar(char[] hidden, char[] result, char check)
         {
 
@@ -171,8 +210,8 @@ namespace QuintoDLL
                     hidden[i] = check;
                 }
 
-            }
-
+            } 
+           
             return hidden;
         }
         /// <summary>
@@ -182,6 +221,7 @@ namespace QuintoDLL
         /// <returns></returns>
         public bool CheckWinCondtion(char[] hidden)
         {
+            
             int check = 0;
             for (int i = 0; i < hidden.Length; i++)
             {
@@ -197,7 +237,18 @@ namespace QuintoDLL
             return false;
 
         }
+        /// <summary>
+        /// Check si le mot est decouvert.
+        /// </summary>
+        /// <param name="hidden"></param>
+        /// <returns></returns>
+        public bool CheckWinCond(char[] hidden)
+        {
+            return hidden.Contains('_');
+  
+        }
         #endregion
+        
 
 
     }

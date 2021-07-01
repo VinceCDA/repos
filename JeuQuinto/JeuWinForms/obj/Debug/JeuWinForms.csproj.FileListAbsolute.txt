@@ -19,3 +19,5 @@ C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.Cor
 C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.csproj.CopyComplete
 C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.exe
 C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.pdb
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.FrmHighScore.resources
+C:\Users\CDA\source\repos\JeuQuinto\JeuWinForms\obj\Debug\JeuWinForms.Main.resources

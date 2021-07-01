@@ -14,7 +14,7 @@ namespace JeuWinForms
 {
     public partial class FrmJeu : Form
     {
-        Quinto gameSession = new Quinto();
+        Quinto gameSession = new Quinto(Properties.Settings.Default.RepertoireDictionnaires + "\\FR-fr.xml");
         HighScore highScore = new HighScore();
         List<HighScore> listScores = new List<HighScore>();
         
@@ -39,12 +39,13 @@ namespace JeuWinForms
         /// </summary>
         private void InitSession()
         {
+            //gameSession.WordList = new DictionnaireDLL.Dictionnaire(Properties.Settings.Default.RepertoireDictionnaires + "\\FR-fr.xml");
             gameSession.NbRoundMax = Properties.Settings.Default.NombreManches;
             gameSession.NbErrorMax = Properties.Settings.Default.NombreErreurs;
             gameSession.NbPointByError = Properties.Settings.Default.NombrePointsErreur;
             gameSession.NbPointByTick = Properties.Settings.Default.NombrePointsParSeconde;
             labelRound.Text = $"{gameSession.NbRound}/{gameSession.NbRoundMax}";
-            highScore.LoadScore(listScores);
+            
         }
         /// <summary>
         /// Génération du clavier.
@@ -89,12 +90,13 @@ namespace JeuWinForms
         /// <returns>"string"</returns>
         private string CharsToString(char[] t)
         {
-            string s = "";
-            foreach (char item in t)
-            {
-                s += item;
-            }
-            return s;
+            return new string(t);
+            //string s = "";
+            //foreach (char item in t)
+            //{
+            //    s += item;
+            //}
+            //return s;
             
         }
         /// <summary>
@@ -113,7 +115,7 @@ namespace JeuWinForms
         /// </summary>
         private void Continue()
         {
-            var welcome = MessageBox.Show("Voulez-vous continuer?", WinOrLose(), MessageBoxButtons.YesNo);
+            var welcome = MessageBox.Show("Voulez-vous continuer?", "Gagné!", MessageBoxButtons.YesNo);
             if (welcome == DialogResult.Yes)
             {
                 gameSession.Score += gameSession.CalculScore();
@@ -121,9 +123,10 @@ namespace JeuWinForms
                 labelRound.Text = $"{gameSession.NbRound}/{gameSession.NbRoundMax}";
                 gameSession.NbError = 0;
                 gameSession.Timer = 0;
-                gameSession.NewWord();
+                //gameSession.NewWord();
                 maskedTextBox.Text = gameSession.WordToFind.Mot;
                 txtWordHidden.Text = CharsToString(gameSession.WordToFindHidden);
+                richTxtDef.Text = "";
 
                 foreach (Control item in gbClavier.Controls)
                 {
@@ -151,36 +154,100 @@ namespace JeuWinForms
                 return "Perdu";
             }
         }
+        /// <summary>
+        /// Verif du High Score
+        /// </summary>
         private void CheckHighScore()
         {
-           
-            
-                for (int i = 0; i <= 9; i++)
+
+            highScore.LoadScore(listScores);
+            for (int i = 0; i <= 9; i++)
+            {
+
+                if (gameSession.Score < listScores[i].Score)
                 {
-                    
-                    if (gameSession.Score > listScores[i].Score)
+                    var welcome = MessageBox.Show("C'est un nouveau record !\r\nVoulez-vous l'enregistrer ?", "Bravo !", MessageBoxButtons.YesNo);
+                    if (welcome == DialogResult.Yes)
                     {
-                        var welcome = MessageBox.Show("C'est un nouveau record !\r\nVoulez-vous l'enregistrer ?", "Bravo !", MessageBoxButtons.YesNo);
-                        if (welcome == DialogResult.Yes)
-                        {
-                            var temp = new HighScore();
-                            temp.Score = gameSession.Score;
-                            temp.UserName = InputUserName();
-                            listScores.Insert(i, temp);
-                            listScores.RemoveAt(listScores.Count - 1);
-                            highScore.SaveScore(listScores);
-                            break;
-                        }
+                        var temp = new HighScore();
+                        temp.Score = gameSession.Score;
+                        temp.UserName = InputUserName();
+                        listScores.Insert(i, temp);
+                        listScores.RemoveAt(listScores.Count - 1);
+                        highScore.SaveScore(listScores);
+                        break;
+                    }
+                    else
+                    {
+                        break;
                     }
                 }
-            
+            }
+
         }
+        /// <summary>
+        /// Creation fenetre input username
+        /// </summary>
+        /// <returns></returns>
         private string InputUserName()
         {
             var userNameInput = new FrmUserName();
             userNameInput.ShowDialog();
             return userNameInput.UserName;
 
+        }
+        /// <summary>
+        /// Verif de la touche presse
+        /// </summary>
+        /// <param name="sender"></param>
+        private void KeyPressCheck(object sender)
+        {
+            if (!gameSession.WordToFindArray.Contains((sender as Button).Text.ToCharArray()[0]))
+            {
+                gameSession.NbError += 1;
+            }
+            else
+            {
+                txtWordHidden.Text = CharsToString(gameSession.CheckChar(gameSession.WordToFindHidden, gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
+            }
+            labelError.Text = $"{gameSession.NbError}/{gameSession.NbErrorMax}";
+            (sender as Button).Enabled = false;
+        }
+        /// <summary>
+        /// Verif si Round termine
+        /// </summary>
+        private void RoundEndChack()
+        {
+            if (gameSession.NbError == gameSession.NbErrorMax)
+            {
+                var loseBox = MessageBox.Show($"Vous avez perdu.", "bienvenu", MessageBoxButtons.OK);
+                this.Close();
+               
+            }
+            else
+            {
+                if (!gameSession.CheckWinCond(gameSession.WordToFindHidden))
+                {
+                    timer1.Stop();
+                    txtWordHidden.Text = CharsToString(gameSession.WordToFindArray);
+                    richTxtDef.Text = gameSession.WordToFind.Definition;
+                    if (gameSession.NbRound == gameSession.NbRoundMax)
+                    {
+                        var scoreBox = MessageBox.Show($"Partie terminée score total :{gameSession.Score}", "bienvenu", MessageBoxButtons.OK);
+                        CheckHighScore();
+                        this.Close();
+
+                    }
+                    else
+                    {
+                        timer1.Stop();
+
+                        Continue();
+                    }
+
+                    
+                }
+            }
         }
         #endregion
         #region Event
@@ -198,37 +265,8 @@ namespace JeuWinForms
         }
         private void clavier_Click(object sender, EventArgs e)
         {
-            if (!gameSession.WordToFindArray.Contains((sender as Button).Text.ToCharArray()[0]))
-            {
-                gameSession.NbError += 1;
-            }
-            else
-            {
-                txtWordHidden.Text = CharsToString(gameSession.CheckChar(gameSession.WordToFindHidden, gameSession.WordToFindArray, (sender as Button).Text.ToCharArray()[0]));
-            }
-            labelError.Text = $"{gameSession.NbError.ToString()}/{gameSession.NbErrorMax}";
-            (sender as Button).Enabled = false;
-
-            if (gameSession.CheckWinCondtion(gameSession.WordToFindHidden) || gameSession.NbError == gameSession.NbErrorMax)
-            {
-                txtWordHidden.Text = CharsToString(gameSession.WordToFindArray);
-                richTextBox1.Text = gameSession.WordToFind.Definition;
-                if (gameSession.NbRound == gameSession.NbRoundMax)
-                {
-                    var scoreBox = MessageBox.Show($"Partie terminée score total :{gameSession.Score}", "bienvenu", MessageBoxButtons.OK);
-                    CheckHighScore();
-                    this.Close();
-                    
-                }
-                else
-                {
-                    timer1.Stop();
-                   
-                    Continue();
-                }
-                
-
-            }
+            KeyPressCheck(sender);
+            RoundEndChack();
             
 
 
