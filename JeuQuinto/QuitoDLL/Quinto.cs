@@ -104,7 +104,7 @@ namespace QuintoDLL
             NbError = 0;
             Score = 0;
             Timer = 0;
-            
+            NewRound += Meth;
             
         }
         #endregion
@@ -187,7 +187,7 @@ namespace QuintoDLL
         /// <summary>
         /// Genration d'un nouveau mot
         /// </summary>
-        public void NewWord()
+        private void NewWord()
         {
             WordToFind = WordControl(WordToFind);
             WordToFindArray = WordToFind.Mot.ToCharArray();

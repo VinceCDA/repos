@@ -119,14 +119,13 @@ namespace JeuWinForms
             if (welcome == DialogResult.Yes)
             {
                 gameSession.Score += gameSession.CalculScore();
-                gameSession.NbRound += 1;
+                gameSession.NbRound ++;
                 labelRound.Text = $"{gameSession.NbRound}/{gameSession.NbRoundMax}";
                 gameSession.NbError = 0;
                 gameSession.Timer = 0;
-                //gameSession.NewWord();
                 maskedTextBox.Text = gameSession.WordToFind.Mot;
                 txtWordHidden.Text = CharsToString(gameSession.WordToFindHidden);
-                richTxtDef.Text = "";
+                richTxtDef.Text = string.Empty;
 
                 foreach (Control item in gbClavier.Controls)
                 {

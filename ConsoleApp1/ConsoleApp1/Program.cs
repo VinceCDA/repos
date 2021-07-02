@@ -4,9 +4,46 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            ProcessBusinessLogic bl = new ProcessBusinessLogic();
+            bl.ProcessCompleted += bl_ProcessCompleted; // register with an event
+            bl.StartProcess();
+        }
+
+        // event handler
+        public static void bl_ProcessCompleted(object sender, bool IsSuccessful)
+        {
+            Console.WriteLine("Process " + (IsSuccessful ? "Completed Successfully" : "failed"));
         }
     }
+
+    public class ProcessBusinessLogic
+    {
+        // declaring an event using built-in EventHandler
+        public event EventHandler<bool> ProcessCompleted;
+
+        public void StartProcess()
+        {
+            try
+            {
+                Console.WriteLine("Process Started!");
+
+                // some code here..
+
+                OnProcessCompleted(true);
+            }
+            catch (Exception ex)
+            {
+                OnProcessCompleted(false);
+            }
+        }
+
+        protected virtual void OnProcessCompleted(bool IsSuccessful)
+        {
+            ProcessCompleted?.Invoke(this, IsSuccessful);
+        }
+    }
+
 }
+
