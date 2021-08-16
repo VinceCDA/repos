@@ -16,10 +16,13 @@ namespace JeuWinForms
         
         public Main()
         {
+            
 
             InitializeComponent();
             
         }
+        public HighScore HighScore;
+        public List<HighScore> ListScore;
 
         private void nouvelleToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -70,6 +73,12 @@ namespace JeuWinForms
         private void Main_FormClosing(object sender, FormClosingEventArgs e)
         {
             Properties.Settings.Default.Save();
+        }
+
+        private void highScoreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHighScore frmHighScore = new FrmHighScore();
+            frmHighScore.Show();
         }
     }
 }

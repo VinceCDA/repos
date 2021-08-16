@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eqJ/ChhburYG76QJ+QZJhnk7YrKtFYfTtEJFFoshJXEKjPm27ZpWGpcc8o/Co5YYlKp3w8p4ea84rbGKQS635w==",
+  "dgSpecHash": "O37wWypTvIudwnsPXvc6q7oMRMMHn3p2wo3NgreHDYo6n8kRVSXyQsQy2uTFkJypqkyl68fOZ1nWd4imT+Jh7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj",
+  "projectFilePath": "C:\\Users\\CDA\\source\\repos\\JeuQuinto\\DictionnaireDLL\\DictionnaireDLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kuroneko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Kuroneko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\CDA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CDA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

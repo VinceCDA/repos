@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DictionnaireDLL\DictionnaireDLL.csproj" />
+    <ProjectReference Include="..\PersistanceIService\PersistanceIService.csproj" />
+    <ProjectReference Include="..\PersistanceServiceXML\PersistanceServiceXML.csproj" />
   </ItemGroup>
 
 </Project>

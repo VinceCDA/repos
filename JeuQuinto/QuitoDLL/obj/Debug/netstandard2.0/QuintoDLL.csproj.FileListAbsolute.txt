@@ -22,3 +22,7 @@ C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandar
 C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.csproj.CopyComplete
 C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\JeuQuinto\QuitoDLL\obj\Debug\netstandard2.0\QuintoDLL.pdb
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\PersistanceIService.dll
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\PersistanceServiceXML.dll
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\PersistanceIService.pdb
+C:\Users\CDA\source\repos\JeuQuinto\QuitoDLL\bin\Debug\netstandard2.0\PersistanceServiceXML.pdb

@@ -50,6 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmHighScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHighScore.Designer.cs">
+      <DependentUpon>FrmHighScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserName.Designer.cs">
+      <DependentUpon>FrmUserName.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmJeu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +74,7 @@
     <Compile Include="FrmOptions.Designer.cs">
       <DependentUpon>FrmOptions.cs</DependentUpon>
     </Compile>
+    <Compile Include="HighScore.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,11 +87,20 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmHighScore.resx">
+      <DependentUpon>FrmHighScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserName.resx">
+      <DependentUpon>FrmUserName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmJeu.resx">
       <DependentUpon>FrmJeu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOptions.resx">
       <DependentUpon>FrmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +134,10 @@
       <Project>{8e1f1e0f-3c48-46ad-a581-76f6b5100009}</Project>
       <Name>PersistanceIService</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PersistanceServiceXML\PersistanceServiceXML.csproj">
+      <Project>{59d076bf-dc8c-4d9f-8638-d4911a1e2f38}</Project>
+      <Name>PersistanceServiceXML</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QuitoDLL\QuintoDLL.csproj">
       <Project>{c4e36729-bd0f-4717-961e-817c6182e2bd}</Project>
       <Name>QuintoDLL</Name>
@@ -119,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AppData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
