@@ -1,0 +1,67 @@
+body{
+    background-image:url("A001/fond.png") ;
+}
+header{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7e4a1;
+    
+}
+nav{
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+}
+nav a{
+    color: orange;
+    text-decoration: none;
+    padding-right: 5%;
+    font-size: 20px;
+}
+main{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ivory;
+    padding: 2% 0;
+}
+article{
+    padding: 5% 0;
+}
+article a{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 5%;
+    float: right;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: orange;
+    line-height: 2em;
+    padding: 1%;
+}
+#pictheader{
+    float: left;
+}
+#pictmain{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding-right: 1%;
+}
+h2{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+    margin: 0;
+    padding-bottom: 2%;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+footer{
+    text-align: center;
+}
