@@ -1,0 +1,109 @@
+@media screen and (max-width:560px){
+    main aside{
+        display: none;
+    }
+    header nav a{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    main section{
+        width: 100%!important
+    }
+
+}
+@media screen and (max-width:960px) {
+    main section{
+        width: 100%!important
+    }
+    main aside{
+        width: 100%!important
+    }
+}
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    font-family: 'PT Sans Narrow';
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav{
+    background-color: #61301f;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    display: block;
+    box-sizing: content-box;
+
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+header nav a:hover, a:focus{
+    background-color: #a79189;
+}
+main{
+    box-sizing: content-box;
+}
+main section{
+    background-color: turquoise;
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main aside{
+    background-color: white;
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section img{
+    width: 75%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    text-align: center;
+    display: block;
+    background-color: #61301f;
+    border-radius: 10px;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+h2:before{
+    content: "";
+    display: block;
+    background: "fas fa-mug-hot" no-repeat;
+    width: 1.5em;
+    height: auto;
+    float: left;
+    color: white;
+
+}
