@@ -80,10 +80,10 @@ section article small{
     transition-timing-function: ease;
     transition-duration: 0.2s;
 }
-#select:hover > *{
+#select:hover > .escarpin{
     opacity: 0.5;
 }
-#select:hover *:over{
+#select:hover .escarpin:hover{
     opacity: 1;
 }
 #select h1{
@@ -135,7 +135,7 @@ ul{
     text-align: center;
     padding-left: 0%;
 }
-.container *{
+.container{
     width: 75%;
     height: auto;
 }

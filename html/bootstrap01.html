@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="fr">
 
   
 
@@ -23,7 +23,7 @@
         
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="bootstrap01.css">
 
 
         <title>Hello, world!</title>
@@ -34,34 +34,91 @@
   
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            HEADER
+    <!--Header-->
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="...">
+                        <img src="images/logo.png" alt="Site logo" width="40" height="30">
+                        Info School
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Cours</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            HERO SECTION
+    <!--Main-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1>Bienvenue sur Info School !</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/home/certificate.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de la carte1</h5>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/home/instruction.png" alt="">
+                    <div class="card-body">
+                       
+                        <h5 class="card-title">Titre de la carte2</h5>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/home/job.png" alt="">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Titre de la carte3</h5>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col list-inline text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">A propos</li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item">Vie privée</li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item">Condition d'utilisations</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            INFO CARD
-        </div>
-        <div class="col">
-            INFO CARD
-        </div>
-        <div class="col">
-            INFO CARD
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            FOOTER
-        </div>
-    </div>
-</div>
+    
 
 
 
