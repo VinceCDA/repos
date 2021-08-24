@@ -1,4 +1,9 @@
 
+body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 header .topbar{
     text-align: center;
 }
@@ -71,12 +76,25 @@ section article small{
     display: flex;
     flex-wrap: wrap;
     margin-left: 12.5%;
+    transition-property: opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+}
+#select:hover > *{
+    opacity: 0.5;
+}
+#select:hover *:over{
+    opacity: 1;
 }
 #select h1{
     flex : 100%;
 }
-#select .escarpin{
+#select article{
     flex : 1 15%;
+
+}
+#select article:hover{
+    opacity: 1;
 }
 #news {
     display: flex;
