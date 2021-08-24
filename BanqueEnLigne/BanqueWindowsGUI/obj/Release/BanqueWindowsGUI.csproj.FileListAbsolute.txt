@@ -1,0 +1,42 @@
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe.config
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.pdb
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\Banque.dll
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\Banque.pdb
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmListeComptes.resources
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmNouveauCompte.resources
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.Properties.Resources.resources
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.GenerateResource.Cache
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.exe
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.pdb
+D:\ParcoursCDIModulaire\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe.config
+D:\ParcoursCDIModulaire\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.exe
+D:\ParcoursCDIModulaire\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe.config
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\bin\Release\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmListeComptes.resources
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmNouveauCompte.resources
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.Properties.Resources.resources
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.GenerateResource.Cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe.config
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\bin\Release\BanqueWindowsGUI.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\bin\Release\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\bin\Release\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmListeComptes.resources
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.FrmNouveauCompte.resources
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.Properties.Resources.resources
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.GenerateResource.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.csproj.CopyComplete
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueWindowsGUI\obj\Release\BanqueWindowsGUI.pdb

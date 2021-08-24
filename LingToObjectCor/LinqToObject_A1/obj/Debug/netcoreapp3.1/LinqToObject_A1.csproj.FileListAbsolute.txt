@@ -1,0 +1,32 @@
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.AssemblyInfo.cs
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.exe
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.deps.json
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.runtimeconfig.json
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.runtimeconfig.dev.json
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.pdb
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.pdb
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.csproj.CopyComplete
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.exe
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.deps.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.runtimeconfig.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.runtimeconfig.dev.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\LinqToObject_A1.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.AssemblyInfo.cs
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.csproj.CopyComplete
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\LinqToObject_A1\obj\Debug\netcoreapp3.1\LinqToObject_A1.pdb

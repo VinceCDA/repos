@@ -1,0 +1,17 @@
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\Banque\bin\Release\Banque.dll
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\Banque\bin\Release\Banque.pdb
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\Banque\obj\Release\Banque.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\Banque\obj\Release\Banque.dll
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\Banque\obj\Release\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\bin\Release\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\bin\Release\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Release\Banque.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Release\Banque.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Release\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Release\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Release\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Release\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Release\Banque.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Release\Banque.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Release\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Release\Banque.pdb

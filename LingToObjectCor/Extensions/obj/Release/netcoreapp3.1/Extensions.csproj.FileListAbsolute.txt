@@ -1,0 +1,26 @@
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\bin\Release\netcoreapp3.1\Extensions.deps.json
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\bin\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\bin\Release\netcoreapp3.1\Extensions.pdb
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\obj\Release\netcoreapp3.1\Extensions.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfo.cs
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\obj\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M 2019\UA-01\SRC\LinqToObject_A1\Extensions\obj\Release\netcoreapp3.1\Extensions.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.deps.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfo.cs
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.csproj.CoreCompileInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.csprojAssemblyReference.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.deps.json
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\bin\Release\netcoreapp3.1\Extensions.pdb
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.csproj.AssemblyReference.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfoInputs.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.AssemblyInfo.cs
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.csproj.CoreCompileInputs.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Corrections\A001\Extensions\obj\Release\netcoreapp3.1\Extensions.pdb

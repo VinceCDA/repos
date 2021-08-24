@@ -1,0 +1,36 @@
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.exe.config
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.exe
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.BOL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.DAL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.BOL.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\bin\Debug\Banque.DAL.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmConnexion.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmNouveauCompte.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmVirement.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.MDIVirements.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.Properties.Resources.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.GenerateResource.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.CopyComplete
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.exe
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.pdb
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.exe.config
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.exe
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.WindowsGUI.pdb
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.BOL.dll
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.DAL.dll
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.BOL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\bin\Debug\Banque.DAL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmConnexion.resources
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmNouveauCompte.resources
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.FrmVirement.resources
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.MDIVirements.resources
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.Properties.Resources.resources
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.csproj.CopyComplete
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.exe
+C:\Users\CDA\source\repos\Banque\Banque.WindowsGUI\obj\Debug\Banque.WindowsGUI.pdb

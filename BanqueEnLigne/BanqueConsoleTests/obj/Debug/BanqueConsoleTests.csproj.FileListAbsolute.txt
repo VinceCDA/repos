@@ -1,0 +1,54 @@
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csprojResolveAssemblyReference.cache
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\Banque.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\bin\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CopyComplete
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe.config
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.exe
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\bin\Debug\BanqueConsoleTests.pdb
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.dll
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\bin\Debug\Banque.pdb
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.csproj.CopyComplete
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.exe
+C:\Users\CDA\source\repos\BanqueEnLigne\BanqueConsoleTests\obj\Debug\BanqueConsoleTests.pdb

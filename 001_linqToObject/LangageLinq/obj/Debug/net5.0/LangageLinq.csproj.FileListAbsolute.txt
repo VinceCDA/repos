@@ -1,0 +1,32 @@
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.exe
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.deps.json
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.runtimeconfig.json
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.runtimeconfig.dev.json
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\ref\LangageLinq.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.pdb
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.csproj.AssemblyReference.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.AssemblyInfoInputs.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.AssemblyInfo.cs
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.csproj.CoreCompileInputs.cache
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\ref\LangageLinq.dll
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.pdb
+C:\01 CDA\M4 - Dév App n-tiers P1\01 MEO ORM\Progression 2021\Exemples\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.genruntimeconfig.cache
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.exe
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.deps.json
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.runtimeconfig.json
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.dll
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\ref\LangageLinq.dll
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\bin\Debug\net5.0\LangageLinq.pdb
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.AssemblyInfo.cs
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.dll
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\ref\LangageLinq.dll
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.pdb
+C:\Users\CDA\source\repos\001_linqToObject\LangageLinq\obj\Debug\net5.0\LangageLinq.genruntimeconfig.cache

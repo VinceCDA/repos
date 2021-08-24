@@ -1,0 +1,33 @@
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csprojAssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.Messages.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.Messages.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CopyComplete
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.DAL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\bin\Debug\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.Messages.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.csproj.CopyComplete
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.DAL\obj\Debug\Bibliotheque.DAL.pdb

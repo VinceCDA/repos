@@ -1,0 +1,97 @@
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.exe
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.AssemblyInfo.cs
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.csproj.CopyComplete
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.deps.json
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.runtimeconfig.json
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.runtimeconfig.dev.json
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.pdb
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.pdb
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\01 CDA\M 2019\UA-02\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.AssemblyInfo.cs
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.exe
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.deps.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.runtimeconfig.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.runtimeconfig.dev.json
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\LinqToEntityCore_1.pdb
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.csproj.CopyComplete
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.csproj.CoreCompileInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Corrections\A002\LinqToEntityCore_1\LinqToEntityCore_1\obj\Debug\netcoreapp3.1\LinqToEntityCore_1.genruntimeconfig.cache

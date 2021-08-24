@@ -1,0 +1,24 @@
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.exe
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.deps.json
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.runtimeconfig.json
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.runtimeconfig.dev.json
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.dll
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.pdb
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.csprojAssemblyReference.cache
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.AssemblyInfo.cs
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.dll
+C:\01 CDA\M 2019\LangageLinq\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.pdb
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.exe
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.deps.json
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.runtimeconfig.json
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.runtimeconfig.dev.json
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.dll
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\bin\Debug\netcoreapp3.1\LangageLinq.pdb
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.AssemblyInfoInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.AssemblyInfo.cs
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.csproj.CoreCompileInputs.cache
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.dll
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.pdb
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.genruntimeconfig.cache
+C:\01 CDA\M 2019\Progression 2019\Exemples\001_linqToObject\LangageLinq\obj\Debug\netcoreapp3.1\LangageLinq.csproj.AssemblyReference.cache

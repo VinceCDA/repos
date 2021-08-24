@@ -1,0 +1,33 @@
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\Banque\bin\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\Banque\bin\Debug\Banque.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\Banque\obj\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\Banque\obj\Debug\Banque.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\03 Développement Windows\Enoncés et sources\Version 2\BanqueEnLigne\Banque\obj\Debug\Banque.csprojResolveAssemblyReference.cache
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\Banque\bin\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\Banque\bin\Debug\Banque.pdb
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\Banque\obj\Debug\Banque.csprojResolveAssemblyReference.cache
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\Banque\obj\Debug\Banque.dll
+D:\_CDI\01 - Référentiel Formation\06 Evaluation\01 Initiation Développement\BanqueEnLigne_2015\Banque\obj\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\bin\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\bin\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Debug\Banque.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne_2015\Banque\obj\Debug\Banque.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Debug\Banque.pdb
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.csprojResolveAssemblyReference.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.csproj.CoreCompileInputs.cache
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.dll
+E:\01 Parcours CDI\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Debug\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\bin\Debug\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\Banque\obj\Debug\Banque.pdb
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\bin\Debug\Banque.dll
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\bin\Debug\Banque.pdb
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\obj\Debug\Banque.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\obj\Debug\Banque.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\obj\Debug\Banque.dll
+C:\Users\CDA\source\repos\BanqueEnLigne\Banque\obj\Debug\Banque.pdb

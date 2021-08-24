@@ -1,0 +1,36 @@
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.exe
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.FrmMain.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.Properties.Resources.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.exe
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.exe.config
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.exe
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.WinUI.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.DAL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.DAL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.FrmMain.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.Properties.Resources.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.csproj.CopyComplete
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.exe
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.ListeAdherents.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.FormPret.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\en-001\Bibliotheque.WinUI.resources.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.FormPret.en-001.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\en-001\Bibliotheque.WinUI.resources.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\bin\Debug\fr-CA\Bibliotheque.WinUI.resources.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.FormPret.fr-CA.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\fr-CA\Bibliotheque.WinUI.resources.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.TestDataBind.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.TestEnfants.resources
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\Bibliotheque.WinUI\obj\Debug\Bibliotheque.WinUI.AjoutAdherent.resources

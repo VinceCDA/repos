@@ -1,0 +1,24 @@
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csprojAssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouches\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csprojAssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.AssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.dll
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\2020\Ateliers\A004\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\bin\Debug\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BibliothequeNCouchesSQL\BibliothequeNCouches\obj\Debug\Bibliotheque.BOL.pdb

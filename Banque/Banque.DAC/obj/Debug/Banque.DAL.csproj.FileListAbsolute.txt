@@ -1,0 +1,18 @@
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\bin\Debug\Banque.DAL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\bin\Debug\Banque.DAL.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\bin\Debug\Banque.BOL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\bin\Debug\Banque.BOL.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\obj\Debug\Banque.DAL.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\obj\Debug\Banque.DAL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\obj\Debug\Banque.DAL.csproj.CopyComplete
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\obj\Debug\Banque.DAL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.DAC\obj\Debug\Banque.DAL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.DAC\bin\Debug\Banque.DAL.dll
+C:\Users\CDA\source\repos\Banque\Banque.DAC\bin\Debug\Banque.DAL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.DAC\bin\Debug\Banque.BOL.dll
+C:\Users\CDA\source\repos\Banque\Banque.DAC\bin\Debug\Banque.BOL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.DAC\obj\Debug\Banque.DAL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\Banque\Banque.DAC\obj\Debug\Banque.DAL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\Banque\Banque.DAC\obj\Debug\Banque.DAL.csproj.CopyComplete
+C:\Users\CDA\source\repos\Banque\Banque.DAC\obj\Debug\Banque.DAL.dll
+C:\Users\CDA\source\repos\Banque\Banque.DAC\obj\Debug\Banque.DAL.pdb

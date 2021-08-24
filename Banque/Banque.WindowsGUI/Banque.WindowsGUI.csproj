@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47FC0C94-A0F6-4498-836E-2E154C6C914F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Banque.WindowsGUI</RootNamespace>
+    <AssemblyName>Banque.WindowsGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConnexion.designer.cs">
+      <DependentUpon>FrmConnexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNouveauCompte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNouveauCompte.designer.cs">
+      <DependentUpon>frmNouveauCompte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVirement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVirement.designer.cs">
+      <DependentUpon>FrmVirement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globale.cs" />
+    <Compile Include="MDIVirements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIVirements.designer.cs">
+      <DependentUpon>MDIVirements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConnexion.resx">
+      <DependentUpon>FrmConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNouveauCompte.resx">
+      <DependentUpon>frmNouveauCompte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVirement.resx">
+      <DependentUpon>FrmVirement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIVirements.resx">
+      <DependentUpon>MDIVirements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\Banque.BOL.Banque.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Client.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Compte.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.CompteBase.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.CompteExterne.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Guichet.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Hollerith.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Messages.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Operation.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.TypeCompte.datasource" />
+    <None Include="Properties\DataSources\Banque.BOL.Virement.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banque.BOL\Banque.BOL.csproj">
+      <Project>{298105a6-524b-4ac7-bb6f-af804f88585d}</Project>
+      <Name>Banque.BOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banque.DAC\Banque.DAL.csproj">
+      <Project>{f2c2e90c-6331-4ef4-9f65-e2a7aaed66a1}</Project>
+      <Name>Banque.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageAccueil.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

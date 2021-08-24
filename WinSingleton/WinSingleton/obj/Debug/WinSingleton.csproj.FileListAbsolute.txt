@@ -1,0 +1,23 @@
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\bin\Debug\WinSingleton.exe.config
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\bin\Debug\WinSingleton.exe
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\bin\Debug\WinSingleton.pdb
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csprojAssemblyReference.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.FrmMain.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.FrmXInstances.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.Properties.Resources.resources
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csproj.GenerateResource.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csproj.CoreCompileInputs.cache
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.exe
+C:\01 CDA\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A004B\WinSingleton\WinSingleton\obj\Debug\WinSingleton.pdb
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\bin\Debug\WinSingleton.exe.config
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\bin\Debug\WinSingleton.exe
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\bin\Debug\WinSingleton.pdb
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.FrmMain.resources
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.FrmXInstances.resources
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.Properties.Resources.resources
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.exe
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.pdb
+C:\Users\CDA\source\repos\WinSingleton\WinSingleton\obj\Debug\WinSingleton.FrmSingleton.resources

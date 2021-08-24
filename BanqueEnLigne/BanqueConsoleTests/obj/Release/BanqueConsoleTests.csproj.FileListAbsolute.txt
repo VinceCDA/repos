@@ -1,0 +1,18 @@
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\bin\Release\BanqueConsoleTests.exe.config
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\bin\Release\BanqueConsoleTests.exe
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\bin\Release\BanqueConsoleTests.pdb
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\bin\Release\Banque.dll
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\bin\Release\Banque.pdb
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\obj\Release\BanqueConsoleTests.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\obj\Release\BanqueConsoleTests.exe
+D:\Parcours CDI Modulaire .Net\M7 - Evaluation\ECF_01\BanqueEnLigne_2015\BanqueConsoleTests\obj\Release\BanqueConsoleTests.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Release\BanqueConsoleTests.exe.config
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Release\BanqueConsoleTests.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Release\BanqueConsoleTests.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Release\Banque.dll
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\bin\Release\Banque.pdb
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Release\BanqueConsoleTests.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Release\BanqueConsoleTests.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Release\BanqueConsoleTests.csproj.CopyComplete
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Release\BanqueConsoleTests.exe
+C:\01 CDA\M7 New\C1 Développer une interface utilisateur\EP 1\BanqueEnLigne\BanqueConsoleTests\obj\Release\BanqueConsoleTests.pdb

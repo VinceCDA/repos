@@ -1,0 +1,40 @@
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\bin\Debug\A003.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.FrmMain.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.FrmMere.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.FrmMereFille.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.FrmTransaction.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.Properties.Resources.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.csproj.GenerateResource.Cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\bin\Debug\A003.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\bin\Debug\A003.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Corrections\A003\A003\obj\Debug\A003.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\bin\Debug\A003.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\bin\Debug\A003.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\bin\Debug\A003.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.FrmMain.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.FrmMere.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.FrmMereFille.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.FrmTransaction.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.Properties.Resources.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.csproj.GenerateResource.Cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A003\A003\bin\Debug\A003.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A003\A003\obj\Debug\A003.pdb
+C:\Users\CDA\source\repos\ADOA003\bin\Debug\A003.exe.config
+C:\Users\CDA\source\repos\ADOA003\bin\Debug\A003.exe
+C:\Users\CDA\source\repos\ADOA003\bin\Debug\A003.pdb
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.FrmMain.resources
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.FrmMere.resources
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.FrmMereFille.resources
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.FrmTransaction.resources
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.Properties.Resources.resources
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.exe
+C:\Users\CDA\source\repos\ADOA003\obj\Debug\A003.pdb

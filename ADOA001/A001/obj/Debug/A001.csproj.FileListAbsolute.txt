@@ -1,0 +1,45 @@
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe.config
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.pdb
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmCommande.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmConnexion.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmLectureDonnees.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmMain.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmMere.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmMereFille.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.FrmTransaction.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\ADO_Partie1.Properties.Resources.resources
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.csproj.GenerateResource.Cache
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.exe
+D:\__CDI\Mod01\08 Accès aux données\01 - Formulaires\01 Connecté\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.FrmCommande.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.FrmConnexion.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.FrmLectureDonnees.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.FrmMain.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.Properties.Resources.resources
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\07 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.csproj.GenerateResource.Cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\bin\Debug\A001.exe.config
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\06 Accès aux données Partie 1\Ateliers\A001\Sources A001\A001\A001\obj\Debug\A001.pdb
+C:\Users\CDA\source\repos\ADOA001\A001\bin\Debug\A001.exe.config
+C:\Users\CDA\source\repos\ADOA001\A001\bin\Debug\A001.exe
+C:\Users\CDA\source\repos\ADOA001\A001\bin\Debug\A001.pdb
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.FrmCommande.resources
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.FrmConnexion.resources
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.FrmLectureDonnees.resources
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.FrmMain.resources
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.Properties.Resources.resources
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.exe
+C:\Users\CDA\source\repos\ADOA001\A001\obj\Debug\A001.pdb

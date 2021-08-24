@@ -1,0 +1,16 @@
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\bin\Debug\Banque.BOL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\bin\Debug\Banque.BOL.pdb
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.csprojAssemblyReference.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.Messages.resources
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.csproj.GenerateResource.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.dll
+C:\01 CDA\M7 New\C3 Développer des composants d'accès aux données\EP1 2019\Banque\Banque.BOL\obj\Debug\Banque.BOL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.BOL\bin\Debug\Banque.BOL.dll
+C:\Users\CDA\source\repos\Banque\Banque.BOL\bin\Debug\Banque.BOL.pdb
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.Messages.resources
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.csproj.GenerateResource.cache
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.dll
+C:\Users\CDA\source\repos\Banque\Banque.BOL\obj\Debug\Banque.BOL.pdb
