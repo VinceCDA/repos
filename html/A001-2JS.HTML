@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <title>Manipulons le DOM</title>
+        <style type="text/css">
+            fieldset {
+              border-style: solid;
+              border-width: 1px; 
+              padding: 1em; 
+              border-radius: 5%;
+              border-color: coral;
+			  box-sizing:border-box;
+			  width: 30%;
+            }
+            fieldset > input {
+              margin-top: 2em; 
+                            
+            }
+        </style>
+	</head>
+	
+	<body>
+        <h2>Manipulons le DOM</h2>
+        <form>
+		<fieldset>
+            <legend>Faites votre choix</legend>
+			<input type="radio" name="btnRadChoix" value="semaine" checked="checked" /> Semaine
+			
+			<input type="radio"  name="btnRadChoix" value="week end" /> Week-end 
+			<br/>
+			<input type="button"  id="btnChoix" value="Choix">
+			
+			<input type="text"  id="txtChoix"   value=""  maxlength="10" />
+		</fieldset>		
+    </form>
+	</body>
+</html>

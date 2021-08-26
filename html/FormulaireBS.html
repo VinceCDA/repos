@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Required meta tags -->
+
+        
+    <meta charset="utf-8">
+
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+        
+    <!-- Bootstrap CSS -->
+
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Formulaire client</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form id='frmCoordonnees' action="" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for='rdSexe'>
+                            Sexe :</label>
+                        <input name="rdSexe" value="H" checked="checked" type="radio" />Homme
+                        <input name="rdSexe" value="F" type="radio" />Femme
+                    </div>
+                    <div class="form-group">
+                        <label for='txtNom'>
+                            Nom :</label>
+                        <input id="txtNom" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for='txtPrenom'>
+                            Prénom :</label>
+                        <input id="txtPrenom" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for='txtAdresse_P1'>
+                            Adresse :</label>
+                        <input id="txtAdresse_P1" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for='txtAdresse_P2'>
+                            ..</label>
+                        <input id="txtAdresse_P2" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for='txtCodePostal'>
+                            Code Postal Ville:</label>
+                        <input id="txtCodePostal" type="text" />
+                        <input id="txtVille" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for='selPays'>
+                            Pays :</label>
+                        <select id="selPays">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Adresse mail :</label>
+                        <input id="txtMail" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Date de naissance :</label>
+                        <input id="txtDateNaissance" type="date" />
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-check">
+                            <label class="col-12" for="chkInterets">
+                                Vos centres d'intérets :
+                            </label>
+                            <div class="checkbox">
+                                <input class="form-check-input" name="chkInterets" value="BR" type="checkbox"
+                                    id="chk1" />
+                                <label for="chk1">Bricolage</label>
+
+                            </div>
+
+                            <div class="checkbox">
+                                <input class="form-check-input" name="chkInterets" value="JD" type="checkbox"
+                                    id="chk2" />
+                                <label for="chk2">Jardinage</label>
+
+                            </div>
+
+                            <div class="checkbox">
+                                <input class="form-check-input" name="chkInterets" value="LC" type="checkbox"
+                                    id="chk3" />
+                                <label for="chk3">Lecture</label>
+
+                            </div>
+
+                            <div class="checkbox">
+                                <input class="form-check-input" name="chkInterets" value="VG" type="checkbox"
+                                    id="chk4" />
+                                <label for="chk4">Voyages</label>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+
+        
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+        
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

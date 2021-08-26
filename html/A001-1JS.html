@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<title>Objet arguments</title>
+	</head>
+	
+	<body>
+		<h2>Rendez-vous dans la console Javascript</h2>
+		<script>
+		
+		function perimetre(){
+			var perim = 0;
+			var forme;
+			//if (arguments.length === 0)
+			//return "Il faut un parametre."
+			//else if (arguments.length === 1) {
+			//	return "Périmètre : " + arguments[0]*2 + ", c'est un : carré."
+			//}
+			switch(arguments.length){
+				case 0:
+					return "Il faut un parametre."
+				case 1:
+					return "Périmètre : " + arguments[0]*2 + ", c'est un : carré."
+				case 2:
+					return "Périmètre : " + (arguments[0]+arguments[1]) + ", c'est un : rectangle."
+				case 3:
+					return "Périmètre : " + (arguments[0]+arguments[1]+arguments[2]) + ", c'est un : triangle."
+				default:
+					let args = Array.from(arguments)
+					args.forEach(item => perim += item)
+					return "Périmètre : " + perim + ", c'est un : polygone."
+					arguments
+			}
+		
+			
+		
+			// return "Périmètre : " + perim + ", c'est un : " + forme;
+		} ;// fin de fonction perimetre
+		
+		// script principal
+		console.log(perimetre());
+		console.log(perimetre(5));
+		console.log(perimetre(3,2));
+		console.log(perimetre(5,5,5));
+		console.log(perimetre(10,5,4,3));
+		</script>	
+	</body>
+	
+</html>
