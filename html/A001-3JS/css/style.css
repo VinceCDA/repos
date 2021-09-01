@@ -33,3 +33,9 @@ fieldset {
  .blue {
      color:blue;
  }
+ .red{
+     background-color: red;
+ }
+ .big{
+     font-size: 3rem;
+ }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="formulaire.js" defer></script>
+    
     <title>Formulaire client</title>
 </head>
 <body>
@@ -19,32 +19,32 @@
         <p>
             <label for='txtNom'>
                 Nom :</label>
-            <input id="txtNom" type="text" />
+            <input id="txtNom" type="text" placeholder="Entrez votre nom" />
             
         </p>
         <p>
             <label for='txtPrenom'>
                 Prénom :</label>
-            <input id="txtPrenom" type="text" />
+            <input id="txtPrenom" type="text" placeholder="Entrez votre prénom"/>
            
         </p>
 		
         <p>
             <label for='txtAdresse_P1'>
                 Adresse :</label>
-            <input  id="txtAdresse_P1" type="text" />
+            <input  id="txtAdresse_P1" type="text" placeholder="Adresse1"/>
             
         </p>
         <p id='pAdresse_P2'>
             <label for='txtAdresse_P2'>
                 ..</label>
-            <input id="txtAdresse_P2" type="text" />
+            <input id="txtAdresse_P2" type="text" placeholder="Adresse2"/>
         </p>
         <p>
             <label for='txtCodePostal'>
                 Code Postal Ville:</label>
-            <input  id="txtCodePostal"  type="text" />
-            <input  id="txtVille"  type="text" />
+            <input  id="txtCodePostal"  type="text" placeholder="Code Postal" pattern="[0-9]{5}" title="5 chiffres max" required/>
+            <input  id="txtVille"  type="text" placeholder="Ville"/>
         </p>
         <p>
             <label for='selPays'>
@@ -57,12 +57,12 @@
         <p>
             <label for='txtMail'>
                 Adresse mail :</label>
-            <input id="txtMail"  type="email" />
+            <input id="txtMail"  type="email" placeholder="Email"/>
         </p>
 		<p>
             <label for='txtTelephone'>
                 Téléphone :</label>
-            <input id="txtTelephone"  type="text" />
+            <input id="txtTelephone"  type="text" placeholder="Téléphone"/>
         </p>
 		<p>
             <label>
@@ -78,10 +78,10 @@
             <input  name="chkInterets" value="VG" type="checkbox" />Voyages
         </p>
         <p>
-            <input id='btnEnvoyer'   value="Envoyer" type="button"/>
+            <input id='btnEnvoyer'   value="Envoyer" type="submit"/>
         </p>
  
     </form>
-    
+    <script src="formulaireHTML5.js" ></script>
 </body>
 </html>

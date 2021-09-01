@@ -38,7 +38,7 @@
                     <div class="form-group">
                         <label for='txtNom'>
                             Nom :</label>
-                        <input id="txtNom" type="text" />
+                        <input id="txtNom" type="text" required/>
                     </div>
                     <div class="form-group">
                         <label for='txtPrenom'>
@@ -77,36 +77,40 @@
                             Date de naissance :</label>
                         <input id="txtDateNaissance" type="date" />
                     </div>
-                    <div class="form-group row">
-                        <div class="form-check">
-                            <label class="col-12" for="chkInterets">
+                    <div class="form-group">
+                        <div class="form-check-inline">
+                            <label for="chkInterets">
                                 Vos centres d'intérets :
                             </label>
                             <div class="checkbox">
+                                <label for="chk1" class="checkbox">
                                 <input class="form-check-input" name="chkInterets" value="BR" type="checkbox"
                                     id="chk1" />
-                                <label for="chk1">Bricolage</label>
+                                Bricolage</label>
 
                             </div>
 
                             <div class="checkbox">
+                                <label for="chk2" class="checkbox">
                                 <input class="form-check-input" name="chkInterets" value="JD" type="checkbox"
                                     id="chk2" />
-                                <label for="chk2">Jardinage</label>
+                                    Jardinage</label>
 
                             </div>
 
                             <div class="checkbox">
+                                <label for="chk3" class="checkbox">
                                 <input class="form-check-input" name="chkInterets" value="LC" type="checkbox"
                                     id="chk3" />
-                                <label for="chk3">Lecture</label>
+                                Lecture</label>
 
                             </div>
 
                             <div class="checkbox">
+                                <label for="chk4" class="checkbox">
                                 <input class="form-check-input" name="chkInterets" value="VG" type="checkbox"
                                     id="chk4" />
-                                <label for="chk4">Voyages</label>
+                                Voyages</label>
 
                             </div>
 
