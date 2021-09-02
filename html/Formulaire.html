@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="formulaire.js" defer></script>
+    <script src="jquery-3.6.0.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.js" defer></script>
+    <script src="formulaireJquery.js" defer></script>
+    <link rel="stylesheet" href="A001-3JS/css/style.css">
     <title>Formulaire client</title>
 </head>
 <body>
@@ -19,13 +23,13 @@
         <p>
             <label for='txtNom'>
                 Nom :</label>
-            <input id="txtNom" type="text" />
+            <input id="txtNom" type="text" name="nom" />
             
         </p>
         <p>
             <label for='txtPrenom'>
                 Prénom :</label>
-            <input id="txtPrenom" type="text" />
+            <input id="txtPrenom" type="text" name="prenom"/>
            
         </p>
 		
@@ -43,7 +47,7 @@
         <p>
             <label for='txtCodePostal'>
                 Code Postal Ville:</label>
-            <input  id="txtCodePostal"  type="text" />
+            <input  id="txtCodePostal"  type="text" name="codepostal"/>
             <input  id="txtVille"  type="text" />
         </p>
         <p>
@@ -62,7 +66,7 @@
 		<p>
             <label for='txtTelephone'>
                 Téléphone :</label>
-            <input id="txtTelephone"  type="text" />
+            <input id="txtTelephone"  type="text" name="tel"/>
         </p>
 		<p>
             <label>
@@ -78,7 +82,7 @@
             <input  name="chkInterets" value="VG" type="checkbox" />Voyages
         </p>
         <p>
-            <input id='btnEnvoyer'   value="Envoyer" type="button"/>
+            <input id='btnEnvoyer'   value="Envoyer" type="submit"/>
         </p>
  
     </form>

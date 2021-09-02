@@ -39,3 +39,6 @@ fieldset {
  .big{
      font-size: 3rem;
  }
+ label.error{
+     color: red;
+ }
