@@ -1,17 +1,29 @@
 "use strict"
 var tableDataImport;
+var table;
+var tableDetailsData;
+var tableDetails;
 
-$("#xmlhttp").click(createTable);
-$("#jquery").on("click",{dataset: jQueryRequest},createTable)
-// $("#fetch").on("click",createTable(fetchRequest));
-
+$("#xmlhttp").click(getXMLHttpRequest);
+$("#jquery").on("click", jQueryRequest);
+$("#fetch").on("click", fetchRequest);
+$("#table_id").on("click", "button", function () {
+    var parentRowData = table.row($(this).parent()).data();
+    $('#exampleModal').modal('show');
+    getDetails(parentRowData.id);
+})
+$("#closemodal").on("click",function(){
+    tableDetails.clear().destroy();
+})
+$("#table_id").css("width","80%")
 function getXMLHttpRequest() {
     var xmlHttpR = new XMLHttpRequest();
-    xmlHttpR.open("GET", "https://jsonplaceholder.typicode.com/posts?userid=1");
+    xmlHttpR.open("GET", "https://jsonplaceholder.typicode.com/users");
     xmlHttpR.onreadystatechange = function () {
         if (xmlHttpR.readyState == 4 && xmlHttpR.status == 200) {
             console.log(xmlHttpR.responseText);
-            return JSON.parse(xmlHttpR.responseText);
+            tableDataImport = JSON.parse(xmlHttpR.responseText);
+            createTable();
         }
     }
     xmlHttpR.send(null);
@@ -19,31 +31,59 @@ function getXMLHttpRequest() {
 function jQueryRequest() {
     $.ajax({
         method: "GET",
-        url: "https://jsonplaceholder.typicode.com/posts?userid=1",
+        url: "https://jsonplaceholder.typicode.com/users",
     }).done(function (data) {
         console.log(data);
-        return data;
+        tableDataImport = data;
+        createTable();
     });
 }
 function fetchRequest() {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-        .then(function (res) {
-            if (res.ok) {
-                return res.json();
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(function (response) {
+            if (response.ok) {
+                return response.json();
             }
         })
-        .then(data => console.log(data));
+        .then(function (data) {
+            tableDataImport = data;
+            createTable();
+        })
 }
-function createTable(event) {
-    console.log(event.data.dataset);
-    $('#table_id').DataTable({
-        data: event.data.dataset,
+function createTable() {
+    console.log(tableDataImport);
+    table = $('#table_id').DataTable({
+        data: tableDataImport,
         "columns": [
-            { data: "userId" },
             { data: "id" },
+            { data: "name" },
+            { data: "username" }
+        ],
+        "columnDefs": [{
+            "targets": 3,
+            "data": null,
+            "defaultContent": "<button type='button' class='btn btn-primary' data-toggle='modal' data-target='#exampleModal'>Details</button>"
+        }]
+    });
+}
+function getDetails(idInput) {
+    $.ajax({
+        method: "GET",
+        url: `https://jsonplaceholder.typicode.com/posts?userId=${idInput}`,
+    }).done(function (data) {
+        console.log(data);
+        tableDetailsData = data;
+        createTableDetails();
+    });
+}
+function createTableDetails(){
+    tableDetails = $('#table_details').DataTable({
+        data: tableDetailsData,
+        "columns": [
             { data: "title" },
             { data: "body" }
-        ]
+        ],
+        "autoWidth": false
     });
 }
 function createTable2() {
