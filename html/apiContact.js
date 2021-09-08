@@ -35,7 +35,7 @@ function jQueryRequest() {
     });
 }
 function tot(){
-    dataPlaces.Places.forEach(element => {
+    dataPlaces.places.forEach(element => {
         console.log(element)
     });
 }
