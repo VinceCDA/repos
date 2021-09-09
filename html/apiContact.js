@@ -1,6 +1,9 @@
 'use strict'
 var dataPlaces;
-var autoCompleteCity;
+var ac = new Autocomplete(document.getElementById('city'),{
+    maximumItems: 10,
+    treshold: 0
+});
 $(function () {
     
 
@@ -22,20 +25,51 @@ $(function () {
 
 
 })
-function jQueryRequest() {
+$("#zipcode").on("change",function(event){
+    if (event.target.checkValidity()) {
+        jQueryRequest(event.target.value)
+    }
+})
+function jQueryRequest(zip) {
     $.ajax({
         method: "GET",
-        url: `https://api.zippopotam.us/fr/36200`,
+        url: `https://api.zippopotam.us/fr/${zip}`,
         dataType: "json"
     }).done(function (data) {
         console.log(data);
         dataPlaces = data;
+        fillAutocompleteCity();
     }).fail(function(){
         alert("error")
     });
 }
-function tot(){
+function fillAutocompleteCity(){
+    let autoCompleteCity = new Array();
     dataPlaces.places.forEach(element => {
         console.log(element)
+        autoCompleteCity.push({label: element['place name'],value : element['place name']})
     });
+    ac.setData(autoCompleteCity)
+}
+function tot(){
+    var formDatas = new FormData( $( '#contactForm' )[0])
+    let tyu = document.getElementById("contactForm")
+    let fmData = $('form').serializeJSON()
+    console.log(fmData);
+    for (var value of formDatas.values()) {
+        console.log(value);
+     }
+     let request =
+     $.ajax({
+       method: "POST", 
+       url: "https://localhost:44331/api/users",
+       processData: false,
+       contentType: 'application/json',
+       data: JSON.stringify(fmData)
+     });
+
+     request.done(function (output_success) {
+         //Code à jouer en cas d'éxécution sans erreur du script du PHP
+         alert(output_success.output);
+     });
 }
