@@ -21,6 +21,7 @@ namespace ApiContacts.Models
         [Required]
         public string UserName { get; set; }
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
         public Address Address { get; set; }
         public string Phone { get; set; }
