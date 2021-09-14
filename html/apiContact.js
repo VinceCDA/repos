@@ -18,18 +18,39 @@ $(function () {
                     event.preventDefault()
                     event.stopPropagation()
                 }
+                else{
+                    event.preventDefault()
+                    submitForm()
+                }
 
                 form.classList.add('was-validated')
             }, false)
+        });
+        $("#zipcode").on("change", function (event) {
+            if (event.target.checkValidity()) {
+                acRequest(event.target.value)
+            }
+        });
+        $("#imginput").on("change",function(event){
+            $("#previewImg").attr("src",URL.createObjectURL(event.target.files[0]))
+            //if (isValidFile(event.target.files[0].name)) {
+            //    $("#previewImg").attr("src",URL.createObjectURL(event.target.files[0]))
+            //    event.target.validity.valid = true;
+            //}
+            //else{
+            //    event.target.validity.valid = false;
+            //}
+            
+            //document.getElementById('previewImg').src = URL.createObjectURL(event.target.files[0])
+        })
+        $("#resetButton").on("click",function(event){
+            $("#previewImg").attr("src","http://placehold.jp/150x150.png");
+            $("#contactForm").removeClass("was-validated");
         })
 
 
 })
-$("#zipcode").on("change", function (event) {
-    if (event.target.checkValidity()) {
-        acRequest(event.target.value)
-    }
-})
+
 function acRequest(zip) {
     $.ajax({
         method: "GET",
@@ -51,7 +72,7 @@ function fillAutocompleteCity() {
     });
     ac.setData(autoCompleteCity)
 }
-function tot() {
+function submitForm() {
     let fmData = $('form').serializeJSON()
     let coorPlace = dataPlaces.places.find(element => element['place name'] == $("#city").val());
     fmData.geo = {};
@@ -65,6 +86,31 @@ function tot() {
         contentType: 'application/json',
         data: JSON.stringify(fmData)
     }).done(function (data) {
-        console.log(data);
+        console.log(data.userId);
+        var dataImg = new FormData()
+        dataImg.append('files', $('#imginput')[0].files[0]);
+        for (var value of dataImg.values()) {
+            console.log(value);}
+        $.ajax({
+            method: "POST",
+            url: `https://localhost:44331/api/Upload/${data.userId}`,
+            cache: false,
+            processData: false,
+            contentType: false,
+            data: dataImg
+        }).done(function(){
+            alert("reussi")
+        }).fail(function(){
+            alert("error")
+        })
     });
 }
+function isValidFile(file) {
+    var extension = file.substr((file.lastIndexOf('.') +1));
+    if (/(png|jpg|jpeg|gif)$/ig.test(extension)) {
+      return true;
+    }
+    else{
+        return false;
+    }
+  }
