@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form id='frmCoordonnees' action="FormulaireClient" method="post" enctype="multipart/form-data">
+
+        <p>
+            <label for='rdSexe'>
+                Sexe :
+            </label>
+            <input name="rdSexe" value="H" checked="checked" type="radio" />Homme
+            <input name="rdSexe" value="F" type="radio" />Femme
+        </p>
+        <p>
+            <label for='txtNom'>
+                Nom :
+            </label>
+            <input id="txtNom" type="text" name="txtNom" />
+
+        </p>
+        <p>
+            <label for='txtPrenom'>
+                Prénom :
+            </label>
+            <input id="txtPrenom" type="text" name="txtPrenom" />
+
+        </p>
+
+        <p>
+            <label for='txtAdresse_P1'>
+                Adresse :
+            </label>
+            <input id="txtAdresse_P1" type="text" name="txtAdresse_P1"/>
+
+        </p>
+        <p id='pAdresse_P2'>
+            <label for='txtAdresse_P2'>
+                ..
+            </label>
+            <input id="txtAdresse_P2" type="text" name="txtAdresse_P2" />
+        </p>
+        <p>
+            <label for='txtCodePostal'>
+                Code Postal Ville:
+            </label>
+            <input id="txtCodePostal" type="text" name="txtCodepostal" />
+            <input id="txtVille" type="text" name="txtVille" />
+        </p>
+        <p>
+            <label for='selPays'>
+                Pays :
+            </label>
+            <select id="selPays" name="selPays">
+                <option value="fr">France</option>
+                <option value="us">US</option>
+            </select>
+        </p>
+
+
+        <p>
+            <label for='txtMail'>
+                Adresse mail :
+            </label>
+            <input id="txtMail" type="email" name="txtMail" />
+        </p>
+        <p>
+            <label for='txtTelephone'>
+                Téléphone :
+            </label>
+            <input id="txtTelephone" type="text" name="txtTel" />
+        </p>
+        <p>
+            <label>
+                Date de naissance :
+            </label>
+            <input id="txtDateNaissance" type="date" name="txtDateNaissance"/>
+        </p>
+
+        <p>
+            Vos centres d'intérets
+            <input name="chkInterets" value="BR" type="checkbox" />Bricolage
+            <input name="chkInterets" value="JD" type="checkbox" />Jardinage
+            <input name="chkInterets" value="LC" type="checkbox" />Lecture
+            <input name="chkInterets" value="VG" type="checkbox" />Voyages
+        </p>
+        <p>
+            <input id='btnEnvoyer' value="Envoyer" type="submit" />
+        </p>
+
+    </form>
+</body>
+</html>
