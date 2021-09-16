@@ -54,22 +54,18 @@
     <div class="form-group">
         <label for="chkInterest" class="control-label">Vos centres d'intérêts</label>
         <div>
-            <label class="checkbox-inline">
-                <input type="checkbox" name="chkInterest" value="br">
-                Bricolage
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" name="chkInterest" value="ja">
-                Jardinage
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" name="chkInterest" value="le">
-                Lecture
-            </label>
-            <label class="checkbox-inline">
-                 <asp:CheckBox type="checkbox" name="chkInterest" value="vo" runat="server"/>
-                Voyages
-            </label>
+            <asp:CheckBoxList runat="server">
+                <asp:ListItem name="chkInterest" value="br">
+                Bricolage</asp:ListItem>
+                <asp:ListItem name="chkInterest" value="ja">
+                Jardinage</asp:ListItem>
+                <asp:ListItem name="chkInterest" value="le">
+                Lecture</asp:ListItem>
+                 <asp:ListItem  name="chkInterest" value="vo" runat="server">
+                     Voyages</asp:ListItem>
+                
+            
+                </asp:CheckBoxList>
         </div>
     </div>
     <div class="form-group">

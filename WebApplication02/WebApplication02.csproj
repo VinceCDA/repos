@@ -106,6 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Themes\Theme1\StyleSheet1.css" />
+    <Content Include="App_Themes\Theme2\StyleSheet1.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -124,6 +126,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Pays.XML" />
     <Content Include="Scripts\fontawesome.js" />
     <Content Include="WebForm.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -220,6 +223,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DataXML\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
