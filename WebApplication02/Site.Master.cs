@@ -11,21 +11,30 @@ namespace WebApplication02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            HttpCookie cookie = new HttpCookie("prefs");
-            cookie.Values.Add("theme", ddlTheme.Text);
-            cookie.Values.Add("dateConnexion", DateTime.Now.ToString());
-            cookie.Expires = DateTime.Now.AddDays(1);
-            Response.Cookies.Add(cookie);
-        }
-        protected void Page_Preinit(object sender, EventArgs e)
-        {
             HttpCookie cookieTest = Request.Cookies["prefs"];
-            Page.Theme = cookieTest["theme"];
+            if (cookieTest["prefs"] == null)
+            {
+                HttpCookie cookie = new HttpCookie("prefs");
+                cookie.Values.Add("theme", "");
+                cookie.Values.Add("dateConnexion", DateTime.Now.ToString());
+                cookie.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Add(cookie);
+            }
+            
+            
         }
+
 
         protected void ddlTheme_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect(Request.RawUrl);
+            if (ddlTheme.SelectedIndex != 0)
+            {
+                HttpCookie cookieTest = Request.Cookies["prefs"];
+                cookieTest["theme"] = ddlTheme.Text;
+                Response.Redirect(Request.RawUrl);
+            }
+            
+
         }
     }
 }

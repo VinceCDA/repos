@@ -13,5 +13,10 @@ namespace WebApplication02
         {
 
         }
+        protected void Page_Preinit(object sender, EventArgs e)
+        {
+            HttpCookie cookieTest = Request.Cookies["prefs"];
+            Page.Theme = cookieTest["theme"];
+        }
     }
 }

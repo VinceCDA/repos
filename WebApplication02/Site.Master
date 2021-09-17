@@ -64,9 +64,10 @@
             <hr />
             <footer>
                 <p>&copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- Mon ASP.NET Application
-                    
-                    <asp:DropDownList ID="ddlTheme" runat="server" OnSelectedIndexChanged="ddlTheme_SelectedIndexChanged" OnTextChanged="ddlTheme_SelectedIndexChanged">
-                        <asp:ListItem Selected="True" Value="Theme1"> Theme1 </asp:ListItem>
+                    <script>$("#ddlThemer").prepend("<option value='' disabled selected>Select an option...</option>");</script>
+                    <asp:DropDownList ID="ddlTheme" runat="server" OnSelectedIndexChanged="ddlTheme_SelectedIndexChanged" AutoPostBack="True">
+                        <asp:ListItem Value=""> Choix </asp:ListItem>
+                        <asp:ListItem Value="Theme1"> Theme1 </asp:ListItem>
                         <asp:ListItem Value="Theme2"> Theme2 </asp:ListItem>
                     </asp:DropDownList>
                 </p>
