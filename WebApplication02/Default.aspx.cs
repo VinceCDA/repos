@@ -18,7 +18,7 @@ namespace WebApplication02
             
             
                 HttpCookie cookieTest = Request.Cookies["prefs"];
-                if (cookieTest["theme"] == null)
+                if (cookieTest == null)
                 {
                     Page.Theme = "";
                 }

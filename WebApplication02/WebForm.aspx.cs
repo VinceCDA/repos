@@ -32,7 +32,7 @@ namespace WebApplication02
             //string filePath = Server.MapPath("~/Cities.xml");
             using (DataSet ds = new DataSet())
             {
-                ds.ReadXml(@"C:\Users\CDA\source\repos\WebApplication02\Pays.XML");
+                ds.ReadXml(@"C:\Users\Kuroneko\Documents\GitHub\repos\WebApplication02\Pays.XML");
                 selPays.DataSource = ds;
                 selPays.DataTextField = "LibellePays";
                 selPays.DataValueField = "IdPays2";

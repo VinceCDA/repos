@@ -116,6 +116,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FileUpload.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -128,6 +129,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Pays.XML" />
     <Content Include="Scripts\fontawesome.js" />
+    <Content Include="Scripts\validator.min.js" />
     <Content Include="WebForm.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -188,6 +190,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FileUpload.aspx.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload.aspx.designer.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,6 +233,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="DataXML\" />
+    <Folder Include="ImgUpload\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

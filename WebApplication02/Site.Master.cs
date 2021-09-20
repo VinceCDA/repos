@@ -12,7 +12,7 @@ namespace WebApplication02
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpCookie cookieTest = Request.Cookies["prefs"];
-            if (cookieTest["prefs"] == null)
+            if (cookieTest == null)
             {
                 HttpCookie cookie = new HttpCookie("prefs");
                 cookie.Values.Add("theme", "");
@@ -29,7 +29,7 @@ namespace WebApplication02
         {
             if (ddlTheme.SelectedIndex != 0)
             {
-                HttpCookie cookieTest = Request.Cookies["prefs"];
+                HttpCookie cookieTest = Response.Cookies["prefs"];
                 cookieTest["theme"] = ddlTheme.Text;
                 Response.Redirect(Request.RawUrl);
             }

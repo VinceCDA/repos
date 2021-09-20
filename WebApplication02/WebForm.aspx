@@ -4,28 +4,30 @@
 
     <div class="form-group">
         <label for="sexe" class="control-label">Sexe</label>
-        <div>
-            <label class="radio-inline">
-                <asp:RadioButton  name="sexe" value="h" runat="server" GroupName="RadioGroup1"/>
-                Homme
-            </label>
-            <label class="radio-inline">
-                <asp:RadioButton  name="sexe" value="f" runat="server" GroupName="RadioGroup1"/>
-                Femme
-            </label>
-        </div>
+        <div class="radio">
+      <label>
+        <input type="radio" name="sexe" runat="server" value="h" required>
+        Homme
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="sexe" runat="server" value="f" required>
+        Femme
+      </label>
+    </div>
     </div>
     <div class="form-group">
         <label for="txtNom" class="control-label">Nom</label>
-        <asp:TextBox id="txtNom" name="txtNom" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtNom" name="txtNom" type="text" class="form-control" runat="server" required="required" />
     </div>
     <div class="form-group">
         <label for="txtPrenom" class="control-label">Prénom</label>
-        <asp:TextBox id="txtPrenom" name="txtPrenom" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtPrenom" name="txtPrenom" type="text" class="form-control" runat="server" required="required"/>
     </div>
     <div class="form-group">
         <label for="txtAdresse1" class="control-label">Adresse</label>
-        <asp:TextBox id="txtAdresse1" name="txtAdresse1" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtAdresse1" name="txtAdresse1" type="text" class="form-control" runat="server" required="required"/>
     </div>
     <div class="form-group">
         <label for="txtAdresse2" class="control-label">Complément Adresse</label>
@@ -33,11 +35,11 @@
     </div>
     <div class="form-group">
         <label for="txtZipcode" class="control-label">Code Postal</label>
-        <asp:TextBox id="txtZipcode" name="txtZipcode" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtZipcode" name="txtZipcode" type="text" class="form-control" runat="server" required="required"/>
     </div>
     <div class="form-group">
         <label for="txtCity" class="control-label">Ville</label>
-        <asp:TextBox id="txtCity" name="txtCity" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtCity" name="txtCity" type="text" class="form-control" runat="server" required="required" />
     </div>
     <div class="form-group">
         <label for="selPays" class="control-label">Pays</label>
@@ -45,11 +47,11 @@
     </div>
     <div class="form-group">
         <label for="txtMail" class="control-label">Adresse Mail</label>
-        <asp:TextBox id="txtMail" name="txtMail" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtMail" name="txtMail" type="email" class="form-control" runat="server" required="required"/>
     </div>
     <div class="form-group">
         <label for="txtPhone" class="control-label">Téléphone</label>
-        <asp:TextBox id="txtPhone" name="txtPhone" type="text" class="form-control" runat="server" />
+        <asp:TextBox id="txtPhone" name="txtPhone" type="text" class="form-control" runat="server" required="required" />
     </div>
     <div class="form-group">
         <label for="chkInterest" class="control-label">Vos centres d'intérêts</label>
