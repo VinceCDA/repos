@@ -4,7 +4,7 @@
 
 <html lang="fr">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %>- Mon ASP.NET Application</title>
@@ -13,7 +13,7 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
@@ -60,12 +60,16 @@
                 </div>
             </div>
         </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+
+
             <footer>
-                <p>&copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- Mon ASP.NET Application
+                <p>
+                    &copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- Mon ASP.NET Application
                     <script>$("#ddlThemer").prepend("<option value='' disabled selected>Select an option...</option>");</script>
                     <asp:DropDownList ID="ddlTheme" runat="server" OnSelectedIndexChanged="ddlTheme_SelectedIndexChanged" AutoPostBack="True">
                         <asp:ListItem Value=""> Choix </asp:ListItem>
@@ -74,8 +78,8 @@
                     </asp:DropDownList>
                 </p>
             </footer>
-        </div>
 
+        </div>
     </form>
 </body>
 </html>

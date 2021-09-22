@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="form-group">
-        <button name="submit" type="submit" class="btn btn-primary">Envoyer</button>
+        <button name="btnSubmit" type="submit" class="btn btn-primary" runat="server">Envoyer</button>
     </div>
 
 </asp:Content>
