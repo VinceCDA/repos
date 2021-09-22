@@ -32,7 +32,7 @@ namespace WebApplication02
             //string filePath = Server.MapPath("~/Cities.xml");
             using (DataSet ds = new DataSet())
             {
-                ds.ReadXml(@"C:\Users\Kuroneko\Documents\GitHub\repos\WebApplication02\Pays.XML");
+                ds.ReadXml(@"C:\Users\CDA\source\repos\WebApplication02\Pays.XML");
                 selPays.DataSource = ds;
                 selPays.DataTextField = "LibellePays";
                 selPays.DataValueField = "IdPays2";
@@ -44,6 +44,23 @@ namespace WebApplication02
         {
             HttpCookie cookieTest = Request.Cookies["prefs"];
             Page.Theme = cookieTest["theme"];
+        }
+
+
+        protected void ChkRadListS_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            CustomValidator cV = source as CustomValidator;
+            string controleID = cV.Attributes["ControleAssocie"];
+            RadioButtonList listRad = this.FindControl(controleID) as RadioButtonList;
+            args.IsValid = false;
+            foreach (ListItem item in listRad.Items)
+            {
+                if (item.Selected)
+                {
+                    args.IsValid = true;
+                    break;
+                }
+            }
         }
     }
 }
