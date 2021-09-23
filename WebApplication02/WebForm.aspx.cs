@@ -50,8 +50,9 @@ namespace WebApplication02
         protected void ChkRadListS_ServerValidate(object source, ServerValidateEventArgs args)
         {
             CustomValidator cV = source as CustomValidator;
+            ContentPlaceHolder mainContent = (ContentPlaceHolder)this.Master.FindControl("MainContent");
             string controleID = cV.Attributes["ControleAssocie"];
-            RadioButtonList listRad = this.FindControl(controleID) as RadioButtonList;
+            RadioButtonList listRad = mainContent.FindControl(controleID) as RadioButtonList;
             args.IsValid = false;
             foreach (ListItem item in listRad.Items)
             {

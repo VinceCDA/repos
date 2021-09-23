@@ -18,6 +18,18 @@ namespace WebApplication02
             // Code qui s’exécute au démarrage de l’application
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Application["appStartTime"] = DateTime.Now;
+            Application["nbRequest"] = 0;
+        }
+        void Session_Start(object sender, EventArgs e)
+        {
+            Session["sessionStart"] = DateTime.Now;
+        }
+        void Application_BeginRequest(object sender, EventArgs e)
+        {
+            Context.Items["firstRequest"] = DateTime.Now;
+            Application["nbRequest"] = int.Parse(Application["nbRequest"].ToString()) + 1;
+
         }
         private void Application_Error(object sender, EventArgs e)
         {
