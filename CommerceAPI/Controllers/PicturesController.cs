@@ -24,6 +24,7 @@ namespace CommerceAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Picture>>> GetPictures()
         {
+            //return await _context.Pictures.ToListAsync();
             return await _context.Pictures.ToListAsync();
         }
 

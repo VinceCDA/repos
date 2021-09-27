@@ -24,6 +24,7 @@ namespace CommerceAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
+            
             return await _context.Products.ToListAsync();
         }
 
@@ -32,13 +33,19 @@ namespace CommerceAPI.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var product = await _context.Products.FindAsync(id);
+            var prod = await _context.Products.Where(x => x.ProductPictureMappings.Where())
 
+            //var product = await (from a in _context.Products
+                           //join b in _context.ProductPictureMappings on a.Id equals b.ProductId
+                           //join c in _context.Pictures on b.ProductId equals c.Id
+                           //where a.Id == id
+                           //select a).ToListAsync();
             if (product == null)
             {
                 return NotFound();
             }
 
-            return product;
+            return product; 
         }
 
         // PUT: api/Products/5

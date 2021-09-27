@@ -11,11 +11,16 @@ namespace CommerceWeb
 {
     public class Global : HttpApplication
     {
+        
         void Application_Start(object sender, EventArgs e)
         {
             // Code qui s’exécute au démarrage de l’application
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            CommerceDAL.Instance.GetHttpClient();
+
+
         }
     }
 }
