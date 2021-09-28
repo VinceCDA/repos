@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Threading;
 
 namespace CommerceWeb
 {
@@ -15,12 +16,12 @@ namespace CommerceWeb
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string stringToRead = string.Empty;
             //Task<string> T1 = null;
             //string test = "";
             //try
             //{
-            //    T1 = GetProductAsync("https://localhost:44340/api/Categories");
+            //    T1 = CommerceDAL.Instance.GetProductAsync("api/Categories/5");
             //    T1.Wait();
             //    if (T1.IsCompleted)
             //    {
@@ -44,8 +45,18 @@ namespace CommerceWeb
             //task.Wait();
             //Response.Write(await CommerceDAL.Instance.GetProductAsync("api/Categories/5"));
             //var test = await CommerceDAL.Instance.GetProductAsync("api/Categories/5");
-            //RegisterAsyncTask(new PageAsyncTask(() => CommerceDAL.Instance.GetProductAsync("api/Categories/5").Result));
+
+            //RegisterAsyncTask(new PageAsyncTask(CommerceDAL.Instance.GetProductAsync("api/Categories/5")));
             //Page.ExecuteRegisteredAsyncTasks();
+            // var test = CommerceDAL.Instance.GetProductAsync("api/Categories/5").Result;
+            Page.RegisterAsyncTask(new PageAsyncTask(async () =>
+            {
+                stringToRead = await CommerceDAL.Instance.GetProductAsync("api/ProductPictureMappings/1");
+                Response.Write(stringToRead);
+
+            }));
+            Page.ExecuteRegisteredAsyncTasks();
+            
         }
 
         //client.BaseAddress = new Uri("http://localhost:44340/");
@@ -64,11 +75,12 @@ namespace CommerceWeb
         //{
         //  return await Task.FromResult("error");
         //}
-        protected async void Page_PreInit(object sender, EventArgs e)
-        {
-            Response.Write(await CommerceDAL.Instance.GetProductAsync("api/Categories/5"));
-            var test = await CommerceDAL.Instance.GetProductAsync("api/Categories/5");
-        }
+        //protected async void Page_PreInit(object sender, EventArgs e)
+        //{
+        //    Thread.Sleep(2000);
+        //    Response.Write(await CommerceDAL.Instance.GetProductAsync("api/Categories/5"));
+        //    var test = await CommerceDAL.Instance.GetProductAsync("api/Categories/5");
+        //}
 
 
 

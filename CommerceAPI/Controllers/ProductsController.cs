@@ -32,14 +32,16 @@ namespace CommerceAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            var prod = await _context.Products.Where(x => x.ProductPictureMappings.Where())
+            //var product = await _context.Products.FindAsync(id);
+            var product = await _context.Products.Include(x => x.ProductPictureMappings.Where(y => y.PictureId == id)).ThenInclude(t => t.Picture).FirstOrDefaultAsync();
+            //var podList = await _context.ProductPictureMappings.Where(x => x.ProductId == id).FirstAsync();
+            //var prod = await _context.Products.Where(x => x.ProductPictureMappings.Where(y => y.)
 
             //var product = await (from a in _context.Products
-                           //join b in _context.ProductPictureMappings on a.Id equals b.ProductId
-                           //join c in _context.Pictures on b.ProductId equals c.Id
-                           //where a.Id == id
-                           //select a).ToListAsync();
+            //join b in _context.ProductPictureMappings on a.Id equals b.ProductId
+            //join c in _context.Pictures on b.ProductId equals c.Id
+            //where a.Id == id
+            //select a).ToListAsync();
             if (product == null)
             {
                 return NotFound();

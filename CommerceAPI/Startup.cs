@@ -12,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace CommerceAPI
 {
@@ -34,6 +36,10 @@ namespace CommerceAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CommerceAPI", Version = "v1" });
             });
             services.AddDbContext<EcommerceSimplifieContext>();
+            services.AddControllers().AddJsonOptions(x =>
+            x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
