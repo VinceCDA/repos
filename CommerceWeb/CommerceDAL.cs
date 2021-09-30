@@ -42,7 +42,13 @@ namespace CommerceWeb
         {
             var result = await Client.GetAsync(path);
             return await result.Content.ReadAsStringAsync();
-            
+
+        }
+        public async Task<string> GetProductPictureAsync(string path)
+        {
+            var result = await Client.GetAsync(path);
+            return await result.Content.ReadAsStringAsync();
+
         }
 
     }

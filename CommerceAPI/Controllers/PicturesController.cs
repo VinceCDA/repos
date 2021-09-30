@@ -33,13 +33,13 @@ namespace CommerceAPI.Controllers
         public async Task<ActionResult<Picture>> GetPicture(int id)
         {
             var picture = await _context.Pictures.FindAsync(id);
-
+            
             if (picture == null)
             {
                 return NotFound();
             }
-
-            return picture;
+            //File(picture.PictureBinary, picture.MimeType);
+            return File(picture.PictureBinary, picture.MimeType);
         }
 
         // PUT: api/Pictures/5

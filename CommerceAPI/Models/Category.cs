@@ -11,7 +11,6 @@ namespace CommerceAPI.Models
         {
             ProductCategoryMappings = new HashSet<ProductCategoryMapping>();
         }
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

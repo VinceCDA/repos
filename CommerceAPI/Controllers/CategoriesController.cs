@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CommerceAPI.Models;
+using CommerceAPI.DTO;
 
 namespace CommerceAPI.Controllers
 {
@@ -22,9 +23,53 @@ namespace CommerceAPI.Controllers
 
         // GET: api/Categories
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> GetCategories()
         {
-            return await _context.Categories.ToListAsync();
+            //CategoryDTO ouptput = new CategoryDTO();
+            var test = await _context.Categories.Select(x => new CategoryDTO()
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Description = x.Description,
+                ParentCategoryId = x.ParentCategoryId,
+                PictureId = x.PictureId,
+                PageSize = x.PageSize,
+                DisplayOrder = x.DisplayOrder
+            }).ToListAsync();
+            List<CategoryDTO> output = new List<CategoryDTO>();
+            //var ouptput = test.Select(x => new CategoryDTO()
+            //{
+            //    Id = x.Id,
+            //    Name = x.Name,
+            //    Description = x.Description,
+            //    ParentCategoryId = x.ParentCategoryId,
+            //    PictureId = x.PictureId,
+            //    PageSize = x.PageSize,
+            //    DisplayOrder = x.DisplayOrder
+            //});
+            foreach (var item in test)
+            {
+               if (item.ParentCategoryId == 0)
+               {
+                    output.Add(item);
+               }
+            }
+            foreach (var item in output)
+            {
+                item.categoryDTOs = new List<CategoryDTO>();
+                foreach (var child in test)
+                {
+                    if (child.ParentCategoryId == item.Id)
+                    {
+                        
+                        item.categoryDTOs.Add(child);
+                    }
+                }
+            }
+            //var tt = test.GroupBy(x => x.ParentCategoryId).ToList();
+            //return tt;
+            return output;
+            //return await _context.Categories.ToListAsync();
         }
 
         // GET: api/Categories/5

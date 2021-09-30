@@ -36,8 +36,8 @@ namespace CommerceAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CommerceAPI", Version = "v1" });
             });
             services.AddDbContext<EcommerceSimplifieContext>();
-            services.AddControllers().AddJsonOptions(x =>
-            x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
+            //services.AddControllers().AddJsonOptions(x =>
+            //x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
 
         }

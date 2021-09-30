@@ -1,0 +1,30 @@
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.deps.json
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.dll
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\ref\NopCommerceBOL.dll
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.pdb
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.AssemblyInfoInputs.cache
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.AssemblyInfo.cs
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.csproj.CoreCompileInputs.cache
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.dll
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\ref\NopCommerceBOL.dll
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.pdb
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.runtimeconfig.json
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.runtimeconfig.dev.json
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.genruntimeconfig.cache
+C:\Users\96GB011\source\repos\NOPCommerce\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.csproj.AssemblyReference.cache
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.deps.json
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.runtimeconfig.json
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.runtimeconfig.dev.json
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.dll
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\ref\NopCommerceBOL.dll
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\bin\Debug\net5.0\NopCommerceBOL.pdb
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.csproj.AssemblyReference.cache
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.AssemblyInfoInputs.cache
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.AssemblyInfo.cs
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.csproj.CoreCompileInputs.cache
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.dll
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\ref\NopCommerceBOL.dll
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.pdb
+C:\01 CDA\M2 - Dév Pages Web\03 Programmer Server Side\Ateliers\2021\ECommerceAPI\NOPCommerceAPI\NopCommerceBOL\obj\Debug\net5.0\NopCommerceBOL.genruntimeconfig.cache
