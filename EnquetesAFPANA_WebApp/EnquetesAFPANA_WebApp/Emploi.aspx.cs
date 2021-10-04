@@ -20,7 +20,6 @@ namespace EnquetesAFPANA_WebApp
             {
                 typecontrat.DataSource = JsonConvert.DeserializeObject(await PortailData.GetTypeContratListAsync());
                 rdBtnListDuree.DataSource = JsonConvert.DeserializeObject(await PortailData.GetDureeContratListAsync());
-
                 typecontrat.DataTextField = "libelleTypeContrat";
                 typecontrat.DataValueField = "idtypeContrat";
                 rdBtnListDuree.DataTextField = "libelleDureeContrat";

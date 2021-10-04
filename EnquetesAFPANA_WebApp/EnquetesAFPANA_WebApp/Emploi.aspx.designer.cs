@@ -42,22 +42,22 @@ namespace EnquetesAFPANA_WebApp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// Contrôle exercicemetier.
+        /// Contrôle codeRome.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText exercicemetier;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden codeRome;
 
         /// <summary>
-        /// Contrôle coderome.
+        /// Contrôle coderome2.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText coderome;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText coderome2;
 
         /// <summary>
         /// Contrôle dateDebutContrat.

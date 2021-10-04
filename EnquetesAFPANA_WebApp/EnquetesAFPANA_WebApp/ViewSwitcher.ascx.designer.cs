@@ -1,10 +1,10 @@
 //------------------------------------------------------------------------------
-// <généré automatiquement>
-//     Ce code a été généré par un outil.
+// <générEautomatiquement>
+//     Ce code a étEgénérEpar un outil.
 //
-//     Les modifications apportées à ce fichier peuvent provoquer un comportement incorrect et seront perdues si
-//     le code est régénéré.
-// </généré automatiquement>
+//     Les modifications apportées Ece fichier peuvent provoquer un comportement incorrect et seront perdues si
+//     le code est régénérE
+// </générEautomatiquement>
 //------------------------------------------------------------------------------
 
 namespace EnquetesAFPANA_WebApp

@@ -25,16 +25,17 @@ namespace EnqueteAFPANA_API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppellationRomeDTO>>> GetAppellationRomes()
         {
-            return await _context.AppellationRomes.Select(x => new AppellationRomeDTO { LibelleAppellationRome = x.LibelleAppellationRome, CodeRome = x.CodeRome }).ToListAsync();
+            return await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeRome }).ToListAsync();
             //return await _context.AppellationRomes.ToListAsync();
         }
 
         // GET: api/AppellationRomes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<AppellationRome>> GetAppellationRome(int id)
+        public async Task<ActionResult<IEnumerable<AppellationRomeDTO>>> GetAppellationRome(string id)
         {
-            var appellationRome = await _context.AppellationRomes.FindAsync(id);
-
+            //var appellationRome = await _context.AppellationRomes.FindAsync(id);
+            var appellationRome = await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeRome })
+                .Where(y => y.text.Contains(id)).Take(5).ToListAsync();
             if (appellationRome == null)
             {
                 return NotFound();

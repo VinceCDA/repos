@@ -1,10 +1,10 @@
 //------------------------------------------------------------------------------
-// <généré automatiquement>
-//     Ce code a été généré par un outil.
+// <générEautomatiquement>
+//     Ce code a étEgénérEpar un outil.
 //
-//     Les modifications apportées à ce fichier peuvent provoquer un comportement incorrect et seront perdues si
-//     le code est régénéré.
-// </généré automatiquement>
+//     Les modifications apportées Ece fichier peuvent provoquer un comportement incorrect et seront perdues si
+//     le code est régénérE
+// </générEautomatiquement>
 //------------------------------------------------------------------------------
 
 namespace EnquetesAFPANA_WebApp
@@ -18,7 +18,7 @@ namespace EnquetesAFPANA_WebApp
         /// Contrôle HeadContent.
         /// </summary>
         /// <remarks>
-        /// Champ généré automatiquement.
+        /// Champ générEautomatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
@@ -27,7 +27,7 @@ namespace EnquetesAFPANA_WebApp
         /// Contrôle form1.
         /// </summary>
         /// <remarks>
-        /// Champ généré automatiquement.
+        /// Champ générEautomatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
@@ -36,7 +36,7 @@ namespace EnquetesAFPANA_WebApp
         /// Contrôle FeaturedContent.
         /// </summary>
         /// <remarks>
-        /// Champ généré automatiquement.
+        /// Champ générEautomatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder FeaturedContent;
@@ -45,7 +45,7 @@ namespace EnquetesAFPANA_WebApp
         /// Contrôle MainContent.
         /// </summary>
         /// <remarks>
-        /// Champ généré automatiquement.
+        /// Champ générEautomatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
