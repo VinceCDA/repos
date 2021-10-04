@@ -39,10 +39,6 @@ namespace EnquetesAFPANA_WebApp
         {
             Page.RegisterAsyncTask(new PageAsyncTask(async () =>
             {
-                CustomValidator cV = source as CustomValidator;
-                ContentPlaceHolder mainContent = (ContentPlaceHolder)this.Master.FindControl("MainContent");
-                string controleID = cV.Attributes["ControleAssocie"];
-                //var test = dateDebutContrat.Value;
                 chkDateDebutContrat.IsValid = false;
                 string idSoumissionnaire = Request.QueryString["IdentifiantMailing"];
                 VueSoumissionnaire soumissionnaireMV = await PortailData.GetVueSoumissionnaireAsync($"api/VueSoumissionnaires/{idSoumissionnaire}");
