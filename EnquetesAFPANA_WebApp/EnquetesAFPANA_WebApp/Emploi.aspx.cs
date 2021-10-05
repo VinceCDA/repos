@@ -98,8 +98,8 @@ namespace EnquetesAFPANA_WebApp
             Page.Validate();
             if (Page.IsValid)
             {
-                //Response.Redirect("Remerciements");
-                Page.RegisterAsyncTask(new PageAsyncTask(PostReponse));
+                Response.Redirect("Remerciements");
+                //Page.RegisterAsyncTask(new PageAsyncTask(PostReponse));
             }
         }
         private async Task PostReponse()
