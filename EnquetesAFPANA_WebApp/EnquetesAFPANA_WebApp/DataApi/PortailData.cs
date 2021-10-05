@@ -64,6 +64,22 @@ namespace EnquetesAFPANA_WebApp.DataAPI
             return await result.Content.ReadAsStringAsync();
 
         }
+        static public async Task<HttpResponseMessage> PostExercerFonctionAsync(string path, ExercerFonction exercerFonction)
+        {
+            HttpContent content = new StringContent(JsonConvert.SerializeObject(exercerFonction), Encoding.UTF8, "application/json");
+            return await httpClient.PostAsync(path, content);
+        }
+        static public async Task<ExercerFonction> GetExercerFonctionAsync(string path)
+        {
+            ExercerFonction exercerFonction = null;
+            HttpResponseMessage response = await httpClient.GetAsync(path).ConfigureAwait(continueOnCapturedContext: false);
+            if (response.IsSuccessStatusCode)
+            {
+                exercerFonction = JsonConvert.DeserializeObject<ExercerFonction>(
+                 await response.Content.ReadAsStringAsync());
+            }
+            return exercerFonction;
+        }
 
     }
 }

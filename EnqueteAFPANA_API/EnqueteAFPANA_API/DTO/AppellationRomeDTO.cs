@@ -7,7 +7,7 @@ namespace EnqueteAFPANA_API.DTO
 {
     public class AppellationRomeDTO
     {
-        public string value { get; set; }
+        public int value { get; set; }
         public string text { get; set; }
         
     }

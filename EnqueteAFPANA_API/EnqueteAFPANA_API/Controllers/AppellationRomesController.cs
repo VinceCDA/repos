@@ -23,9 +23,17 @@ namespace EnqueteAFPANA_API.Controllers
 
         // GET: api/AppellationRomes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AppellationRomeDTO>>> GetAppellationRomes()
+        public async Task<ActionResult<IEnumerable<AppellationRomeDTO>>> GetAppellationRomes(string q)
         {
-            return await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeRome }).ToListAsync();
+            var appellationRome = await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeAppellationRome })
+                .Where(y => y.text.Contains(q)).Take(5).ToListAsync();
+            if (appellationRome == null)
+            {
+                return NotFound();
+            }
+
+            return appellationRome;
+            //return await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeRome }).ToListAsync();
             //return await _context.AppellationRomes.ToListAsync();
         }
 
@@ -34,7 +42,7 @@ namespace EnqueteAFPANA_API.Controllers
         public async Task<ActionResult<IEnumerable<AppellationRomeDTO>>> GetAppellationRome(string id)
         {
             //var appellationRome = await _context.AppellationRomes.FindAsync(id);
-            var appellationRome = await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeRome })
+            var appellationRome = await _context.AppellationRomes.Select(x => new AppellationRomeDTO { text = x.LibelleAppellationRome, value = x.CodeAppellationRome })
                 .Where(y => y.text.Contains(id)).Take(5).ToListAsync();
             if (appellationRome == null)
             {
