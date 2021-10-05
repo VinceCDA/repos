@@ -41,36 +41,61 @@ namespace EnquetesAFPANA_WebApp
         }
         protected void ChkDateDebutContrat_ServerValidate(object source, ServerValidateEventArgs args)
         {
+            
             Page.RegisterAsyncTask(new PageAsyncTask(async () =>
             {
-                chkDateDebutContrat.IsValid = false;
+                args.IsValid = false;
                 string idSoumissionnaire = Request.QueryString["IdentifiantMailing"];
                 VueSoumissionnaire soumissionnaireMV = await PortailData.GetVueSoumissionnaireAsync($"api/VueSoumissionnaires/{idSoumissionnaire}");
-                args.IsValid = false;
                 DateTime dateDebutContratInput;
+                DateTime? dateFinContratInput = TryParse(dateFinContrat.Value);
                 DateTime.TryParse(dateDebutContrat.Value, out dateDebutContratInput);
                 if (DateTime.TryParse(dateDebutContrat.Value, out dateDebutContratInput))
                 {
-                    if (dateDebutContratInput < soumissionnaireMV.DateEntreeBeneficiaire)
+                    
+                    if (dateDebutContratInput > soumissionnaireMV.DateEntreeBeneficiaire)
                     {
-                        chkDateDebutContrat.IsValid = false;
+                        args.IsValid = true;
                     }
                     else
                     {
-                        chkDateDebutContrat.IsValid = true;
-                        
+                        args.IsValid = false;
+
                     }
                 }
                 else
                 {
-                    chkDateDebutContrat.IsValid = false;
+                    args.IsValid = false;
                 }
             }));
+            
             Page.ExecuteRegisteredAsyncTasks();
         }
-
+        protected void ChkDateFinContrat_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            args.IsValid = false;
+            DateTime dateDebutContratInput;
+            DateTime? dateFinContratInput = TryParse(dateFinContrat.Value);
+            DateTime.TryParse(dateDebutContrat.Value, out dateDebutContratInput);
+            if (DateTime.TryParse(dateDebutContrat.Value, out dateDebutContratInput))
+            {
+                if (dateDebutContratInput < dateFinContratInput && dateFinContratInput != null)
+                {
+                    args.IsValid = true;
+                }
+                else
+                {
+                    args.IsValid = false;
+                }
+            }
+            else
+            {
+                args.IsValid = false;
+            }
+        }
         protected void btnEnvoyer_Click(object sender, EventArgs e)
         {
+            Page.Validate();
             if (Page.IsValid)
             {
                 //Response.Redirect("Remerciements");
@@ -82,24 +107,37 @@ namespace EnquetesAFPANA_WebApp
             try
             {
                 string idExercerFonction = Request.QueryString["IdentifiantMailing"];
-                //Soumissionnaire soumissionnaire = await PortailData.GetSoumissionnaireAsync($"api/Soumissionnaires/{idSoumissionnaire}");
-                //soumissionnaire.DateEnregistrementReponse = DateTime.Now;
-                //soumissionnaire.ReponseEmploi = false;
-                ExercerFonction exercerFonction = new ExercerFonction();
-                //exercerFonction.IdentifiantMailingNavigation = await PortailData.GetSoumissionnaireAsync($"api/Soumissionnaires/{idExercerFonction}");
-                exercerFonction.IdentifiantMailing = Guid.Parse(idExercerFonction);
-                exercerFonction.IdtypeContrat = int.Parse(typecontrat.SelectedItem.Value);
-                exercerFonction.DureeContrat = rdBtnListDuree.SelectedValue;
-                exercerFonction.CodeAppellationRome = int.Parse(codeRome.Value);
-                exercerFonction.DateEntreeFonction = DateTime.Parse(dateDebutContrat.Value);
-                exercerFonction.DateSortieFonction = TryParse(dateFinContrat.Value);
-                exercerFonction.DateReponse = DateTime.Now;
+                Soumissionnaire soumissionnaire = await PortailData.GetSoumissionnaireAsync($"api/Soumissionnaires/{idExercerFonction}");
+                
+                ExercerFonction exercerFonction = new ExercerFonction
+                {
+                    //exercerFonction.IdentifiantMailingNavigation = await PortailData.GetSoumissionnaireAsync($"api/Soumissionnaires/{idExercerFonction}");
+                    //exercerFonction.IdentifiantMailing = Guid.Parse(idExercerFonction);
+                    IdentifiantMailing = soumissionnaire.IdentifiantMailing,
+                    IdtypeContrat = int.Parse(typecontrat.SelectedItem.Value),
+                    DureeContrat = rdBtnListDuree.SelectedValue,
+                    CodeAppellationRome = int.Parse(codeRome.Value),
+                    DateEntreeFonction = DateTime.Parse(dateDebutContrat.Value),
+                    DateSortieFonction = TryParse(dateFinContrat.Value),
+                    DateReponse = DateTime.Now
+                };
                 //exercerFonction.IdentifiantMailingNavigation.DateEnregistrementReponse = DateTime.Now;
                 //exercerFonction.IdentifiantMailingNavigation.ReponseEmploi = true;
                 HttpResponseMessage reponse = await PortailData.PostExercerFonctionAsync($"api/ExercerFonctions", exercerFonction);
                 if (reponse.IsSuccessStatusCode)
                 {
-                    Response.Redirect("Remerciements.aspx");
+                    soumissionnaire.DateEnregistrementReponse = DateTime.Now;
+                    soumissionnaire.ReponseEmploi = true;
+                    HttpResponseMessage putResponse = await PortailData.PutSoumissionnaireAsync($"api/Soumissionnaires/{idExercerFonction}", soumissionnaire);
+                    //Response.Redirect("Remerciements.aspx");
+                    if (putResponse.IsSuccessStatusCode)
+                    {
+                        Response.Redirect("Remerciements.aspx");
+                    }
+                    else
+                    {
+                        Response.Redirect("Erreur.aspx");
+                    }
                 }
                 else
                 {

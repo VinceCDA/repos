@@ -42,15 +42,16 @@
 
     <div class="form-group">
         <label for="dateDebutContrat">Date Début Contrat</label>
-        <input type="date" class="form-control" name="dateDebutContrat" id="dateDebutContrat" runat="server" required>
-        <asp:CustomValidator ID="chkDateDebutContrat" runat="server" ErrorMessage="Date début contrat invalide." ControlToValidate="dateDebutContrat" OnServerValidate="ChkDateDebutContrat_ServerValidate" ForeColor="Red" Display="Dynamic"></asp:CustomValidator>
+        <input type="date" class="form-control" name="dateDebutContrat" id="dateDebutContrat" runat="server"  required>
+        <asp:CustomValidator ID="chkDateDebutContrat" runat="server" ErrorMessage="Date début contrat invalide." ControlToValidate="dateDebutContrat" OnServerValidate="ChkDateDebutContrat_ServerValidate" ForeColor="Red" Display="Dynamic" ></asp:CustomValidator>
     </div>
     <div class="form-group">
-        <label for="dateDebutContrat">Date Fin Contrat</label>
+        <label for="dateFinContrat">Date Fin Contrat</label>
         <input type="date" class="form-control" name="dateFinContrat" id="dateFinContrat" runat="server">
+        <asp:CustomValidator ID="chkDateFinContrat" runat="server" ErrorMessage="Date de fin de contrat invalide." ControlToValidate="dateFinContrat" OnServerValidate="ChkDateFinContrat_ServerValidate" ForeColor="Red" Display="Dynamic" ></asp:CustomValidator>
     </div>
     <div class="form-group">
-        <asp:button id="btnEnvoyer" name="submit" type="submit" class="btn btn-primary" runat="server" Text="Envoyer" OnClick="btnEnvoyer_Click"></asp:button>
+        <asp:button id="btnEnvoyer" name="submit" type="submit" class="btn btn-primary" runat="server" Text="Envoyer" OnClick="btnEnvoyer_Click" CausesValidation="False"></asp:button>
     </div>
 
 
