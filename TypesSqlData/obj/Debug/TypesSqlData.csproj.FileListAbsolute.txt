@@ -1,0 +1,5 @@
+C:\Users\CDA\source\repos\TypesSqlData\bin\Debug\TypesSqlData.dll
+C:\Users\CDA\source\repos\TypesSqlData\bin\Debug\TypesSqlData.pdb
+C:\Users\CDA\source\repos\TypesSqlData\obj\Debug\TypesSqlData.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\TypesSqlData\obj\Debug\TypesSqlData.dll
+C:\Users\CDA\source\repos\TypesSqlData\obj\Debug\TypesSqlData.pdb

@@ -1,0 +1,5 @@
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TypesSQL\bin\Debug\TypesSQL.dll
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TypesSQL\bin\Debug\TypesSQL.pdb
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TypesSQL\obj\Debug\TypesSQL.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TypesSQL\obj\Debug\TypesSQL.dll
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TypesSQL\obj\Debug\TypesSQL.pdb

@@ -1,0 +1,34 @@
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.deps.json
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.json
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.dev.json
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csprojAssemblyReference.cache
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csproj.CoreCompileInputs.cache
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfoInputs.cache
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfo.cs
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\Users\96GB011\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.deps.json
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.json
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.dev.json
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csprojAssemblyReference.cache
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csproj.CoreCompileInputs.cache
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfoInputs.cache
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfo.cs
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.deps.json
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.json
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\bin\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfo.cs
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.dll
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.pdb
+C:\Users\CDA\source\repos\OperationsBitABit\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.genruntimeconfig.cache

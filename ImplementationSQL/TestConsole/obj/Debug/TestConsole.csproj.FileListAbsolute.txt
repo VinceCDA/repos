@@ -1,0 +1,18 @@
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\bin\Debug\TestConsole.exe.config
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\bin\Debug\TestConsole.exe
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\bin\Debug\TestConsole.pdb
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\bin\Debug\TypesSQL.dll
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\bin\Debug\TypesSQL.pdb
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\obj\Debug\TestConsole.exe
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Exemples\ImplementationSQL\TestConsole\obj\Debug\TestConsole.pdb
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\bin\Debug\TestConsole.exe.config
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.exe
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.pdb
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\02 Programmer le SGBDR\Ateliers\A002\A002\ImplementationSQL\TestConsole\bin\Debug\TestConsole.exe.config
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\02 Programmer le SGBDR\Ateliers\A002\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.exe
+D:\Parcours CDI Modulaire .Net\M3 - Dév Persistance Données\02 Programmer le SGBDR\Ateliers\A002\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.pdb
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.csproj.CoreCompileInputs.cache
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.exe
+C:\01 CDA\M3 - Dév Persistance Données\04 Implémenter la DB\Corrections\A002\ImplementationSQL\TestConsole\obj\Debug\TestConsole.pdb

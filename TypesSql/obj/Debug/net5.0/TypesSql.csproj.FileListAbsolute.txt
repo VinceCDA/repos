@@ -1,0 +1,12 @@
+C:\Users\CDA\source\repos\TypesSql\bin\Debug\net5.0\TypesSql.deps.json
+C:\Users\CDA\source\repos\TypesSql\bin\Debug\net5.0\TypesSql.dll
+C:\Users\CDA\source\repos\TypesSql\bin\Debug\net5.0\ref\TypesSql.dll
+C:\Users\CDA\source\repos\TypesSql\bin\Debug\net5.0\TypesSql.pdb
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.AssemblyInfo.cs
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.dll
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\ref\TypesSql.dll
+C:\Users\CDA\source\repos\TypesSql\obj\Debug\net5.0\TypesSql.pdb
