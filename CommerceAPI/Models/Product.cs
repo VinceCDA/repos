@@ -13,6 +13,8 @@ namespace CommerceAPI.Models
             ProductCategoryMappings = new HashSet<ProductCategoryMapping>();
             ProductPictureMappings = new HashSet<ProductPictureMapping>();
         }
+        public virtual ProductCategoryMapping ProductNav { get; set; }
+        public virtual ProductPictureMapping ProductPictureNav { get; set; }
 
         public int Id { get; set; }
         public int ProductTypeId { get; set; }

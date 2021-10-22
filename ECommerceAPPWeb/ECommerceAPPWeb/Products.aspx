@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Products.aspx.cs" MasterPageFile="~/Site.Master" Async="true" Inherits="CommerceWeb.Products" %>
+﻿ ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Products.aspx.cs" MasterPageFile="~/Site.Master" Async="true" Inherits="CommerceWeb.Products" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
@@ -24,5 +24,3 @@
         </asp:Repeater>
     </div>
 </asp:Content>
-
-

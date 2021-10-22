@@ -80,7 +80,7 @@
                 <ItemTemplate>
                     <%--<asp:Label ID="lblParent" runat="server" Text='<%#Eval("Name") %>' Font-Bold="true" />--%>
                     <div class="dropdown">
-                        <a class="btn btn-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="Products?productId=<%#Eval("Id") %>">
+                        <a class="btn btn-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="Products?categoryId=<%#Eval("Id") %>">
                             <%#Eval("Name") %>
                         </a>
 
@@ -90,7 +90,7 @@
                             </HeaderTemplate>
                             <ItemTemplate>
 
-                                <a class="dropdown-item" type="button" href="Products?productId=<%#Eval("Id") %>"><%#Eval("Name") %></a>
+                                <a class="dropdown-item" type="button" href="Products?categoryId=<%#Eval("Id") %>"><%#Eval("Name") %></a>
                                 <%--<asp:Label ID="lblChild" runat="server" Text='<%#Eval("Name") %>' />--%>
                             </ItemTemplate>
                             <FooterTemplate>

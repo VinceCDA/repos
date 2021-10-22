@@ -123,6 +123,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="ListeProduits.aspx" />
+    <Content Include="Products.aspx" />
     <Content Include="ScriptsApplication\GererPanier.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -309,6 +310,13 @@
     <Compile Include="Models\ProductCategoryMap.cs" />
     <Compile Include="Models\ProductCategoryMapping.cs" />
     <Compile Include="Models\ProductPictureMapping.cs" />
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

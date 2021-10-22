@@ -51,7 +51,7 @@ namespace CommerceWeb
             // var test = CommerceDAL.Instance.GetProductAsync("api/Categories/5").Result;
             Page.RegisterAsyncTask(new PageAsyncTask(async () =>
             {
-                stringToRead = await CommerceDAL.Instance.GetProductAsync("api/ProductPictureMappings/1");
+                stringToRead = await CommerceDAL.Instance.GetProductsAsync("api/ProductPictureMappings/1");
                 Response.Write(stringToRead);
 
             }));

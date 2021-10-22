@@ -46,7 +46,14 @@ namespace CommerceWeb
         }
         public async Task<string> GetProductPictureAsync(string path)
         {
-            var result = await Client.GetAsync(path);
+            var result = Client.BaseAddress.ToString() + $"api/Pictures/{path}";
+            return result;
+
+        }
+        public async Task<string> GetProductsAsync(string path)
+        {
+            //var result = await Client.GetAsync(path);
+            var result = await Client.GetAsync($"api/ProductCategoryMappings/{path}");
             return await result.Content.ReadAsStringAsync();
 
         }

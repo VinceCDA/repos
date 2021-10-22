@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CommerceAPI.Models;
+using CommerceAPI.DTO;
 
 namespace CommerceAPI.Controllers
 {
@@ -29,10 +30,24 @@ namespace CommerceAPI.Controllers
 
         // GET: api/ProductCategoryMappings/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<ProductCategoryMapping>>> GetProductCategoryMapping(int id)
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductCategoryMapping(int id)
         {
             //var productCategoryMapping = await _context.ProductCategoryMappings.FindAsync(id);
-            var productCategoryMapping = await _context.ProductCategoryMappings.Where(x => x.CategoryId == id).ToListAsync();
+            //var productCategoryMapping = await _context.ProductCategoryMappings.Where(x => x.CategoryId == id).ToListAsync();
+            var productCategoryMapping = await (from x in _context.Products
+                                                join y in _context.ProductCategoryMappings on x.Id equals y.ProductId
+                                                join u in _context.ProductPictureMappings on x.Id equals u.ProductId
+                                                where y.CategoryId == id
+                                                select new ProductDTO
+                                                {
+                                                    ProductId = x.Id,
+                                                    Name = x.Name,
+                                                    ShortDescription = x.ShortDescription,
+                                                    FullDescription = x.FullDescription,
+                                                    Price = x.Price,
+                                                    PictureId = u.PictureId,
+                                                    CategoryId = y.CategoryId
+                                                }).ToListAsync();
 
             if (productCategoryMapping == null)
             {
