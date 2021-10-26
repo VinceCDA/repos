@@ -1,0 +1,17 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.pdb
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.deps.json
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.dll
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\bin\Debug\netcoreapp3.1\ServiceMail.pdb
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.AssemblyInfo.cs
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.dll
+C:\Users\CDA\source\repos\ServiceMail\ServiceMail\obj\Debug\netcoreapp3.1\ServiceMail.pdb

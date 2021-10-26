@@ -1,0 +1,7 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\BibliothequeMC.Repository.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\BibliothequeMC.Repository.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\BibliothequeMC.Repository.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\BibliothequeMC.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\BibliothequeMC.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\BibliothequeMC.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\BibliothequeMC.Repository.pdb

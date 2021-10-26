@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
+        "projectName": "Bibliotheque.ConsoleUI",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
+        "projectName": "Bibliotheque.Repository",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
+        "projectName": "Bibliotheque.BLL",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
+        "projectName": "Bibliotheque.BOL",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
+        "projectName": "Bibliotheque.DALADO",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
+        "projectName": "Bibliotheque.DALEF",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              },
+              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

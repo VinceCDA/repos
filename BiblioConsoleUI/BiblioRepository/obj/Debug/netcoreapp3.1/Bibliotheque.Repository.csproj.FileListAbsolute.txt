@@ -1,0 +1,34 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csproj.CopyComplete
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csproj.CopyComplete
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.deps.json
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.AssemblyInfo.cs
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.csproj.CopyComplete
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\BiblioRepository\obj\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb

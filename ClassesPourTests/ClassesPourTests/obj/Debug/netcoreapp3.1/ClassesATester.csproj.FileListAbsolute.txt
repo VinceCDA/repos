@@ -1,0 +1,16 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.pdb
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.deps.json
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.dll
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\ClassesATester.pdb
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.AssemblyInfo.cs
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.dll
+C:\Users\CDA\source\repos\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\ClassesATester.pdb

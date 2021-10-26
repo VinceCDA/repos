@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bibliotheque.Winforms": {
+      "commandName": "Project",
+      "commandLineArgs": "DALEF MySql"
+    }
+  }
+}

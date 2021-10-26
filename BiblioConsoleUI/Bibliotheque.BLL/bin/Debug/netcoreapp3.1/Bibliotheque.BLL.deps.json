@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bibliotheque.BLL/1.0.0": {
+        "dependencies": {
+          "Bibliotheque.BOL": "1.0.0",
+          "Bibliotheque.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Bibliotheque.BLL.dll": {}
+        }
+      },
+      "Bibliotheque.BOL/1.0.0": {
+        "runtime": {
+          "Bibliotheque.BOL.dll": {}
+        }
+      },
+      "Bibliotheque.Repository/1.0.0": {
+        "dependencies": {
+          "Bibliotheque.BOL": "1.0.0"
+        },
+        "runtime": {
+          "Bibliotheque.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bibliotheque.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bibliotheque.BOL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bibliotheque.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,47 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.dev.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csproj.CopyComplete
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.dev.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csproj.CopyComplete
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.deps.json
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.json
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.Repository.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.AssemblyInfo.cs
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.csproj.CopyComplete
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.DALEF\obj\Debug\netcoreapp3.1\Bibliotheque.DALEF.genruntimeconfig.cache

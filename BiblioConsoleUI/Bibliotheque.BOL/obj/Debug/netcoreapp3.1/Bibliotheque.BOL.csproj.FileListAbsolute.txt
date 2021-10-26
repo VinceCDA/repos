@@ -1,0 +1,24 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S1 Dév Couches\S1 - 03 DI-IOC\Exemple Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Core\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.csprojAssemblyReference.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.deps.json
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\bin\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.AssemblyInfo.cs
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.dll
+C:\Users\CDA\source\repos\BiblioConsoleUI\Bibliotheque.BOL\obj\Debug\netcoreapp3.1\Bibliotheque.BOL.pdb

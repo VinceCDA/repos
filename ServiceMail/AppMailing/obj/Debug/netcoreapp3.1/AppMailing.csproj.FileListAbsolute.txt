@@ -1,0 +1,30 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.exe
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.runtimeconfig.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.runtimeconfig.dev.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\ServiceMail.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\ServiceMail.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.csprojAssemblyReference.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.csproj.CopyComplete
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ateliers\2019\A003\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.pdb
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.exe
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.deps.json
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.runtimeconfig.json
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.runtimeconfig.dev.json
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.dll
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\AppMailing.pdb
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\ServiceMail.dll
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\bin\Debug\netcoreapp3.1\ServiceMail.pdb
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.csproj.AssemblyReference.cache
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.AssemblyInfo.cs
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.csproj.CopyComplete
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.dll
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.pdb
+C:\Users\CDA\source\repos\ServiceMail\AppMailing\obj\Debug\netcoreapp3.1\AppMailing.genruntimeconfig.cache

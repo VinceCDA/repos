@@ -1,0 +1,7 @@
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\Calculatrice.BLL.deps.json
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\Calculatrice.BLL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\bin\Debug\netcoreapp3.1\Calculatrice.BLL.pdb
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\Calculatrice.BLL.AssemblyInfoInputs.cache
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\Calculatrice.BLL.AssemblyInfo.cs
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\Calculatrice.BLL.dll
+C:\01 CDA\M5 - Dév App n-tiers P2\S2 Tests unitaires\Ex Core\ClassesPourTests\ClassesPourTests\obj\Debug\netcoreapp3.1\Calculatrice.BLL.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AppMailing/1.0.0": {
+        "dependencies": {
+          "ServiceMail": "1.0.0"
+        },
+        "runtime": {
+          "AppMailing.dll": {}
+        }
+      },
+      "ServiceMail/1.0.0": {
+        "runtime": {
+          "ServiceMail.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppMailing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceMail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
