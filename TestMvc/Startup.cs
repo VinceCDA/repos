@@ -8,6 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TestMvc.Core.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace TestMvc
 {
@@ -24,6 +27,8 @@ namespace TestMvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            string connectionString = Configuration.GetConnectionString("DefaultContext");
+            services.AddDbContext<DefaultContext>(o => o.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,9 +50,17 @@ namespace TestMvc
             app.UseRouting();
 
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "mesaventures",
+                    pattern: "mes-aventures",
+                    defaults: new
+                    {
+                        controller ="Aventure",
+                        action = "Index"
+                    });
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

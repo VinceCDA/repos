@@ -10,3 +10,15 @@ C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\ref\TestMvc.Core.Data.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.pdb
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net5.0\TestMvc.Core.Data.deps.json
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net5.0\TestMvc.Core.Data.dll
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net5.0\ref\TestMvc.Core.Data.dll
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net5.0\TestMvc.Core.Data.pdb
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.AssemblyInfoInputs.cache
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.AssemblyInfo.cs
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.csproj.CoreCompileInputs.cache
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.dll
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\ref\TestMvc.Core.Data.dll
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.pdb
+C:\Users\CDA\source\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net5.0\TestMvc.Core.Data.csproj.AssemblyReference.cache
