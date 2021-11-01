@@ -10,7 +10,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using TestMvc.Core.Data;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.EntityFrameworkCore.Design;
+using TestMvc.Constraints;
 
 namespace TestMvc
 {
@@ -53,13 +54,31 @@ namespace TestMvc
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "mesaventures-creation",
+                    pattern: "demarrer-une-nouvelle-aventure",
+                    defaults: new
+                    {
+                        controller = "Aventure",
+                        action = "Create"
+                    });
+                endpoints.MapControllerRoute(
+                    name: "mesaventures-edition",
+                    pattern: "editer-mes-aventures/{id}",
+                    defaults: new
+                    {
+                        controller = "Aventure",
+                        action = "Edit"
+                    }, constraints: new { id = @"\d+" });
+                //constraints: new { id = new LogConstraint() });
+
+                endpoints.MapControllerRoute(
                     name: "mesaventures",
                     pattern: "mes-aventures",
                     defaults: new
                     {
                         controller ="Aventure",
                         action = "Index"
-                    });
+                    }, constraints: new {id = @"\d+"});
 
                 endpoints.MapControllerRoute(
                     name: "default",

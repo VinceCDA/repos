@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -7,14 +8,19 @@ using System.Threading.Tasks;
 
 namespace TestMvc.Core.Data.Models
 {
-    [Table("Paragraphes")]
+    [Table("Paragraphe")]
     public class Paragraphe
     {
+        [Key]
         public int Id { get; set; } 
+        [Required(ErrorMessage ="Numero requis")]
+        [Range(1,999,ErrorMessage ="Doit etre entre 1 et 999")]
         public int Numero { get; set; } 
-        public string Titre { get; set; }  
+        [Required(AllowEmptyStrings =false,ErrorMessage ="Titre est requis")]
+
+        public string Titre { get; set; }
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Description est requise")]
         public string Description { get; set; } 
-        [NotMapped]
-        public Question maQuestion { get; set; }  
+        public Question QuestionId { get; set; }  
     }
 }

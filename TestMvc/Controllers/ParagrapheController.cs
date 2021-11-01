@@ -33,8 +33,12 @@ namespace TestMvc.Controllers
         [HttpPost]
         public IActionResult Create(Paragraphe paragraphe)
         {
-            this._context.Paragraphes.Add(paragraphe); 
-            this._context.SaveChanges();    
+            if (ModelState.IsValid)
+            {
+                this._context.Paragraphes.Add(paragraphe);
+                this._context.SaveChanges();
+            }
+               
             return View();
         }
         public IActionResult Edit(int id)

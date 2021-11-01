@@ -24,5 +24,29 @@ namespace TestMvc.Controllers
                         
             return View(query.ToList());
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Aventure aventure)
+        {
+            ActionResult actionResult = this.View(aventure);
+            if (ModelState.IsValid)
+            {
+                this._context.Aventures.Add(aventure);
+                this._context.SaveChanges();
+                actionResult = this.RedirectToAction("BeginNewOne");
+            }
+            return actionResult;
+        }
+        public ActionResult BeginNewOne()
+        {
+            return this.View();
+        }
+        public IActionResult Edit(int id)
+        {
+            return View();
+        }
     }
 }

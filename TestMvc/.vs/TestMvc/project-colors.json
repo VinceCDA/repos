@@ -15,7 +15,22 @@
       "ProjectGuid": "efb865fc-726d-4569-9630-a85df9b86f81",
       "DisplayName": "TestMvc.Core.Data",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    },
+    "81e987df-6a95-4ed9-90b6-366d0b6892e0": {
+      "ProjectGuid": "81e987df-6a95-4ed9-90b6-366d0b6892e0",
+      "DisplayName": "TestSession",
+      "ColorIndex": 3
+    },
+    "605bff74-577d-48c1-970a-847dffb90501": {
+      "ProjectGuid": "605bff74-577d-48c1-970a-847dffb90501",
+      "DisplayName": "SessionTest",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
