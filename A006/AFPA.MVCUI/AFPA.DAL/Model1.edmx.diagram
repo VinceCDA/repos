@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e6ea5b6d8ba34c8e92ecd4e91fc17d72" Name="Diagram1">
+        <EntityTypeShape EntityType="AFPA_ORMModel.CollaborateurAfpa" Width="2.25" PointX="2" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Entreprise" Width="2.625" PointX="4.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Etablissement" Width="2.625" PointX="11.125" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.OffreFormation" Width="2.5" PointX="7.625" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Pee" Width="1.875" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Periode_Pee" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Personne" Width="1.75" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.ProduitDeFormation" Width="2.5" PointX="4" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Stagiaire" Width="2.25" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.Stagiaire_OffreFormation" Width="2.5" PointX="10.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_PEE_Entreprise" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_OffreFormation_Etablissement" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_OffreFormation_ProduitDeFormation" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_PEE_ResponsableJuridique" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="AFPA_ORMModel.FK_Pee_Stagiaire1" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_PEE_Tuteur" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="AFPA_ORMModel.FK_Periode_Pee_Pee" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_Stagiaire_OffreFormation_Stagiaire" ManuallyRouted="false" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_Stagiaire_OffreFormation_OffreFormation" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_OffreFormation_CollaborateurAfpa" ManuallyRouted="false" >
+        </AssociationConnector>
+        <InheritanceConnector EntityType="AFPA_ORMModel.CollaborateurAfpa" />
+        <InheritanceConnector EntityType="AFPA_ORMModel.Stagiaire" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.ProduitFormationQualifiant" Width="2.25" PointX="2.875" PointY="10.5" />
+        <InheritanceConnector EntityType="AFPA_ORMModel.ProduitFormationQualifiant" />
+        <EntityTypeShape EntityType="AFPA_ORMModel.ProduitFormationContinue" Width="2.375" PointX="5.75" PointY="10.5" />
+        <InheritanceConnector EntityType="AFPA_ORMModel.ProduitFormationContinue" />
+        <AssociationConnector Association="AFPA_ORMModel.FK_Etablissement_Etablissement" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

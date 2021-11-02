@@ -1,0 +1,45 @@
+﻿@model IEnumerable<AFPA.BOL.Etablissement>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DesignationEtablissement)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EtablissementRattachement.DesignationEtablissement)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DesignationEtablissement)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adresse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EtablissementRattachement.DesignationEtablissement)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdEtablissement }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdEtablissement }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdEtablissement })
+        </td>
+    </tr>
+}
+
+</table>

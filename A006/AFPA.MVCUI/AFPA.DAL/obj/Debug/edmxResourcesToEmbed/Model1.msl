@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AFPA_ORMModelStoreContainer" CdmEntityContainer="AFPA_ORMEntities">
+    <EntitySetMapping Name="Entreprise">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.Entreprise">
+        <MappingFragment StoreEntitySet="Entreprise">
+          <ScalarProperty Name="IdEntreprise" ColumnName="IdEntreprise" />
+          <ScalarProperty Name="NumeroSIRET" ColumnName="NumeroSIRET" />
+          <ScalarProperty Name="RaisonSociale" ColumnName="RaisonSociale" />
+          <ComplexProperty Name="Adresse">
+            <ScalarProperty Name="Ville" ColumnName="VilleEntreprise" />
+            <ScalarProperty Name="CodePostal" ColumnName="CodePostalEntreprise" />
+            <ScalarProperty Name="ComplementAdresse" ColumnName="ComplementAdresseEntreprise" />
+            <ScalarProperty Name="NumeroNomVoie" ColumnName="NumeroNomVoieEntreprise" />
+            <ScalarProperty Name="ComplementIdentification" ColumnName="ComplementIdentificationEntreprise" />
+          </ComplexProperty>
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Etablissement">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.Etablissement">
+        <MappingFragment StoreEntitySet="Etablissement">
+          <ScalarProperty Name="IdEtablissementRattachement" ColumnName="IdEtablissementRattachement" />
+          <ScalarProperty Name="IdEtablissement" ColumnName="IdEtablissement" />
+          <ScalarProperty Name="DesignationEtablissement" ColumnName="DesignationEtablissement" />
+          <ComplexProperty Name="Adresse">
+            <ScalarProperty Name="Ville" ColumnName="VilleEtablissement" />
+            <ScalarProperty Name="CodePostal" ColumnName="CodePostalEtablissement" />
+            <ScalarProperty Name="ComplementAdresse" ColumnName="ComplementAdresseEtablissement" />
+            <ScalarProperty Name="NumeroNomVoie" ColumnName="NumeroNomVoieEtablissement" />
+            <ScalarProperty Name="ComplementIdentification" ColumnName="ComplementIdentificationEtablissement" />
+          </ComplexProperty>
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OffreFormation">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.OffreFormation">
+        <MappingFragment StoreEntitySet="OffreFormation">
+          <ScalarProperty Name="IdOffreFormation" ColumnName="IdOffreFormation" />
+          <ScalarProperty Name="IdEtablissement" ColumnName="IdEtablissement" />
+          <ScalarProperty Name="DateDebutOffreFormation" ColumnName="DateDebutOffreFormation" />
+          <ScalarProperty Name="DateFinOffreFormation" ColumnName="DateFinOffreFormation" />
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+          <ScalarProperty Name="IdProduitFormation" ColumnName="IdProduitFormation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pee">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.Pee">
+        <MappingFragment StoreEntitySet="Pee">
+          <ScalarProperty Name="IdPee" ColumnName="IdPee" />
+          <ScalarProperty Name="IdStagiaire" ColumnName="IdStagiaire" />
+          <ScalarProperty Name="IdTuteur" ColumnName="IdTuteur" />
+          <ScalarProperty Name="IdResponsableJuridique" ColumnName="IdResponsableJuridique" />
+          <ScalarProperty Name="IdEntreprise" ColumnName="IdEntreprise" />
+          <ScalarProperty Name="IdOffreFormation" ColumnName="IdOffreFormation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Periode_Pee">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.Periode_Pee">
+        <MappingFragment StoreEntitySet="Periode_Pee">
+          <ScalarProperty Name="IdPee" ColumnName="IdPee" />
+          <ScalarProperty Name="DateDebutPeriodePee" ColumnName="DateDebutPeriodePee" />
+          <ScalarProperty Name="DateFinPeriodePee" ColumnName="DateFinPeriodePee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personne">
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.Personne)">
+        <MappingFragment StoreEntitySet="Personne">
+          <ScalarProperty Name="SexePersonne" ColumnName="SexePersonne" />
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+          <ScalarProperty Name="AdresseMail" ColumnName="AdresseMail" />
+          <ScalarProperty Name="CivilitePersonne" ColumnName="CivilitePersonne" />
+          <ScalarProperty Name="PrenomPersonne" ColumnName="PrenomPersonne" />
+          <ScalarProperty Name="NomPersonne" ColumnName="NomPersonne" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.CollaborateurAfpa)">
+        <MappingFragment StoreEntitySet="CollaborateurAfpa">
+          <ScalarProperty Name="MatriculeCollaborateurAfpa" ColumnName="MatriculeCollaborateurAfpa" />
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.Stagiaire)">
+        <MappingFragment StoreEntitySet="Stagiaire">
+          <ScalarProperty Name="DateNaissanceStagiaire" ColumnName="DateNaissanceStagiaire" />
+          <ScalarProperty Name="MatriculeStagiaire" ColumnName="MatriculeStagiaire" />
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProduitDeFormation">
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.ProduitDeFormation)">
+        <MappingFragment StoreEntitySet="ProduitDeFormation">
+          <ScalarProperty Name="IdProduitFormation" ColumnName="IdProduitFormation" />
+          <ScalarProperty Name="DesignationProduitFormation" ColumnName="DesignationProduitFormation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.ProduitFormationQualifiant)">
+        <MappingFragment StoreEntitySet="ProduitDeFormation">
+          <ScalarProperty Name="NiveauFormation" ColumnName="NiveauFormation" />
+          <ScalarProperty Name="IdProduitFormation" ColumnName="IdProduitFormation" />
+          <Condition ColumnName="TypeFormation" Value="1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(AFPA_ORMModel.ProduitFormationContinue)">
+        <MappingFragment StoreEntitySet="ProduitDeFormation">
+          <ScalarProperty Name="IdProduitFormation" ColumnName="IdProduitFormation" />
+          <ScalarProperty Name="DureeJours" ColumnName="DureeJours" />
+          <ScalarProperty Name="InterEntreprise" ColumnName="InterEntreprise" />
+          <Condition ColumnName="TypeFormation" Value="2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stagiaire_OffreFormation">
+      <EntityTypeMapping TypeName="AFPA_ORMModel.Stagiaire_OffreFormation">
+        <MappingFragment StoreEntitySet="Stagiaire_OffreFormation">
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+          <ScalarProperty Name="IdOffreFormation" ColumnName="IdOffreFormation" />
+          <ScalarProperty Name="IdEtablissement" ColumnName="IdEtablissement" />
+          <ScalarProperty Name="DateEntreeStagiaire" ColumnName="DateEntreeStagiaire" />
+          <ScalarProperty Name="DateSortieStagiaire" ColumnName="DateSortieStagiaire" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

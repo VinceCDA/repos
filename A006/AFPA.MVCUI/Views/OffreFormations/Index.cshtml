@@ -1,0 +1,73 @@
+﻿@model IEnumerable<AFPA.BOL.OffreFormation>
+
+@{
+    ViewBag.Title = "Liste des offres de formation";
+}
+
+<h2>Liste des offres de formation</h2>
+
+<p>
+    @Html.ActionLink("Nouvelle Offre", "Create")
+</p>
+<div id="produitformation">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Recherche des offres par le code ou libellé du produit de formation</div>
+                <div class="panel-body">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.Label("A partir du code", htmlAttributes: new { @class = "control-label col-md-6" })
+                            <div class="col-md-6">
+                                @Html.TextBox("critereCode", null, new { id = "critereCode", @class = "form-control" })
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            @Html.Label("A partir du libellé", htmlAttributes: new { @class = "control-label col-md-6" })
+                            <div class="col-md-6">
+                                @Html.TextBox("critereDesignation", null, new { id = "critereDesignation", @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="listeOffresFormation" class="col-md-12">
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var autocompleteUrl = 'CodeProduitPartialResult';
+            $("#critereCode").autocomplete({
+                source: autocompleteUrl,
+                minLength: 3,
+                select: function (event, ui) {
+                    var url = 'ListeFormations?idProduitFormation=' + ui.item.value;
+                    $('#listeOffresFormation').empty();
+                    $('#listeOffresFormation').load(url);
+                }
+            });
+        });
+        $(document).ready(function () {
+            var autocompleteUrl = 'DesignationProduitPartialResult';
+            $("#critereDesignation").autocomplete({
+                source: autocompleteUrl,
+                minLength: 3,
+                select: function (event, ui) {
+                    var data = 'idProduitFormation=' + ui.item.value;
+                    var url = 'ListeFormations';
+                    $.post(url, data, function (reponse) {
+                        $('#listeOffresFormation').empty();
+                        $('#listeOffresFormation').append(reponse);
+                    }
+                    );
+                }
+            });
+        });
+    </script>
+}

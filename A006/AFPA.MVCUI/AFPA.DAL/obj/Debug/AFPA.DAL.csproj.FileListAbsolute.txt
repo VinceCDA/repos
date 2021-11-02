@@ -1,0 +1,45 @@
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\obj\Debug\AFPA.DAL.csprojResolveAssemblyReference.cache
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\AFPA.DAL.dll.config
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\AFPA.BOL.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\EntityFramework.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\EntityFramework.SqlServer.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\AFPA.BOL.pdb
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\EntityFramework.xml
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\EntityFramework.SqlServer.xml
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\bin\Debug\fr\EntityFramework.resources.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\obj\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-015959-01 MEO Framework Persistance Données\Net\UA-01\UA-01-Corrections\A001\A001\LINQtoEF_002\obj\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll.config
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.csprojResolveAssemblyReference.cache
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\UA-01\UA-01-Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll.config
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.csprojResolveAssemblyReference.cache
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll.config
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.csprojResolveAssemblyReference.cache
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A003_3_4\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll.config
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.DAL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\bin\Debug\AFPA.BOL.pdb
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.csprojResolveAssemblyReference.cache
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.dll
+D:\___Etudes DI 2016\SEA-021505-01 MEO Framework Présentation\Corrections\A005\AFPA.MVCUI\AFPA.DAL\obj\Debug\AFPA.DAL.pdb

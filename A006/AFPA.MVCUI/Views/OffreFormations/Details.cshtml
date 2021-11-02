@@ -1,0 +1,58 @@
+﻿@model AFPA.BOL.OffreFormation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OffreFormation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDebutOffreFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDebutOffreFormation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateFinOffreFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateFinOffreFormation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FormateurReferent.MatriculeCollaborateurAfpa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FormateurReferent.MatriculeCollaborateurAfpa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Etablissement.DesignationEtablissement)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Etablissement.DesignationEtablissement)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProduitDeFormation.DesignationProduitFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProduitDeFormation.DesignationProduitFormation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { idOffre = Model.IdOffreFormation, idEtablissement = Model.IdEtablissement }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

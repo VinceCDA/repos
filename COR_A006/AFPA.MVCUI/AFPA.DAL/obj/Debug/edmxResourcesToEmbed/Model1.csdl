@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AFPA_ORMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CollaborateurAfpa" BaseType="AFPA_ORMModel.Personne">
+    <Property Name="MatriculeCollaborateurAfpa" Type="String" MaxLength="8" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="OffresFormation" Relationship="AFPA_ORMModel.FK_OffreFormation_CollaborateurAfpa" FromRole="CollaborateurAfpa" ToRole="OffreFormation" />
+  </EntityType>
+  <EntityType Name="Entreprise">
+    <Key>
+      <PropertyRef Name="IdEntreprise" />
+    </Key>
+    <Property Name="IdEntreprise" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumeroSIRET" Type="String" MaxLength="14" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="RaisonSociale" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Pees" Relationship="Self.FK_PEE_Entreprise" FromRole="Entreprise" ToRole="Pee" />
+    <Property Name="Adresse" Type="AFPA_ORMModel.Adresse" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Etablissement">
+    <Key>
+      <PropertyRef Name="IdEtablissement" />
+    </Key>
+    <Property Name="IdEtablissement" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DesignationEtablissement" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="OffresFormation" Relationship="Self.FK_OffreFormation_Etablissement" FromRole="Etablissement" ToRole="OffreFormation" />
+    <Property Name="IdEtablissementRattachement" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="EtablissementsRattaches" Relationship="AFPA_ORMModel.FK_Etablissement_Etablissement" FromRole="Etablissement" ToRole="Etablissement1" />
+    <NavigationProperty Name="EtablissementRattachement" Relationship="AFPA_ORMModel.FK_Etablissement_Etablissement" FromRole="Etablissement1" ToRole="Etablissement" />
+    <Property Name="Adresse" Type="AFPA_ORMModel.Adresse" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OffreFormation">
+    <Key>
+      <PropertyRef Name="IdOffreFormation" />
+      <PropertyRef Name="IdEtablissement" />
+    </Key>
+    <Property Name="IdOffreFormation" Type="Int32" Nullable="false" />
+    <Property Name="IdEtablissement" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DateDebutOffreFormation" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateFinOffreFormation" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IdPersonne" Type="Int32" />
+    <Property Name="IdProduitFormation" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Etablissement" Relationship="Self.FK_OffreFormation_Etablissement" FromRole="OffreFormation" ToRole="Etablissement" />
+    <NavigationProperty Name="ProduitDeFormation" Relationship="Self.FK_OffreFormation_ProduitDeFormation" FromRole="OffreFormation" ToRole="ProduitDeFormation" />
+    <NavigationProperty Name="StagiairesOffreFormation" Relationship="AFPA_ORMModel.FK_Stagiaire_OffreFormation_OffreFormation" FromRole="OffreFormation" ToRole="Stagiaire_OffreFormation" />
+    <NavigationProperty Name="FormateurReferent" Relationship="AFPA_ORMModel.FK_OffreFormation_CollaborateurAfpa" FromRole="OffreFormation" ToRole="CollaborateurAfpa" />
+  </EntityType>
+  <EntityType Name="Pee">
+    <Key>
+      <PropertyRef Name="IdPee" />
+    </Key>
+    <Property Name="IdPee" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdStagiaire" Type="Int32" Nullable="false" />
+    <Property Name="IdTuteur" Type="Int32" Nullable="false" />
+    <Property Name="IdResponsableJuridique" Type="Int32" Nullable="false" />
+    <Property Name="IdEntreprise" Type="Int32" Nullable="false" />
+    <Property Name="IdOffreFormation" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Entreprise" Relationship="Self.FK_PEE_Entreprise" FromRole="Pee" ToRole="Entreprise" />
+    <NavigationProperty Name="ResponsableJuridique" Relationship="Self.FK_PEE_ResponsableJuridique" FromRole="Pee" ToRole="Personne" />
+    <NavigationProperty Name="Stagiaire" Relationship="Self.FK_Pee_Stagiaire1" FromRole="Pee" ToRole="Stagiaire" />
+    <NavigationProperty Name="Tuteur" Relationship="Self.FK_PEE_Tuteur" FromRole="Pee" ToRole="Personne" />
+    <NavigationProperty Name="PeriodesPee" Relationship="Self.FK_Periode_Pee_Pee" FromRole="Pee" ToRole="Periode_Pee" />
+  </EntityType>
+  <EntityType Name="Periode_Pee">
+    <Key>
+      <PropertyRef Name="IdPee" />
+      <PropertyRef Name="DateDebutPeriodePee" />
+      <PropertyRef Name="DateFinPeriodePee" />
+    </Key>
+    <Property Name="IdPee" Type="Int32" Nullable="false" />
+    <Property Name="DateDebutPeriodePee" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateFinPeriodePee" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Pee" Relationship="Self.FK_Periode_Pee_Pee" FromRole="Periode_Pee" ToRole="Pee" />
+  </EntityType>
+  <EntityType Name="Personne">
+    <Key>
+      <PropertyRef Name="IdPersonne" />
+    </Key>
+    <Property Name="IdPersonne" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NomPersonne" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PrenomPersonne" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CivilitePersonne" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdresseMail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PeesResponsableJurique" Relationship="Self.FK_PEE_ResponsableJuridique" FromRole="Personne" ToRole="Pee" />
+    <NavigationProperty Name="PeesTuteur" Relationship="Self.FK_PEE_Tuteur" FromRole="Personne" ToRole="Pee" />
+    <Property Name="SexePersonne" Type="AFPA_ORMModel.Sexe" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProduitDeFormation" Abstract="true">
+    <Key>
+      <PropertyRef Name="IdProduitFormation" />
+    </Key>
+    <Property Name="IdProduitFormation" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DesignationProduitFormation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="OffresFormation" Relationship="Self.FK_OffreFormation_ProduitDeFormation" FromRole="ProduitDeFormation" ToRole="OffreFormation" />
+  </EntityType>
+  <EntityType Name="Stagiaire" BaseType="AFPA_ORMModel.Personne">
+    <Property Name="MatriculeStagiaire" Type="String" MaxLength="8" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="DateNaissanceStagiaire" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="PeesStagiaire" Relationship="Self.FK_Pee_Stagiaire1" FromRole="Stagiaire" ToRole="Pee" />
+    <NavigationProperty Name="StagiairesOffreFormation" Relationship="Self.FK_Stagiaire_OffreFormation_Stagiaire" FromRole="Stagiaire" ToRole="Stagiaire_OffreFormation" />
+  </EntityType>
+  <EntityType Name="Stagiaire_OffreFormation">
+    <Key>
+      <PropertyRef Name="IdPersonne" />
+      <PropertyRef Name="IdOffreFormation" />
+      <PropertyRef Name="IdEtablissement" />
+    </Key>
+    <Property Name="IdPersonne" Type="Int32" Nullable="false" />
+    <Property Name="IdOffreFormation" Type="Int32" Nullable="false" />
+    <Property Name="IdEtablissement" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DateEntreeStagiaire" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateSortieStagiaire" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Stagiaire" Relationship="Self.FK_Stagiaire_OffreFormation_Stagiaire" FromRole="Stagiaire_OffreFormation" ToRole="Stagiaire" />
+    <NavigationProperty Name="OffreFormation" Relationship="AFPA_ORMModel.FK_Stagiaire_OffreFormation_OffreFormation" FromRole="Stagiaire_OffreFormation" ToRole="OffreFormation" />
+  </EntityType>
+  <Association Name="FK_PEE_Entreprise">
+    <End Role="Entreprise" Type="Self.Entreprise" Multiplicity="1" />
+    <End Role="Pee" Type="Self.Pee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entreprise">
+        <PropertyRef Name="IdEntreprise" />
+      </Principal>
+      <Dependent Role="Pee">
+        <PropertyRef Name="IdEntreprise" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffreFormation_Etablissement">
+    <End Role="Etablissement" Type="Self.Etablissement" Multiplicity="1" />
+    <End Role="OffreFormation" Type="Self.OffreFormation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Etablissement">
+        <PropertyRef Name="IdEtablissement" />
+      </Principal>
+      <Dependent Role="OffreFormation">
+        <PropertyRef Name="IdEtablissement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffreFormation_ProduitDeFormation">
+    <End Role="ProduitDeFormation" Type="Self.ProduitDeFormation" Multiplicity="1" />
+    <End Role="OffreFormation" Type="Self.OffreFormation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProduitDeFormation">
+        <PropertyRef Name="IdProduitFormation" />
+      </Principal>
+      <Dependent Role="OffreFormation">
+        <PropertyRef Name="IdProduitFormation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PEE_ResponsableJuridique">
+    <End Role="Personne" Type="Self.Personne" Multiplicity="1" />
+    <End Role="Pee" Type="Self.Pee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personne">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Pee">
+        <PropertyRef Name="IdResponsableJuridique" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pee_Stagiaire1">
+    <End Role="Stagiaire" Type="Self.Stagiaire" Multiplicity="1" />
+    <End Role="Pee" Type="Self.Pee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stagiaire">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Pee">
+        <PropertyRef Name="IdStagiaire" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PEE_Tuteur">
+    <End Role="Personne" Type="Self.Personne" Multiplicity="1" />
+    <End Role="Pee" Type="Self.Pee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personne">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Pee">
+        <PropertyRef Name="IdTuteur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Periode_Pee_Pee">
+    <End Role="Pee" Type="Self.Pee" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Periode_Pee" Type="Self.Periode_Pee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pee">
+        <PropertyRef Name="IdPee" />
+      </Principal>
+      <Dependent Role="Periode_Pee">
+        <PropertyRef Name="IdPee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Stagiaire_OffreFormation_Stagiaire">
+    <End Role="Stagiaire" Type="Self.Stagiaire" Multiplicity="1" />
+    <End Role="Stagiaire_OffreFormation" Type="Self.Stagiaire_OffreFormation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stagiaire">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Stagiaire_OffreFormation">
+        <PropertyRef Name="IdPersonne" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AFPA_ORMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Entreprise" EntityType="Self.Entreprise" />
+    <EntitySet Name="Etablissement" EntityType="Self.Etablissement" />
+    <EntitySet Name="OffreFormation" EntityType="Self.OffreFormation" />
+    <EntitySet Name="Pee" EntityType="Self.Pee" />
+    <EntitySet Name="Periode_Pee" EntityType="Self.Periode_Pee" />
+    <EntitySet Name="Personne" EntityType="Self.Personne" />
+    <EntitySet Name="ProduitDeFormation" EntityType="Self.ProduitDeFormation" />
+    <EntitySet Name="Stagiaire_OffreFormation" EntityType="Self.Stagiaire_OffreFormation" />
+    <AssociationSet Name="FK_PEE_Entreprise" Association="Self.FK_PEE_Entreprise">
+      <End Role="Entreprise" EntitySet="Entreprise" />
+      <End Role="Pee" EntitySet="Pee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffreFormation_Etablissement" Association="Self.FK_OffreFormation_Etablissement">
+      <End Role="Etablissement" EntitySet="Etablissement" />
+      <End Role="OffreFormation" EntitySet="OffreFormation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffreFormation_ProduitDeFormation" Association="Self.FK_OffreFormation_ProduitDeFormation">
+      <End Role="ProduitDeFormation" EntitySet="ProduitDeFormation" />
+      <End Role="OffreFormation" EntitySet="OffreFormation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PEE_ResponsableJuridique" Association="Self.FK_PEE_ResponsableJuridique">
+      <End Role="Personne" EntitySet="Personne" />
+      <End Role="Pee" EntitySet="Pee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pee_Stagiaire1" Association="Self.FK_Pee_Stagiaire1">
+      <End Role="Stagiaire" EntitySet="Personne" />
+      <End Role="Pee" EntitySet="Pee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PEE_Tuteur" Association="Self.FK_PEE_Tuteur">
+      <End Role="Personne" EntitySet="Personne" />
+      <End Role="Pee" EntitySet="Pee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Periode_Pee_Pee" Association="Self.FK_Periode_Pee_Pee">
+      <End Role="Pee" EntitySet="Pee" />
+      <End Role="Periode_Pee" EntitySet="Periode_Pee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stagiaire_OffreFormation_Stagiaire" Association="Self.FK_Stagiaire_OffreFormation_Stagiaire">
+      <End Role="Stagiaire" EntitySet="Personne" />
+      <End Role="Stagiaire_OffreFormation" EntitySet="Stagiaire_OffreFormation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stagiaire_OffreFormation_OffreFormation" Association="AFPA_ORMModel.FK_Stagiaire_OffreFormation_OffreFormation">
+      <End Role="OffreFormation" EntitySet="OffreFormation" />
+      <End Role="Stagiaire_OffreFormation" EntitySet="Stagiaire_OffreFormation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffreFormation_CollaborateurAfpa" Association="AFPA_ORMModel.FK_OffreFormation_CollaborateurAfpa">
+      <End Role="CollaborateurAfpa" EntitySet="Personne" />
+      <End Role="OffreFormation" EntitySet="OffreFormation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Etablissement_Etablissement" Association="AFPA_ORMModel.FK_Etablissement_Etablissement">
+      <End Role="Etablissement" EntitySet="Etablissement" />
+      <End Role="Etablissement1" EntitySet="Etablissement" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_Stagiaire_OffreFormation_OffreFormation">
+    <End Type="AFPA_ORMModel.OffreFormation" Role="OffreFormation" Multiplicity="1" />
+    <End Type="AFPA_ORMModel.Stagiaire_OffreFormation" Role="Stagiaire_OffreFormation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OffreFormation">
+        <PropertyRef Name="IdOffreFormation" />
+        <PropertyRef Name="IdEtablissement" />
+      </Principal>
+      <Dependent Role="Stagiaire_OffreFormation">
+        <PropertyRef Name="IdOffreFormation" />
+        <PropertyRef Name="IdEtablissement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffreFormation_CollaborateurAfpa">
+    <End Type="AFPA_ORMModel.CollaborateurAfpa" Role="CollaborateurAfpa" Multiplicity="0..1" />
+    <End Type="AFPA_ORMModel.OffreFormation" Role="OffreFormation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollaborateurAfpa">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="OffreFormation">
+        <PropertyRef Name="IdPersonne" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ProduitFormationQualifiant" BaseType="AFPA_ORMModel.ProduitDeFormation">
+    <Property Name="NiveauFormation" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ProduitFormationContinue" BaseType="AFPA_ORMModel.ProduitDeFormation">
+    <Property Name="InterEntreprise" Type="Boolean" />
+    <Property Name="DureeJours" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_Etablissement_Etablissement">
+    <End Type="AFPA_ORMModel.Etablissement" Role="Etablissement" Multiplicity="0..1" />
+    <End Type="AFPA_ORMModel.Etablissement" Role="Etablissement1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Etablissement">
+        <PropertyRef Name="IdEtablissement" />
+      </Principal>
+      <Dependent Role="Etablissement1">
+        <PropertyRef Name="IdEtablissementRattachement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="Adresse">
+    <Property Type="String" Name="ComplementIdentification" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NumeroNomVoie" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ComplementAdresse" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CodePostal" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="Ville" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+  </ComplexType>
+  <EnumType Name="Sexe">
+    <Member Name="Masculin" Value="0" />
+    <Member Name="Féminin" Value="1" />
+  </EnumType>
+</Schema>

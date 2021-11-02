@@ -1,0 +1,155 @@
+﻿@model IEnumerable<AFPA.BOL.OffreFormation>
+
+@{
+    ViewBag.Title = "Liste des offres de formation";
+}
+
+<h2>Liste des offres de formation</h2>
+
+<p>
+    @Html.ActionLink("Nouvelle Offre", "Create")
+</p>
+<div id="produitformation">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Recherche des offres par le code ou libellé du produit de formation</div>
+                <div class="panel-body">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.Label("A partir du code", htmlAttributes: new { @class = "control-label col-md-6" })
+                            <div class="col-md-6">
+                                @Html.TextBox("critereCode", null, new { id = "critereCode", @class = "form-control" })
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            @Html.Label("A partir du libellé", htmlAttributes: new { @class = "control-label col-md-6" })
+                            <div class="col-md-6">
+                                @Html.TextBox("critereDesignation", null, new { id = "critereDesignation", @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="liste">
+    <table id="listeOffresFormation" class="table-responsive">
+        <thead>
+            <tr>
+                <th>
+                    Date
+                </th>
+                <th>
+                    Date
+                </th>
+                <th>
+                    Collaborateur
+                </th>
+                <th>
+                    Etablissement
+                </th>
+                <th>
+                    ProduitFormation
+                </th>
+                <th>
+                    ...
+                </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+@section Scripts {
+    <script>
+        
+        $(document).ready(function () {
+            $('#listeOffresFormation').hide();
+        });
+        $(document).ready(function () {
+            var autocompleteUrl = 'CodeProduitPartialResult';
+            $("#critereCode").autocomplete({
+                source: autocompleteUrl,
+                minLength: 3,
+                select: function (event, ui) {
+                    var url = 'ListeFormations?idProduitFormation=' + ui.item.value;
+                    $.get(ur)
+                    $('#listeOffresFormation').empty();
+                    $('#listeOffresFormation').load(url);
+                }
+            });
+        });
+        $(document).ready(function () {
+            var autocompleteUrl = 'DesignationProduitPartialResult';
+            $("#critereDesignation").autocomplete({
+                source: autocompleteUrl,
+                minLength: 3,
+                select: function (event, ui) {
+
+                    if ($.fn.dataTable.isDataTable('#listeOffresFormation')) {
+                        table = $('#listeOffresFormation').DataTable();
+                        table.destroy();
+                    }
+                    $('#listeOffresFormation').show();
+                    $('#listeOffresFormation').dataTable({
+
+                        "bServerSide": false,
+                        "bProcessing": false,
+                        "columnDefs": [{
+                            "targets": [2, 3],
+                            "orderable": false
+                        }],
+                        "ajax": {
+                            "url": "ListeFormationsJson",
+                            "type": "POST",
+                            "data": function (d) {
+                                d.idProduitFormation = ui.item.value;
+                            }
+                        },
+                        "aoColumns": [
+                       {
+                           "sTitle": "Date Début",
+                           "sName": "dateDebut",
+                           "bSearchable": true,
+                           "bSortable": true
+                       },
+                       {
+                           "sName": "dateFin",
+                           "sTitle": "Date Fin",
+                           "bSearchable": true,
+                           "bSortable": true
+                       },
+                       {
+                           "sTitle": "Fomateur référent",
+                           "sName": "matriculeCollaborateur"
+                       },
+                       {
+                           "sName": "etablissement",
+                           "sTitle": "Etablissement AFPA",
+                       },
+                       {
+                           "sName": "produitFormation",
+                           "sTitle": "Formation",
+                       },
+                       {
+                           "sName": "lienModification",
+                           "sTitle": "Modifier",
+                           "fnRender": function (obj) {
+                               return '<a href="Edit/' +
+                               obj.aData[5] + '">Modifier</a>';
+
+                           }
+                       }
+
+                        ]
+
+                    });
+
+                }
+            });
+        });
+
+    </script>
+}

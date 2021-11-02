@@ -1,0 +1,42 @@
+﻿@model AFPA.BOL.Entreprise
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Entreprise</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroSIRET)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroSIRET)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RaisonSociale)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RaisonSociale)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adresse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adresse)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdEntreprise }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<AFPA.BOL.OffreFormation>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDebutOffreFormation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateFinOffreFormation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FormateurReferent.MatriculeCollaborateurAfpa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Etablissement.DesignationEtablissement)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProduitDeFormation.DesignationProduitFormation)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDebutOffreFormation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateFinOffreFormation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormateurReferent.MatriculeCollaborateurAfpa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Etablissement.DesignationEtablissement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProduitDeFormation.DesignationProduitFormation)
+            </td>
+            <td>
+                @Html.ActionLink("Modifier", "Edit", new { idOffre = item.IdOffreFormation, idEtablissement = item.IdEtablissement }) |
+                @Html.ActionLink("Détails", "Details", new { idOffre = item.IdOffreFormation, idEtablissement = item.IdEtablissement }) |
+                @Html.ActionLink("Supprimer", "Delete", new { idOffre = item.IdOffreFormation, idEtablissement = item.IdEtablissement })
+            </td>
+        </tr>
+    }
+
+</table>
+

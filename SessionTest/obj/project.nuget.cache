@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H3hdpWOOEhhvnuGqErkdIuSA9Rr/gwyE7z9j/EAYhaN9voxOErTKeiKHX8k8ng9B0lMwcOaiYpH48ew1+FUMnw==",
+  "dgSpecHash": "xLcs1AUvS4JGr+KEp7GbBXMCwddK8b2ov0luPhl2NjWvKplnx0aAz107dKW/RTI0hGiepuLrrre7gRHUasw0oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\SessionTest\\SessionTest.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\CDA\\source\\repos\\SessionTest\\SessionTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CDA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
