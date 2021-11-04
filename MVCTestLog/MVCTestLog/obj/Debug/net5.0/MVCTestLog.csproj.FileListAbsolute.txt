@@ -47,3 +47,4 @@ C:\Users\CDA\source\repos\MVCTestLog\MVCTestLog\obj\Debug\net5.0\MVCTestLog.dll
 C:\Users\CDA\source\repos\MVCTestLog\MVCTestLog\obj\Debug\net5.0\ref\MVCTestLog.dll
 C:\Users\CDA\source\repos\MVCTestLog\MVCTestLog\obj\Debug\net5.0\MVCTestLog.pdb
 C:\Users\CDA\source\repos\MVCTestLog\MVCTestLog\obj\Debug\net5.0\MVCTestLog.genruntimeconfig.cache
+C:\Users\CDA\source\repos\MVCTestLog\MVCTestLog\bin\Debug\net5.0\logs\myapp.json

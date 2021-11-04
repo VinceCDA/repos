@@ -35,6 +35,7 @@
         "dependencies": {
           "Serilog": "2.10.0",
           "Serilog.AspNetCore": "4.1.0",
+          "Serilog.Formatting.Compact": "1.1.0",
           "Serilog.Settings.Configuration": "3.3.0",
           "Serilog.Sinks.Console": "4.0.0",
           "Serilog.Sinks.File": "5.0.0",
