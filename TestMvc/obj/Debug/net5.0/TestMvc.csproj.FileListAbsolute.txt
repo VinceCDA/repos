@@ -903,3 +903,15 @@ C:\Users\CDA\source\repos\TestMvc\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2
 C:\Users\CDA\source\repos\TestMvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\CDA\source\repos\TestMvc\obj\Debug\net5.0\Razor\Views\Question\Add.cshtml.g.cs
 C:\Users\CDA\source\repos\TestMvc\obj\Debug\net5.0\Razor\Views\Reponse\Add.cshtml.g.cs
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\logs\myapp.json
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Exceptions.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Exceptions.EntityFrameworkCore.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.File.dll
