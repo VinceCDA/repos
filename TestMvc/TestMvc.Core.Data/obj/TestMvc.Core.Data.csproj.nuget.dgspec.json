@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj": {}
+    "C:\\Users\\CDA\\source\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj": {
+    "C:\\Users\\CDA\\source\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj",
+        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj",
         "projectName": "TestMvc.Core.Data",
-        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj",
-        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\TestMvc\\TestMvc.Core.Data\\obj\\",
+        "projectPath": "C:\\Users\\CDA\\source\\repos\\TestMvc\\TestMvc.Core.Data\\TestMvc.Core.Data.csproj",
+        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CDA\\source\\repos\\TestMvc\\TestMvc.Core.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

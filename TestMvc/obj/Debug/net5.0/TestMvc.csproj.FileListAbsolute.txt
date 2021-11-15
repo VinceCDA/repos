@@ -915,3 +915,5 @@ C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Settin
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\CDA\source\repos\TestMvc\bin\Debug\net5.0\logs\myapp.json
+C:\Users\CDA\source\repos\TestMvc\obj\Debug\net5.0\Razor\Views\View.cshtml.g.cs
