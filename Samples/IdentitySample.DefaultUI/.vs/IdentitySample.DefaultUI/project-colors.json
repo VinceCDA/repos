@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "292a7f29-b8c5-4795-85b5-87bb9f5ba1c6": {
+      "ProjectGuid": "292a7f29-b8c5-4795-85b5-87bb9f5ba1c6",
+      "DisplayName": "IdentitySample.DefaultUI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0b0f2b52-c41e-4458-b990-b71526c807db": {
+      "ProjectGuid": "0b0f2b52-c41e-4458-b990-b71526c807db",
+      "DisplayName": "TestAuthASPCore",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

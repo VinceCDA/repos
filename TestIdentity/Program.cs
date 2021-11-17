@@ -7,8 +7,18 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = "Server=LocalHost;Database=ASPNetCoreIdentity;Trusted_Connection=True;MultipleActiveResultSets=true";
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
-builder.Services.AddDefaultIdentity<Member>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentityCore<Member>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddSignInManager()
+    .AddTokenProvider<DataProtectorTokenProvider<Member>>(TokenOptions.DefaultProvider)
+    .AddDefaultUI();
+    //.AddRoles<IdentityRole>();
+builder.Services.AddAuthentication(o =>
+{
+    o.DefaultScheme = IdentityConstants.ApplicationScheme;
+    o.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+})
+            .AddIdentityCookies(o => { });
 ConfigurationManager config = new();
 config.AddJsonFile("./appsettings.json");
 // Add services to the container.

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "41234488-0ed6-4b45-b608-5ba8a5dba4b9": {
+      "ProjectGuid": "41234488-0ed6-4b45-b608-5ba8a5dba4b9",
+      "DisplayName": "IdentitySample.Mvc",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
