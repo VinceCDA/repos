@@ -7,10 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = "Server=LocalHost;Database=ASPNetCoreIdentity;Trusted_Connection=True;MultipleActiveResultSets=true";
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
-builder.Services.AddIdentityCore<Member>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentityCore<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddSignInManager()
-    .AddTokenProvider<DataProtectorTokenProvider<Member>>(TokenOptions.DefaultProvider)
+    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>(TokenOptions.DefaultProvider)
     .AddDefaultUI();
     //.AddRoles<IdentityRole>();
 builder.Services.AddAuthentication(o =>

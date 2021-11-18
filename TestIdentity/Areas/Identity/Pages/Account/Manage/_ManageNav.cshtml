@@ -1,5 +1,5 @@
 ﻿@using TestIdentity.Models
-@inject SignInManager<Member> SignInManager
+@inject SignInManager<IdentityUser> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }

@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace TestIdentity.Models
 {
-    public class Member : IdentityUser
+    public class Member
     {
-        
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string FirstName { get; set; }
+        public IdentityUser User { get; set; }
         //public DateTime BirthDay { get; set; }
         //public string Email { get; set; }
         //public string MobilePhone { get; set; }
