@@ -5,7 +5,7 @@ using TestIdentity.Models;
 
 namespace TestIdentity.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser,IdentityRole,string>
     {
         public DbSet<Member> Members { get; set; }
             public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)

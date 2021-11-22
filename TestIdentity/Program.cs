@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = "Server=LocalHost;Database=ASPNetCoreIdentity;Trusted_Connection=True;MultipleActiveResultSets=true";
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
-builder.Services.AddIdentity<IdentityUser, IdentityRole> (options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddIdentity<IdentityUser,IdentityRole> (options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddRoleManager<RoleManager<IdentityRole>>()
@@ -17,12 +17,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole> (options => options.Sig
 
     //.AddRoles<IdentityRole>();
 
-builder.Services.AddAuthentication(o =>
-{
-    o.DefaultScheme = IdentityConstants.ApplicationScheme;
-    o.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-})
-            .AddIdentityCookies(o => { });
+//builder.Services.AddAuthentication()
+//           .AddIdentityCookies();
 ConfigurationManager config = new();
 config.AddJsonFile("./appsettings.json");
 // Add services to the container.
@@ -50,11 +46,16 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
-using (var scope = app.Services.CreateScope())
+//using (var scope = app.Services.CreateScope())
+//{
+//    RolesConfig.InitialiseAsync(app.Services).Wait();  
+//} ;
+using (IServiceScope scope = app.Services.CreateScope())
 {
-    RolesConfig.InitialiseAsync(app.Services).Wait();  
-} ;
-
+    RoleManager<IdentityRole> roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    RolesConfig.InitialiseAsync(app.Services,roleManager).Wait();
+    // Seed database code goes here
+}
 
 //initializing custom roles 
 

@@ -108,6 +108,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; }
             public string Name { get; set; }
             public string FirstName { get; set; }
+            public string Role { get; set; }
         }
 
 
@@ -132,7 +133,9 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                         var user = CreateUser();
                         await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                         await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                        
                         var result = await _userManager.CreateAsync(user, Input.Password);
+                        var resultRole = await _userManager.AddToRoleAsync(user, Input.Role);
                         Member member = new();
                         member.FirstName = Input.FirstName;
                         member.Name = Input.Name;
@@ -140,9 +143,9 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                         _applicationDbContext.Add(member);
                         var memberResult = await _applicationDbContext.SaveChangesAsync();
 
+                        _userManager.GetRolesAsync(user).Wait();
 
-
-                        if (result.Succeeded && memberResult > 0)
+                        if (result.Succeeded && memberResult > 0 && resultRole.Succeeded)
                         {
                             
                             scope.Complete();
@@ -166,8 +169,11 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                             }
                             else
                             {
-                                await _signInManager.SignInAsync(user, isPersistent: false);
-                                return LocalRedirect(returnUrl);
+                                using (var scope2 = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
+                                {
+                                    await _signInManager.SignInAsync(user, isPersistent: false);
+                                    return LocalRedirect(returnUrl);
+                                }
                             }
                         }
                         foreach (var error in result.Errors)
