@@ -83,8 +83,8 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
-            [EmailAddress]
+            [Required(ErrorMessage = "L'adresse mail est requise.")]
+            [EmailAddress(ErrorMessage = "L'adresse mail n'est pas valide.")]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
@@ -92,10 +92,10 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [Required(ErrorMessage = "Le champ est requis")]
+            [StringLength(100, ErrorMessage = "Le {0} doit contenir entre {2} et {1} caractères.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "Password")]
+            [Display(Name = "Mot de passe")]
             public string Password { get; set; }
 
             /// <summary>
@@ -104,9 +104,17 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Compare("Password", ErrorMessage = "Le mot de passe et la confirmation sont différents.")]
             public string ConfirmPassword { get; set; }
+
+
+            [Required(ErrorMessage = "Le champ est requis")]
+            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les nombres et caractères spéciaux ne sont pas autorisés.")]
             public string Name { get; set; }
+
+
+            [Required(ErrorMessage = "Le champ est requis")]
+            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les nombres et caractères spéciaux ne sont pas autorisés.")]
             public string FirstName { get; set; }
             public string Role { get; set; }
         }
@@ -136,6 +144,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                         
                         var result = await _userManager.CreateAsync(user, Input.Password);
                         var resultRole = await _userManager.AddToRoleAsync(user, Input.Role);
+                        
                         Member member = new();
                         member.FirstName = Input.FirstName;
                         member.Name = Input.Name;
@@ -143,7 +152,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                         _applicationDbContext.Add(member);
                         var memberResult = await _applicationDbContext.SaveChangesAsync();
 
-                        _userManager.GetRolesAsync(user).Wait();
+                        
 
                         if (result.Succeeded && memberResult > 0 && resultRole.Succeeded)
                         {
