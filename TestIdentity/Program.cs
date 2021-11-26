@@ -8,6 +8,7 @@ var connectionString = "Server=LocalHost;Database=ASPNetCoreIdentity;Trusted_Con
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddIdentity<IdentityUser,IdentityRole> (options => options.SignIn.RequireConfirmedAccount = false)
+    .AddErrorDescriber<FrenchIdentityErrorDescriber>()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddRoleManager<RoleManager<IdentityRole>>()

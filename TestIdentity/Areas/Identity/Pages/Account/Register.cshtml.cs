@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
@@ -77,6 +78,8 @@ namespace TestIdentity.Areas.Identity.Pages.Account
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
+        public List<Gender> Genders = Enum.GetValues(typeof(Gender)).Cast<Gender>().ToList();
+        
         public class InputModel
         {
             /// <summary>
@@ -109,14 +112,15 @@ namespace TestIdentity.Areas.Identity.Pages.Account
 
 
             [Required(ErrorMessage = "Le champ est requis")]
-            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les nombres et caractères spéciaux ne sont pas autorisés.")]
+            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les chiffres et caractères spéciaux ne sont pas autorisés.")]
             public string Name { get; set; }
 
 
             [Required(ErrorMessage = "Le champ est requis")]
-            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les nombres et caractères spéciaux ne sont pas autorisés.")]
+            [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les chiffres et caractères spéciaux ne sont pas autorisés.")]
             public string FirstName { get; set; }
             public string Role { get; set; }
+            public Gender Gender { get; set; }
         }
 
 
@@ -132,9 +136,9 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             {
                 try
                 {
+                    
                     returnUrl ??= Url.Content("~/");
                     ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-
                     if (ModelState.IsValid)
                     {
 
@@ -143,7 +147,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                         await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                         
                         var result = await _userManager.CreateAsync(user, Input.Password);
-                        var resultRole = await _userManager.AddToRoleAsync(user, Input.Role);
+                        
                         
                         Member member = new();
                         member.FirstName = Input.FirstName;
@@ -154,36 +158,42 @@ namespace TestIdentity.Areas.Identity.Pages.Account
 
                         
 
-                        if (result.Succeeded && memberResult > 0 && resultRole.Succeeded)
+                        if (result.Succeeded && memberResult > 0)
                         {
-                            
-                            scope.Complete();
-                            _logger.LogInformation("User created a new account with password.");
+                            var resultRole = await _userManager.AddToRoleAsync(user, Input.Role);
 
-                            var userId = await _userManager.GetUserIdAsync(user);
-                            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-                            var callbackUrl = Url.Page(
-                                "/Account/ConfirmEmail",
-                                pageHandler: null,
-                                values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
-                                protocol: Request.Scheme);
-
-                            await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
-
-                            if (_userManager.Options.SignIn.RequireConfirmedAccount)
+                            if (resultRole.Succeeded)
                             {
-                                return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
-                            }
-                            else
-                            {
-                                using (var scope2 = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
+                                scope.Complete();
+                                _logger.LogInformation("User created a new account with password.");
+
+                                var userId = await _userManager.GetUserIdAsync(user);
+                                var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                                code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+                                var callbackUrl = Url.Page(
+                                    "/Account/ConfirmEmail",
+                                    pageHandler: null,
+                                    values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
+                                    protocol: Request.Scheme);
+
+                                await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+                                    $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+
+                                if (_userManager.Options.SignIn.RequireConfirmedAccount)
                                 {
-                                    await _signInManager.SignInAsync(user, isPersistent: false);
-                                    return LocalRedirect(returnUrl);
+                                    return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+                                }
+                                else
+                                {
+                                    using (var scope2 = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
+                                    {
+                                        await _signInManager.SignInAsync(user, isPersistent: false);
+                                        scope2.Complete();
+                                        return LocalRedirect(returnUrl);
+                                    }
                                 }
                             }
+                            
                         }
                         foreach (var error in result.Errors)
                         {
@@ -191,6 +201,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
                             scope.Dispose();
                         }
                     }
+
 
                 }
                 catch (Exception ex)
@@ -227,5 +238,8 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             }
             return (IUserEmailStore<IdentityUser>)_userStore;
         }
+        
+
+
     }
 }
