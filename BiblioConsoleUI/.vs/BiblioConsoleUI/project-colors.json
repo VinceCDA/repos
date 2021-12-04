@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5f051195-62e4-4187-a60c-e595b7cace22": {
+      "ProjectGuid": "5f051195-62e4-4187-a60c-e595b7cace22",
+      "DisplayName": "Bibliotheque.Test",
+      "ColorIndex": 0
+    },
+    "e44c4c38-af2c-4f58-8f9c-965d9b0feec4": {
+      "ProjectGuid": "e44c4c38-af2c-4f58-8f9c-965d9b0feec4",
+      "DisplayName": "Bibliotheque.Repository",
+      "ColorIndex": 1
+    },
+    "66dfb408-fd97-4fa7-995a-87a2e96ae088": {
+      "ProjectGuid": "66dfb408-fd97-4fa7-995a-87a2e96ae088",
+      "DisplayName": "Bibliotheque.BLL",
+      "ColorIndex": 2
+    },
+    "dbd9c266-814a-403b-a3bd-48254d4c490f": {
+      "ProjectGuid": "dbd9c266-814a-403b-a3bd-48254d4c490f",
+      "DisplayName": "Bibliotheque.BOL",
+      "ColorIndex": 3
+    },
+    "842edbee-3bc9-4cb9-beca-779a5c996905": {
+      "ProjectGuid": "842edbee-3bc9-4cb9-beca-779a5c996905",
+      "DisplayName": "Bibliotheque.DALEF",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

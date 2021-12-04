@@ -1,13 +1,7 @@
 ﻿using EnergySport.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestMvc.Core.Data.Models;
 
 namespace TestMvc.Core.Data

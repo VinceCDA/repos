@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestMvc
+build_property.RootNamespace = TestMvc
+build_property.ProjectDir = C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Aventure/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZlbnR1cmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Paragraphe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYWdyYXBoZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Paragraphe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYWdyYXBoZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Paragraphe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYWdyYXBoZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Question/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Reponse/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb25zZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/View1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlldzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kuroneko/Documents/GitHub/repos/TestMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

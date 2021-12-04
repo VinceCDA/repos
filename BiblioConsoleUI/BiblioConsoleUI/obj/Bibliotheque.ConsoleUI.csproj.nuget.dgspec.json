@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {}
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
         "projectName": "Bibliotheque.ConsoleUI",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\Bibliotheque.ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,20 +32,20 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj"
               }
             }
           }
@@ -80,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
         "projectName": "Bibliotheque.Repository",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -112,8 +112,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
               }
             }
           }
@@ -142,24 +142,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
         "projectName": "Bibliotheque.BLL",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\Bibliotheque.BLL.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,11 +174,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
               }
             }
           }
@@ -207,24 +207,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
         "projectName": "Bibliotheque.BOL",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,24 +265,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
         "projectName": "Bibliotheque.DALADO",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\Bibliotheque.DALADO.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALADO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -297,11 +297,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
               }
             }
           }
@@ -340,24 +340,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
+    "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
+        "projectUniqueName": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
         "projectName": "Bibliotheque.DALEF",
-        "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
-        "packagesPath": "C:\\Users\\CDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\obj\\",
+        "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\Bibliotheque.DALEF.csproj",
+        "packagesPath": "C:\\Users\\Kuroneko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.DALEF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuroneko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -372,11 +372,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\BiblioRepository\\Bibliotheque.Repository.csproj"
               },
-              "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
-                "projectPath": "C:\\Users\\CDA\\source\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
+              "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj": {
+                "projectPath": "C:\\Users\\Kuroneko\\Documents\\GitHub\\repos\\BiblioConsoleUI\\Bibliotheque.BOL\\Bibliotheque.BOL.csproj"
               }
             }
           }
@@ -439,7 +439,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }

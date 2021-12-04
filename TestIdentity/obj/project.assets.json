@@ -389,8 +389,7 @@
       "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
         "type": "package",
         "build": {
-          "build/Microsoft.CodeAnalysis.Analyzers.props": {},
-          "build/Microsoft.CodeAnalysis.Analyzers.targets": {}
+          "build/_._": {}
         }
       },
       "Microsoft.CodeAnalysis.AnalyzerUtilities/3.3.0": {
@@ -402,7 +401,7 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Common/4.0.1": {
+      "Microsoft.CodeAnalysis.Common/4.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
@@ -461,10 +460,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.0.1": {
+      "Microsoft.CodeAnalysis.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[4.0.1]"
+          "Microsoft.CodeAnalysis.Common": "[4.0.0]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -628,13 +627,13 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.0.1": {
+      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.0.0": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.2.0",
-          "Microsoft.CodeAnalysis.CSharp": "[4.0.1]",
-          "Microsoft.CodeAnalysis.Common": "[4.0.1]",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.0.1]"
+          "Microsoft.CodeAnalysis.CSharp": "[4.0.0]",
+          "Microsoft.CodeAnalysis.Common": "[4.0.0]",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.0.0]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {}
@@ -975,12 +974,12 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Workspaces.Common/4.0.1": {
+      "Microsoft.CodeAnalysis.Workspaces.Common/4.0.0": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.2.0",
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
-          "Microsoft.CodeAnalysis.Common": "[4.0.1]",
+          "Microsoft.CodeAnalysis.Common": "[4.0.0]",
           "System.Composition": "1.0.31",
           "System.IO.Pipelines": "5.0.1"
         },
@@ -4102,10 +4101,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.Common/4.0.1": {
-      "sha512": "SMREwaVD5SzatlWhh9aahQAtSWdb63NcE//f+bQzgHSECU6xtDtaxk0kwV+asdFfr6HtW38UeO6jvqdfzudg3w==",
+    "Microsoft.CodeAnalysis.Common/4.0.0": {
+      "sha512": "d02ybMhUJl1r/dI6SkJPHrTiTzXBYCZeJdOLMckV+jyoMU/GGkjqFX/sRbv1K0QmlpwwKuLTiYVQvfYC+8ox2g==",
       "type": "package",
-      "path": "microsoft.codeanalysis.common/4.0.1",
+      "path": "microsoft.codeanalysis.common/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4143,14 +4142,14 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "microsoft.codeanalysis.common.4.0.1.nupkg.sha512",
+        "microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
         "microsoft.codeanalysis.common.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp/4.0.1": {
-      "sha512": "Q9RxxydPpUElj/x1/qykDTUGsRoKbJG8H5XUSeMGmMu54fBiuX1xyanom9caa1oQfh5JIW1BgLxobSaWs4WyHQ==",
+    "Microsoft.CodeAnalysis.CSharp/4.0.0": {
+      "sha512": "2UVTGtyQGgTCazvnT6t82f+7AV2L+kqJdyb61rT9GQed4yK+tVh5IkaKcsm70VqyZQhBbDqsfZFNHnY65xhrRw==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp/4.0.1",
+      "path": "microsoft.codeanalysis.csharp/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4188,7 +4187,7 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "microsoft.codeanalysis.csharp.4.0.1.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
@@ -4282,10 +4281,10 @@
         "microsoft.codeanalysis.csharp.scripting.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp.Workspaces/4.0.1": {
-      "sha512": "gcixGtpEjtoZV9SQcmSzf3OjHBACWUBKEEEjdIyn9E2gpd7dm+TiFFMrvJK6mW0VJp63z2MW6wBDiuaXDcFZdQ==",
+    "Microsoft.CodeAnalysis.CSharp.Workspaces/4.0.0": {
+      "sha512": "RQMc1+2cIRdOvY8vp6ygkzfBrvlYphnbmhhluKNh9+X+PpprQDKlbPrn9fLn6v9RlCsfa87joS3zJyGBEeWTXQ==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp.workspaces/4.0.1",
+      "path": "microsoft.codeanalysis.csharp.workspaces/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4323,7 +4322,7 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "microsoft.codeanalysis.csharp.workspaces.4.0.1.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.workspaces.4.0.0.nupkg.sha512",
         "microsoft.codeanalysis.csharp.workspaces.nuspec"
       ]
     },
@@ -4566,10 +4565,10 @@
         "microsoft.codeanalysis.visualbasic.workspaces.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Workspaces.Common/4.0.1": {
-      "sha512": "UfH5ZiUeXE3YIJAiJV1KTrs7uyJ4U3kqjLerYxwuugfaxedpI4lTevbXKSvns+FPL+hLTxKvldhANj8/uEYiRA==",
+    "Microsoft.CodeAnalysis.Workspaces.Common/4.0.0": {
+      "sha512": "bEfHzx8PLmEN6aogVYHWmViHCWfms8emI43w9nNX+C8MLgtynOmVL/OJ4hbuONVp+4OuDAy5BDj69n5MnXQX8g==",
       "type": "package",
-      "path": "microsoft.codeanalysis.workspaces.common/4.0.1",
+      "path": "microsoft.codeanalysis.workspaces.common/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4607,7 +4606,7 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "microsoft.codeanalysis.workspaces.common.4.0.1.nupkg.sha512",
+        "microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
@@ -10408,10 +10407,6 @@
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.0",
-      "Microsoft.CodeAnalysis.CSharp >= 4.0.1",
-      "Microsoft.CodeAnalysis.CSharp.Workspaces >= 4.0.1",
-      "Microsoft.CodeAnalysis.Common >= 4.0.1",
-      "Microsoft.CodeAnalysis.Workspaces.Common >= 4.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.0",
@@ -10474,22 +10469,6 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
-          "Microsoft.CodeAnalysis.CSharp": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
-          "Microsoft.CodeAnalysis.Common": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
-          "Microsoft.CodeAnalysis.Workspaces.Common": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -10530,167 +10509,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Features 4.0.0 nécessite Microsoft.CodeAnalysis.CSharp (= 4.0.0) alors que la version Microsoft.CodeAnalysis.CSharp 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.CSharp",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Workspaces.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Workspaces.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Features 4.0.0 nécessite Microsoft.CodeAnalysis.CSharp.Workspaces (= 4.0.0) alors que la version Microsoft.CodeAnalysis.CSharp.Workspaces 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Scripting 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.CSharp.Scripting 4.0.0 nécessite Microsoft.CodeAnalysis.CSharp (= 4.0.0) alors que la version Microsoft.CodeAnalysis.CSharp 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.CSharp",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Workspaces.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Workspaces.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.VisualBasic.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.VisualBasic.Features 4.0.0 nécessite Microsoft.CodeAnalysis.Workspaces.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Workspaces.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.VisualBasic.Workspaces 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.VisualBasic.Workspaces 4.0.0 nécessite Microsoft.CodeAnalysis.Workspaces.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Workspaces.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.Workspaces.MSBuild 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.Workspaces.MSBuild 4.0.0 nécessite Microsoft.CodeAnalysis.Workspaces.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Workspaces.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.Scripting.Common 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : Microsoft.CodeAnalysis.VisualBasic 4.0.0 nécessite Microsoft.CodeAnalysis.Common (= 4.0.0) alors que la version Microsoft.CodeAnalysis.Common 4.0.1 a été résolue.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

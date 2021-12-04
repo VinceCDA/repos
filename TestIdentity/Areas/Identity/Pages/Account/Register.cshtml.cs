@@ -80,7 +80,7 @@ namespace TestIdentity.Areas.Identity.Pages.Account
         /// </summary>
         public List<Gender> Genders = Enum.GetValues(typeof(Gender)).Cast<Gender>().ToList();
         
-        public class InputModel
+        public class InputModel : IValidatableObject
         {
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -120,7 +120,23 @@ namespace TestIdentity.Areas.Identity.Pages.Account
             [RegularExpression(@"^(?=.{1,40}$)[a-zA-Z]+(?:[-'\s][a-zA-Z]+)*$", ErrorMessage = "Les chiffres et caractères spéciaux ne sont pas autorisés.")]
             public string FirstName { get; set; }
             public string Role { get; set; }
+
+            [DataType(DataType.DateTime)]
+            public DateTime CreatedAt { get; set; }
+            [DataType(DataType.DateTime)]
+            public DateTime LastModifiedAt { get; set; }
             public Gender Gender { get; set; }
+
+            public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+            {
+                if (LastModifiedAt < CreatedAt)
+                {
+                    yield return new ValidationResult(
+                $"Classic movies must have a release year no later than.",
+                new[] { nameof(CreatedAt) });
+                }
+                //throw new NotImplementedException();
+            }
         }
 
 

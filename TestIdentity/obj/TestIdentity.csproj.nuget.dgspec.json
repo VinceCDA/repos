@@ -56,22 +56,6 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Microsoft.CodeAnalysis.CSharp": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Microsoft.CodeAnalysis.Common": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Microsoft.CodeAnalysis.Workspaces.Common": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0, )"

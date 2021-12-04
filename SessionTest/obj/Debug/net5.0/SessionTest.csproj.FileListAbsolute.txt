@@ -9,7 +9,6 @@ C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\bin\Debug\net5.0\ref\Sessio
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\bin\Debug\net5.0\SessionTest.pdb
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\bin\Debug\net5.0\SessionTest.Views.dll
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\bin\Debug\net5.0\SessionTest.Views.pdb
-C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\obj\Debug\net5.0\SessionTest.csproj.AssemblyReference.cache
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\obj\Debug\net5.0\SessionTest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\obj\Debug\net5.0\SessionTest.AssemblyInfoInputs.cache
 C:\Users\Kuroneko\Documents\GitHub\repos\SessionTest\obj\Debug\net5.0\SessionTest.AssemblyInfo.cs

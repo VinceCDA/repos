@@ -1,0 +1,13 @@
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net6.0\TestMvc.Core.Data.deps.json
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net6.0\TestMvc.Core.Data.runtimeconfig.json
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net6.0\TestMvc.Core.Data.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net6.0\ref\TestMvc.Core.Data.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\bin\Debug\net6.0\TestMvc.Core.Data.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.AssemblyInfoInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.AssemblyInfo.cs
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\ref\TestMvc.Core.Data.dll
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.pdb
+C:\Users\Kuroneko\Documents\GitHub\repos\TestMvc\TestMvc.Core.Data\obj\Debug\net6.0\TestMvc.Core.Data.genruntimeconfig.cache

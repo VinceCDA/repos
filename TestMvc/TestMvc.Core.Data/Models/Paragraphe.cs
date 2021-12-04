@@ -20,7 +20,11 @@ namespace TestMvc.Core.Data.Models
 
         public string Titre { get; set; }
         [Required(AllowEmptyStrings = false, ErrorMessage = "Description est requise")]
-        public string Description { get; set; } 
+        public string Description { get; set; }
+        [DataType(DataType.Date)]
+        public DateOnly? DateCreated { get; set; }
+        [DataType(DataType.Date)]
+        public DateOnly? DateTimeUpdated { get; set; }
         public Question QuestionId { get; set; }  
     }
 }
